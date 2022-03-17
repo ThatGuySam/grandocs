@@ -20,4 +20,4 @@ jobs:
         uses: githubocto/flat@v3
         with:
           http_url: https://help2.malighting.com/Page/grandMA2/grandma2/en/
-          downloaded_filename: /static/api/data.json
+          downloaded_filename: data.json
