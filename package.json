@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ThatGuySam/grandocs/issues"
   },
-  "homepage": "https://github.com/ThatGuySam/grandocs#readme"
+  "homepage": "https://github.com/ThatGuySam/grandocs#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
 }
