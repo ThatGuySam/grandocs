@@ -4,7 +4,13 @@
   "description": "GrandMA Docs inspired by Software Engineering practices. ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "if [ -f './.next/serverless/scripts/build-rss.js' ]; then node ./.next/serverless/scripts/build-rss.js; else node ./.next/server/scripts/build-rss.js; fi",
+    "start": "next start",
+    "export": "next build && next export",
+    "format": "prettier '{src,remark,scripts}/**/*.{css,js,mdx}' --write",
   },
   "repository": {
     "type": "git",
