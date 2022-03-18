@@ -1,0 +1,19 @@
+{
+  "name": "grandocs",
+  "version": "1.0.0",
+  "description": "GrandMA Docs inspired by Software Engineering practices. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://thatguysam@github.com/ThatGuySam/grandocs.git"
+  },
+  "author": "Sam Carlton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThatGuySam/grandocs/issues"
+  },
+  "homepage": "https://github.com/ThatGuySam/grandocs#readme"
+}
