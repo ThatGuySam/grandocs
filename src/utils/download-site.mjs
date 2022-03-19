@@ -114,10 +114,6 @@ class MaScraper {
     // registerAction('getReference', async ({resource, parentResource, originalReference}) => {})
   }
 
-	saveAsMarkdown ( page ) {
-
-	}
-
 	async scrape () {
 		for (const url of this.options.urls) {
 
