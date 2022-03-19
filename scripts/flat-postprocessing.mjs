@@ -11,7 +11,7 @@ import 'https://deno.land/std/dotenv/load.ts'
 import { fetchUrlsFromGoogle } from '../src/utils/fetch-urls-from-google.mjs'
 import { downloadSite } from '../src/utils/download-site.mjs'
 
-const scrapePath = './src/pages'
+const scrapePath = './src/docs'
 
 
 const docsUrlsPath = './public/docs-urls.json'
