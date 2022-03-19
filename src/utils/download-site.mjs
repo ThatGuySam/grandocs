@@ -32,7 +32,7 @@ class ScrapedPage {
 	}
 
 	get directoryPath () {
-		const localPath = this.parsedUrl.pathname.split('/Page/')[1]
+		const localPath = this.parsedUrl.pathname.replace('/Page/', '')
 		return joinPath( this.options.basePath, localPath )
 	}
 
