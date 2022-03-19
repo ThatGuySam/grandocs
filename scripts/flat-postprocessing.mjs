@@ -5,6 +5,7 @@
 // Has helper functions for manipulating csv, txt, json, excel, zip, and image files
 import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.14/mod.ts'
 import { exists } from "https://deno.land/std/fs/mod.ts"
+import 'https://deno.land/std/dotenv/load.ts'
 
 import { fetchUrlsFromGoogle } from '../src/utils/fetch-urls-from-google.mjs'
 import { downloadSite } from '../src/utils/download-site.mjs'
@@ -38,9 +39,13 @@ async function ensureRemove ( path ) {
 
 ;(async () => {
 
-  const googleUrls = await fetchUrlsFromGoogle()
+	if ( !Deno.env.get('DISABE_GOOGLE_FETCH') ) {
+		const googleUrls = await fetchUrlsFromGoogle()
 
-  await storeDocsUrls( googleUrls )
+  	await storeDocsUrls( googleUrls )
+	} else {
+		console.log('Skipping Google fetch')
+	}
 
   const docsUrls = await readJSON( docsUrlsPath )
 
