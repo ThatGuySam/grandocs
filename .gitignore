@@ -19,6 +19,7 @@
 .DS_Store
 *.pem
 Thumbs.db
+/scrape
 
 # debug
 npm-debug.log*
