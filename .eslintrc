@@ -72,7 +72,8 @@
           { "argsIgnorePattern": "^_" }
         ],
         // No semi-colon at the end of the line
-        "semi": ["error", "never"]
+        "semi": ["error", "never"],
+        "import/extensions": ["warn", "always"]
       }
     }
   ]
