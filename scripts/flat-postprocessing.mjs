@@ -50,7 +50,7 @@ async function ensureRemove ( path ) {
 
   const docsUrls = await readJSON( docsUrlsPath )
 
-  console.log(`Pulling in URLs`, docsUrls)
+  console.log(`Pulling in ${ docsUrls.length } URLs`)
 
   const {
     savedFiles
