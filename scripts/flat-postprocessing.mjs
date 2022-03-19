@@ -37,11 +37,6 @@ async function ensureRemove ( path ) {
 
 ;(async () => {
 
-  // Log env file and contents
-  const envPath = './.env'
-  console.log('env exists', await exists( envPath ))
-  console.log('env contents', await Deno.readTextFile( envPath ))
-
   const googleUrls = await fetchUrlsFromGoogle()
 
   await storeDocsUrls( googleUrls )
