@@ -9,7 +9,7 @@ import { exists } from "https://deno.land/std/fs/mod.ts"
 import { fetchUrlsFromGoogle } from '../src/utils/fetch-urls-from-google.mjs'
 import { downloadSite } from '../src/utils/download-site.mjs'
 
-const scrapePath = './scrape'
+const scrapePath = './src/pages'
 
 
 const docsUrlsPath = './public/docs-urls.json'

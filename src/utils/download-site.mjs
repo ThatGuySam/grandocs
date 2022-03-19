@@ -1,9 +1,63 @@
+import {
+  ensureDir,
+} from 'https://deno.land/std@0.130.0/fs/mod.ts'
+import { join as joinPath } from 'https://deno.land/std@0.130.0/path/mod.ts'
+
 import axios from 'https://deno.land/x/axiod/mod.ts'
+import { initParser, DOMParser } from 'https://deno.land/x/deno_dom/deno-dom-wasm-noinit.ts'
 
 
 export const targetEntryUrl = 'https://help2.malighting.com/Page/grandMA2/grandma2/en/3.9'
 
 export const targetHost = (new URL( targetEntryUrl )).host
+
+await initParser()
+
+
+class ScrapedPage {
+	constructor ( options ) {
+		this.options = options
+	}
+
+	get doc () {
+		if ( typeof this.docInstance === 'undefined' ) {
+			this.docInstance = new DOMParser().parseFromString( this.options.html, 'text/html' )
+		}
+
+		return this.docInstance
+	}
+
+	get parsedUrl () {
+		return new URL( this.options.url )
+	}
+
+	get directoryPath () {
+		const localPath = this.parsedUrl.pathname.split('/Page/')[1]
+		return joinPath( this.options.basePath, localPath )
+	}
+
+	get filePath () {
+		return joinPath( this.directoryPath, 'index.md' )
+	}
+
+	// topicContentHtml = null
+
+	get topicContent () {
+		if ( typeof this.topicContentNode === 'undefined' ) {
+			this.topicContentNode = this.doc.querySelector('.topic-content')
+		}
+
+		return this.topicContentNode
+	}
+
+	async saveAsMarkdown () {
+		await ensureDir( this.directoryPath )
+
+		return await Deno.writeTextFile( this.filePath, this.topicContent.innerHTML )
+	}
+
+
+}
 
 // Resource methods: https://github.com/website-scraper/node-website-scraper/blob/b82d5e8309a5220e206a4aac0bb87f390e85938e/lib/resource.js
 class MaScraper {
@@ -60,23 +114,41 @@ class MaScraper {
     // registerAction('getReference', async ({resource, parentResource, originalReference}) => {})
   }
 
+	saveAsMarkdown ( page ) {
+
+	}
+
 	async scrape () {
 		for (const url of this.options.urls) {
 
-
 			// Fetch the page
-			const page = await axios.get(url)
+			const pageHtmlMarkup = await axios.get(url)
 				.then(res => res.data)
 				.catch(err => {
 					console.error('Error fetching page', err)
 					return null
 				})
 
-			// console.log('page', page)
-			console.log('page', page.length)
+				const page = new ScrapedPage({
+					url,
+					html: pageHtmlMarkup,
+					basePath: this.options.path
+				})
 
-			// Get the .topic-content element
-			// const topicContent = page.querySelector('.topic-content')
+			// console.log('page', page)
+			console.log('pageHtmlMarkup', pageHtmlMarkup.length)
+
+			if ( page.topicContent !== null ) {
+
+				// Save contents as Markdown
+				const md = page.topicContent.innerHTML
+
+				const savedFile = await page.saveAsMarkdown()
+
+				console.log( 'path', page.filePath )
+				console.log( 'url', url )
+				console.log( 'savedFile', savedFile )
+			}
 
 		}
 	}
