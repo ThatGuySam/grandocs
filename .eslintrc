@@ -73,7 +73,7 @@
         ],
         // No semi-colon at the end of the line
         "semi": ["error", "never"],
-        "import/extensions": ["warn", "always"]
+        "import/extensions": "off"
       }
     }
   ]
