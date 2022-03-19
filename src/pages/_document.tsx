@@ -8,7 +8,7 @@ class MyDocument extends Document {
     return (
       <Html lang={AppConfig.locale}>
         <Head />
-        <body>
+        <body className="text-slate-400 bg-slate-900">
           <Main />
           <NextScript />
         </body>
