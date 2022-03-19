@@ -4,17 +4,17 @@ import { AppConfig } from '@/utils/AppConfig'
 
 // Need to create a custom _document because i18n support is not compatible with `next export`.
 class MyDocument extends Document {
-  render() {
-    return (
-      <Html lang={AppConfig.locale}>
-        <Head />
-        <body className="text-slate-400 bg-slate-900">
-          <Main />
-          <NextScript />
-        </body>
-      </Html>
-    )
-  }
+	render() {
+		return (
+			<Html lang={AppConfig.locale}>
+				<Head />
+				<body className="text-slate-400 bg-slate-900">
+					<Main />
+					<NextScript />
+				</body>
+			</Html>
+		)
+	}
 }
 
 export default MyDocument
