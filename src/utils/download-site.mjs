@@ -59,30 +59,36 @@ class MaScraper {
   }
 }
 
-export async function downloadSite() {
+export async function downloadSite( options ) {
+  const {
+    path
+  } = options
+
   const maScraper = new MaScraper()
 
-  const options = {
+  const scrapeOptions = {
     ...defaultOptions,
     prettifyUrls: true,
-    urls: [targetHost],
+    urls: [
+      targetHost
+    ],
     // URLs to filter out
     urlFilter(url) {
       return !url.startsWith(targetHost)
     },
-    directory: './scrape',
+    directory: path,
 
     recursive: true,
     maxRecursiveDepth: 10,
 
     // bySiteStructure: https://github.com/website-scraper/node-website-scraper/blob/4.x/README.md#bysitestructure
     // Method: https://github.com/website-scraper/node-website-scraper/blob/b82d5e8309a5220e206a4aac0bb87f390e85938e/lib/plugins/generate-filenamy-by-site-structure-plugin.js
-    // filenameGenerator: 'bySiteStructure',
+    filenameGenerator: 'bySiteStructure',
 
     plugins: [maScraper],
   }
 
-  const result = await scrape(options)
+  const result = await scrape( scrapeOptions )
 
   return result
 }
