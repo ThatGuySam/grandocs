@@ -4,6 +4,8 @@ import axios from 'https://deno.land/x/axiod/mod.ts'
 
 export async function fetchUrlsFromGoogle () {
 
+  console.log('GOOGLE Key', Deno.env.get('GOOGLE_KEY'))
+
   const urls = []
 
   // Our current results page starting point
