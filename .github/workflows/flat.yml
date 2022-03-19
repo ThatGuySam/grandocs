@@ -10,17 +10,17 @@ jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup ENV Variables
-        # https://www.base64encode.org/
-        run: |
-          echo ${{ secrets.ACTIONS_ENV }} | base64 -d > ./.env
-          cat ./.env
       - name: Setup deno
         uses: denoland/setup-deno@main
         with:
           deno-version: v1.20.x
       - name: Check out repo
         uses: actions/checkout@v2
+      - name: Setup ENV Variables
+        # https://www.base64encode.org/
+        run: |
+          echo ${{ secrets.ACTIONS_ENV }} | base64 -d > ./.env
+          cat ./.env
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
