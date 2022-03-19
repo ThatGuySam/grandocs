@@ -13,8 +13,8 @@ jobs:
       - name: Setup ENV Variables
         # https://www.base64encode.org/
         run: |
-          echo ${{ secrets.ACTIONS_ENV }} | base64 -d > .env
-          cat .env
+          echo ${{ secrets.ACTIONS_ENV }} | base64 -d > ./.env
+          cat ./.env
       - name: Setup deno
         uses: denoland/setup-deno@main
         with:
