@@ -30,6 +30,7 @@
   "homepage": "https://github.com/ThatGuySam/grandocs#readme",
   "dependencies": {
     "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
     "esm": "^3.2.25",
     "fs-extra": "^10.0.1",
     "next": "^12.1.0",
