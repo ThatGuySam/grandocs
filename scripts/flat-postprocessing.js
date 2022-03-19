@@ -1,4 +1,15 @@
 // Disable ESLint console logging rule for this file
-/* eslint-disable no-console */
+/* eslint-disable */
+import { downloadSite } from '../src/utils/download-site.js'
 
-console.log('Works')
+;(async () => {
+  console.log(`Pulling in URLs`)
+
+  const pageList = await downloadSite()
+
+  console.log('pageList', pageList)
+
+  console.log('Pull complete.')
+
+  process.exit()
+})()
