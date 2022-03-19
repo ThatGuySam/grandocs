@@ -72,7 +72,7 @@ class MaScraper {
 					return null
 				})
 
-			console.log('page', page)
+			// console.log('page', page)
 			console.log('page', page.length)
 
 			// Get the .topic-content element
