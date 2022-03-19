@@ -2,7 +2,7 @@ import scrape from 'website-scraper'
 import defaultOptions from 'website-scraper/defaultOptions'
 
 
-export const targetEntryUrl = 'http://help2.malighting.com/'
+export const targetEntryUrl = 'https://help2.malighting.com/Page/grandMA2/grandma2/en/3.9'
 
 export const targetHost = (new URL( targetEntryUrl )).host
 
