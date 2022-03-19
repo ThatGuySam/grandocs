@@ -21,3 +21,4 @@ jobs:
         with:
           http_url: https://help2.malighting.com/Page/grandMA2/grandma2/en/
           downloaded_filename: data.json
+          postprocess: ./scripts/flat-postprocessing.mjs
