@@ -1,14 +1,12 @@
 // Disable ESLint console logging rule for this file
 /* eslint-disable */
-// import fs from 'fs-extra'
-
-// import { downloadSite } from '../src/utils/download-site.mjs'
 
 // Helper library written for useful postprocessing tasks with Flat Data
 // Has helper functions for manipulating csv, txt, json, excel, zip, and image files
 import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.14/mod.ts'
 import { exists } from "https://deno.land/std/fs/mod.ts"
 
+import { fetchUrlsFromGoogle } from '../src/utils/fetch-urls-from-google.mjs'
 
 const scrapePath = './scrape'
 
@@ -38,6 +36,10 @@ async function ensureRemove ( path ) {
 
 
 ;(async () => {
+
+  const googleUrls = await fetchUrlsFromGoogle()
+
+  await storeDocsUrls( googleUrls )
 
   const docsUrls = await readJSON( docsUrlsPath )
 
