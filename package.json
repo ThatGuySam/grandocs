@@ -13,6 +13,7 @@
     "clean": "rimraf .next out",
     "pre-commit": "lint-staged --concurrent false",
     "lint": "next lint",
+    "fix": "next lint --fix",
     "build-types": "tsc --noEmit --pretty",
     "prepare": "husky install",
     "flat-postprocessing": "node -r esm scripts/flat-postprocessing.js"
