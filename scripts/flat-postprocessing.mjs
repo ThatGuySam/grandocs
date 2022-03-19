@@ -50,8 +50,6 @@ async function ensureRemove ( path ) {
 
   const docsUrls = await readJSON( docsUrlsPath )
 
-  await ensureRemove( scrapePath )
-
   console.log(`Pulling in URLs`, docsUrls)
 
   const {
