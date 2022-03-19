@@ -87,6 +87,7 @@ class MaScraper {
     startedRequests: 0,
     finishedRequests: 0,
     resourceErrors: 0,
+		skippedUrls: []
   }
 
   apply(registerAction) {
@@ -149,6 +150,7 @@ class MaScraper {
 
 			if ( page.topicContent === null ) {
 
+				this.stats.skippedUrls.push( url )
 
 				console.log(`Skipping ${url}`) // eslint-disable-line no-console
 
