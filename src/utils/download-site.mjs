@@ -1,5 +1,4 @@
-import scrape from 'website-scraper'
-import defaultOptions from 'website-scraper/defaultOptions'
+import axios from 'https://deno.land/x/axiod/mod.ts'
 
 
 export const targetEntryUrl = 'https://help2.malighting.com/Page/grandMA2/grandma2/en/3.9'
@@ -8,9 +7,9 @@ export const targetHost = (new URL( targetEntryUrl )).host
 
 // Resource methods: https://github.com/website-scraper/node-website-scraper/blob/b82d5e8309a5220e206a4aac0bb87f390e85938e/lib/resource.js
 class MaScraper {
-  // constructor() {
-  //   // this.requestCount = 0
-  // }
+  constructor( options ) {
+		this.options = options
+  }
 
   // get requestCount() {}
 
@@ -60,40 +59,63 @@ class MaScraper {
     // registerAction('generateFilename', async ({resource}) => {})
     // registerAction('getReference', async ({resource, parentResource, originalReference}) => {})
   }
+
+	async scrape () {
+		for (const url of this.options.urls) {
+
+
+			// Fetch the page
+			const page = await axios.get(url)
+				.then(res => res.data)
+				.catch(err => {
+					console.error('Error fetching page', err)
+					return null
+				})
+
+			console.log('page', page)
+			console.log('page', page.length)
+
+			// Get the .topic-content element
+			// const topicContent = page.querySelector('.topic-content')
+
+		}
+	}
 }
 
 export async function downloadSite( options ) {
   const {
-    path
+    path,
+		urls
   } = options
 
-  const maScraper = new MaScraper()
+  const maScraper = new MaScraper( options )
 
-  const scrapeOptions = {
-    ...defaultOptions,
-    prettifyUrls: true,
-    urls: [
-      targetEntryUrl
-    ],
-    // URLs to filter out
-    urlFilter(url) {
-      return !url.includes(targetHost)
-    },
-    directory: path,
+  // const scrapeOptions = {
+  //   ...defaultOptions,
+  //   prettifyUrls: true,
+  //   urls: [
+  //     targetEntryUrl,
+	// 		...urls
+  //   ],
+  //   // URLs to filter out
+  //   urlFilter(url) {
+  //     return !url.includes(targetHost)
+  //   },
+  //   directory: path,
 
-    // recursive: true,
-    maxRecursiveDepth: 2,
+  //   // recursive: true,
+  //   // maxRecursiveDepth: 2,
 
-    // bySiteStructure: https://github.com/website-scraper/node-website-scraper/blob/4.x/README.md#bysitestructure
-    // Method: https://github.com/website-scraper/node-website-scraper/blob/b82d5e8309a5220e206a4aac0bb87f390e85938e/lib/plugins/generate-filenamy-by-site-structure-plugin.js
-    filenameGenerator: 'bySiteStructure',
+  //   // bySiteStructure: https://github.com/website-scraper/node-website-scraper/blob/4.x/README.md#bysitestructure
+  //   // Method: https://github.com/website-scraper/node-website-scraper/blob/b82d5e8309a5220e206a4aac0bb87f390e85938e/lib/plugins/generate-filenamy-by-site-structure-plugin.js
+  //   // filenameGenerator: 'bySiteStructure',
 
-    plugins: [ maScraper ],
-  }
+  //   plugins: [ maScraper ],
+  // }
 
-  const result = await scrape( scrapeOptions )
+  const savedFiles = await maScraper.scrape()
 
   return {
-    result
+    savedFiles
   }
 }

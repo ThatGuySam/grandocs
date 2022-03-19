@@ -7,6 +7,7 @@ import { readJSON, writeJSON, removeFile } from 'https://deno.land/x/flat@0.0.14
 import { exists } from "https://deno.land/std/fs/mod.ts"
 
 import { fetchUrlsFromGoogle } from '../src/utils/fetch-urls-from-google.mjs'
+import { downloadSite } from '../src/utils/download-site.mjs'
 
 const scrapePath = './scrape'
 
@@ -47,31 +48,12 @@ async function ensureRemove ( path ) {
 
   console.log(`Pulling in URLs`, docsUrls)
 
-  // const {
-  //   result
-  // } = await downloadSite({
-  //   path: scrapePath,
-  // })
-
-  // const htmlResourceUrls = result
-  //   .filter(resource => resource.type === 'html')
-  //   .map(resource => resource.url)
-
-
-  // // Merge the docsUrls with the htmlResourceUrls, remove duplicates, and sort
-  // const mergedUrls = Array.from(new Set([
-  //   ...docsUrls,
-  //   ...htmlResourceUrls,
-  // ]))
-  // .sort()
-
-  // Save htmlResourceUrls to json
-  // await storeDocsUrls( [ `https://google.com?${ Date.now() }` ] )
-
-  // console.log( 'htmlResourceUrls', htmlResourceUrls )
-  // console.log( 'result type', result[0].type )
-
-  // console.log( 'result', result.length )
+  const {
+    savedFiles
+  } = await downloadSite({
+    path: scrapePath,
+		urls: docsUrls,
+  })
 
   console.log('Pull complete.')
 
