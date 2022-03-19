@@ -9,23 +9,27 @@
 /coverage
 
 # next.js
-/.next/
-/out/
-/public/feeds/
+/.next
+/out
 
 # production
 /build
 
 # misc
 .DS_Store
+*.pem
+Thumbs.db
 
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# dotenv local files
+.env*.local
+
+# local folder
+local
+
+# vercel
+.vercel
