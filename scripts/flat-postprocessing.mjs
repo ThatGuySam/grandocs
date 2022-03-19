@@ -64,7 +64,7 @@ async function ensureRemove ( path ) {
   // .sort()
 
   // Save htmlResourceUrls to json
-  await storeDocsUrls( [ 'test' ] )
+  await storeDocsUrls( [ `https://google.com?${ Date.now() }` ] )
 
   // console.log( 'htmlResourceUrls', htmlResourceUrls )
   // console.log( 'result type', result[0].type )
