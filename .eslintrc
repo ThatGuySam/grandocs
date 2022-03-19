@@ -12,7 +12,8 @@
         "singleQuote": true,
         "semi": false
       }
-    ]
+    ],
+    "import/no-unresolved": 0
   },
   "overrides": [
     // Configuration for TypeScript files
