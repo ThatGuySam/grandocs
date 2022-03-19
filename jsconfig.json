@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/public/*": ["./public/*"]
+    }
+  },
+  "exclude": ["./out/**/*", "./node_modules/**/*"],
+  "include": [
+    "**/*.js",
+    "scripts/flat-postprocessing.mjs",
+    "src/utils/download-site.mjs"
+  ]
+}
