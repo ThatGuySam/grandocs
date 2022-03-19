@@ -24,7 +24,7 @@ export async function fetchUrlsFromGoogle () {
           'Referer': 'Grandocs'
         },
         params: {
-          q: 'e',
+          q: 'en',
           // https://cse.google.com/cse/statistics/stats?cx=751230d6295322c25
           cx: '751230d6295322c25',
           start: start,
