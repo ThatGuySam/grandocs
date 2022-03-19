@@ -1,7 +1,6 @@
-import axios from 'axios'
-import { env } from 'process'
-
-
+// Configure dotev
+import 'https://deno.land/std/dotenv/load.ts'
+import axios from 'https://deno.land/x/axiod/mod.ts'
 
 export async function fetchUrlsFromGoogle () {
 
@@ -30,7 +29,7 @@ export async function fetchUrlsFromGoogle () {
           cx: '751230d6295322c25',
           start: start,
 
-          key: process.env.GOOGLE_KEY
+          key: Deno.env.get('GOOGLE_KEY')
         }
       }
 
