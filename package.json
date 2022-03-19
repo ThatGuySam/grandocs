@@ -11,6 +11,7 @@
     "export": "next export",
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next out",
+    "pre-commit": "lint-staged --concurrent false",
     "lint": "next lint",
     "build-types": "tsc --noEmit --pretty",
     "prepare": "husky install",
