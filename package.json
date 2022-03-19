@@ -16,7 +16,7 @@
     "fix": "next lint --fix",
     "build-types": "tsc --noEmit --pretty",
     "prepare": "husky install",
-    "flat-postprocessing": "node scripts/flat-postprocessing.mjs"
+    "flat-postprocessing": "deno run -q -A --unstable scripts/flat-postprocessing.mjs"
   },
   "repository": {
     "type": "git",
