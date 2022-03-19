@@ -147,20 +147,23 @@ class MaScraper {
 				basePath: this.options.path
 			})
 
-			if ( page.topicContent !== null ) {
+			if ( page.topicContent === null ) {
 
-				// Save contents as Markdown
-				const md = page.topicContent.innerHTML
 
-				console.log( 'Saving path', page.filePath )
-				console.log( 'url', url )
+				console.log(`Skipping ${url}`) // eslint-disable-line no-console
 
-				const savedFile = await page.saveAsMarkdown()
-
-				console.log( 'Saved' )
+				continue
 			}
 
-			return
+			// Save contents as Markdown
+			const md = page.topicContent.innerHTML
+
+			console.log( 'Saving path', page.filePath )
+			console.log( 'url', url )
+
+			const savedFile = await page.saveAsMarkdown()
+
+			console.log( 'Saved' )
 		}
 	}
 }
