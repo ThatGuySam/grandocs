@@ -5,7 +5,7 @@ import { join as joinPath } from 'https://deno.land/std@0.130.0/path/mod.ts'
 
 import axios from 'https://deno.land/x/axiod/mod.ts'
 import { initParser, DOMParser } from 'https://deno.land/x/deno_dom/deno-dom-wasm-noinit.ts'
-
+import matter from 'https://jspm.dev/gray-matter'
 
 export const targetEntryUrl = 'https://help2.malighting.com/Page/grandMA2/grandma2/en/3.9'
 
@@ -31,6 +31,10 @@ class ScrapedPage {
 		return new URL( this.options.url )
 	}
 
+	get url () {
+		return this.options.url
+	}
+
 	get directoryPath () {
 		const localPath = this.parsedUrl.pathname.replace('/Page/', '')
 		return joinPath( this.options.basePath, localPath )
@@ -40,8 +44,6 @@ class ScrapedPage {
 		return joinPath( this.directoryPath, 'index.md' )
 	}
 
-	// topicContentHtml = null
-
 	get topicContent () {
 		if ( typeof this.topicContentNode === 'undefined' ) {
 			this.topicContentNode = this.doc.querySelector('.topic-content')
@@ -50,10 +52,24 @@ class ScrapedPage {
 		return this.topicContentNode
 	}
 
+	get grayMatter () {
+		return {
+			originalUrl: this.url
+		}
+	}
+
 	async saveAsMarkdown () {
 		await ensureDir( this.directoryPath )
 
-		return await Deno.writeTextFile( this.filePath, this.topicContent.innerHTML )
+		const content = matter.stringify( this.topicContent.innerHTML, this.grayMatter )
+
+		await Deno.writeTextFile( this.filePath, content )
+
+		return {
+			filePath: this.filePath,
+			grayMatter: this.grayMatter,
+			content: this.topicContent.textContent
+		}
 	}
 
 
@@ -125,27 +141,26 @@ class MaScraper {
 					return null
 				})
 
-				const page = new ScrapedPage({
-					url,
-					html: pageHtmlMarkup,
-					basePath: this.options.path
-				})
-
-			// console.log('page', page)
-			console.log('pageHtmlMarkup', pageHtmlMarkup.length)
+			const page = new ScrapedPage({
+				url,
+				html: pageHtmlMarkup,
+				basePath: this.options.path
+			})
 
 			if ( page.topicContent !== null ) {
 
 				// Save contents as Markdown
 				const md = page.topicContent.innerHTML
 
+				console.log( 'Saving path', page.filePath )
+				console.log( 'url', url )
+
 				const savedFile = await page.saveAsMarkdown()
 
-				console.log( 'path', page.filePath )
-				console.log( 'url', url )
-				console.log( 'savedFile', savedFile )
+				console.log( 'Saved' )
 			}
 
+			return
 		}
 	}
 }
