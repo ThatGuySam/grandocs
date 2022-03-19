@@ -8,13 +8,22 @@
       "type": "npm",
       "script": "build-types",
       "problemMatcher": ["$tsc"],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
+      "group": "build",
       "presentation": {
         "clear": true,
         "reveal": "never"
+      },
+      "detail": "tsc --noEmit --pretty"
+    },
+    {
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": [],
+      "label": "npm: dev",
+      "detail": "next dev",
+      "group": {
+        "kind": "build",
+        "isDefault": true
       }
     }
   ]
