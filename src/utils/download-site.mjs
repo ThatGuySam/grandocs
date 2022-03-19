@@ -1,7 +1,10 @@
 import scrape from 'website-scraper'
 import defaultOptions from 'website-scraper/defaultOptions'
 
-export const targetHost = 'https://help2.malighting.com/'
+
+export const targetEntryUrl = 'http://help2.malighting.com/'
+
+export const targetHost = (new URL( targetEntryUrl )).host
 
 // Resource methods: https://github.com/website-scraper/node-website-scraper/blob/b82d5e8309a5220e206a4aac0bb87f390e85938e/lib/resource.js
 class MaScraper {
@@ -70,25 +73,27 @@ export async function downloadSite( options ) {
     ...defaultOptions,
     prettifyUrls: true,
     urls: [
-      targetHost
+      targetEntryUrl
     ],
     // URLs to filter out
     urlFilter(url) {
-      return !url.startsWith(targetHost)
+      return !url.includes(targetHost)
     },
     directory: path,
 
-    recursive: true,
-    maxRecursiveDepth: 10,
+    // recursive: true,
+    maxRecursiveDepth: 2,
 
     // bySiteStructure: https://github.com/website-scraper/node-website-scraper/blob/4.x/README.md#bysitestructure
     // Method: https://github.com/website-scraper/node-website-scraper/blob/b82d5e8309a5220e206a4aac0bb87f390e85938e/lib/plugins/generate-filenamy-by-site-structure-plugin.js
     filenameGenerator: 'bySiteStructure',
 
-    plugins: [maScraper],
+    plugins: [ maScraper ],
   }
 
   const result = await scrape( scrapeOptions )
 
-  return result
+  return {
+    result
+  }
 }
