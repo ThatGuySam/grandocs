@@ -1,3 +1,6 @@
+---
+originalUrl: 'http://help2.malighting.com/Page/grandMA2/backup_menu_ascii_show_read/en/3.9'
+---
 
 <div class="topic-navigation">
 

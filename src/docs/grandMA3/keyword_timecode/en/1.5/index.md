@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/grandMA3/keyword_timecode/en/1.5'
+---
 
 <div class="topic-navigation">
 

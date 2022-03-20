@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/HT_AddAndPatchFixtures/es/1.1'
+---
 
 <div class="topic-navigation">
 

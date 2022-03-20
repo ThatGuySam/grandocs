@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/window_choosestoremethod/es/1.3'
+---
 
 <div class="topic-navigation">
 

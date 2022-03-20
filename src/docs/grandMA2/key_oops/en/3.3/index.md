@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/grandMA2/key_oops/en/3.3'
+---
 
 <div class="topic-navigation">
 

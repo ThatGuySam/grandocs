@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/control_elements/pt/1.3'
+---
 
 <div class="topic-navigation">
 

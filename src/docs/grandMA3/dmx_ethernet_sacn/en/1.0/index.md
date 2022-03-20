@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/grandMA3/dmx_ethernet_sacn/en/1.0'
+---
 
 <div class="topic-navigation">
 

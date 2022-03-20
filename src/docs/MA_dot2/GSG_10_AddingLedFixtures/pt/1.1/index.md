@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/GSG_10_AddingLedFixtures/pt/1.1'
+---
 
 <div class="topic-navigation">
 

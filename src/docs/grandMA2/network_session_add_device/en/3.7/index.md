@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/grandMA2/network_session_add_device/en/3.7'
+---
 
 <div class="topic-navigation">
 

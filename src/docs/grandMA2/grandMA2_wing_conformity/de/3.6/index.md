@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/grandMA2/grandMA2_wing_conformity/de/3.6'
+---
 
 <div class="topic-navigation">
 

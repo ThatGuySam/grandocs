@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/Network/Specifications/en/3.1'
+---
 
 <div class="topic-navigation">
 

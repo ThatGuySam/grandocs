@@ -1,3 +1,6 @@
+---
+originalUrl: 'http://help2.malighting.com/Page/MA_dot2/keyword_synceffects/pt/1.1'
+---
 
 <div class="topic-navigation">
 

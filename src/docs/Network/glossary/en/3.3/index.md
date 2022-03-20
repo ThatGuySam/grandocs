@@ -1,3 +1,6 @@
+---
+originalUrl: 'http://help2.malighting.com/Page/Network/glossary/en/3.3'
+---
 
 <div class="topic-navigation">
 

@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/window_midishowcontrol/pt/1.4'
+---
 
 <div class="topic-navigation">
 

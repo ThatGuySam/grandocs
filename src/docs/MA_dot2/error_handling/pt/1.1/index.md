@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/error_handling/pt/1.1'
+---
 
 <div class="topic-navigation">
 

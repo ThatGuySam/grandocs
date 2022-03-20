@@ -1,3 +1,7 @@
+---
+originalUrl: >-
+  https://help2.malighting.com/Page/MA_dot2/GSG_09_MakingMoreCues/en/1.1/Getting%20Started%20Guide%20-%20Chapter%209%20-%20Making%20more%20cues%20in%20main%20cue%20list
+---
 
 <div class="topic-navigation">
 

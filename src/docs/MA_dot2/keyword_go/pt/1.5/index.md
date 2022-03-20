@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/keyword_go/pt/1.5'
+---
 
 <div class="topic-navigation">
 

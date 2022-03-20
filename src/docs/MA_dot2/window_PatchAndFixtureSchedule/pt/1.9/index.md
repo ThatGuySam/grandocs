@@ -1,3 +1,7 @@
+---
+originalUrl: >-
+  https://help2.malighting.com/Page/MA_dot2/window_PatchAndFixtureSchedule/pt/1.9
+---
 
 <div class="topic-navigation">
 

@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/Key_Highlight/pt/1.4'
+---
 
 <div class="topic-navigation">
 

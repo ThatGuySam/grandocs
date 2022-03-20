@@ -1,3 +1,6 @@
+---
+originalUrl: 'http://help2.malighting.com/Page/MA_dot2/GSG_15_AddingMovingLights/es/1.5'
+---
 
 <div class="topic-navigation">
 

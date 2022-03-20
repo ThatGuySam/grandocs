@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/grandMA2/networking_dmx_output/en/3.9'
+---
 
 <div class="topic-navigation">
 

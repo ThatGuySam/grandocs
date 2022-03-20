@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/grandMA3/grandMA3_Release_Notes/en/1.4'
+---
 
 <div class="topic-navigation">
 

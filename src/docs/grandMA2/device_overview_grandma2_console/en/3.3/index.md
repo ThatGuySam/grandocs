@@ -1,3 +1,7 @@
+---
+originalUrl: >-
+  https://help2.malighting.com/Page/grandMA2/device_overview_grandma2_console/en/3.3
+---
 
 <div class="topic-navigation">
 

@@ -1,3 +1,6 @@
+---
+originalUrl: 'http://help2.malighting.com/Page/MA_dot2/window_remote/en/1.2'
+---
 
 <div class="topic-navigation">
 

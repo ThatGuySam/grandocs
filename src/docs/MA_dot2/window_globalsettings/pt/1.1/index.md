@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/window_globalsettings/pt/1.1'
+---
 
 <div class="topic-navigation">
 

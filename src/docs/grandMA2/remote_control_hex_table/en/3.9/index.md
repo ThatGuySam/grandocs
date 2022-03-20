@@ -1,3 +1,6 @@
+---
+originalUrl: 'http://help2.malighting.com/Page/grandMA2/remote_control_hex_table/en/3.9'
+---
 
 <div class="topic-navigation">
 

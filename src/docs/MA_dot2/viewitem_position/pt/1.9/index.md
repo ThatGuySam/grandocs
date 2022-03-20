@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/viewitem_position/pt/1.9'
+---
 
 <div class="topic-navigation">
 

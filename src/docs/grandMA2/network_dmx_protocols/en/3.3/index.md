@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/grandMA2/network_dmx_protocols/en/3.3'
+---
 
 <div class="topic-navigation">
 

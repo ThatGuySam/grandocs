@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/WI_Presets/pt/1.2'
+---
 
 <div class="topic-navigation">
 

@@ -1,3 +1,7 @@
+---
+originalUrl: >-
+  https://help2.malighting.com/Page/grandMA2/basic_fixture/en/www.ma-dot2.com/en/software-download/
+---
 
 <div class="topic-navigation">
 

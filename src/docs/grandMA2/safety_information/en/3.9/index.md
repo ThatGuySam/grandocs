@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/grandMA2/safety_information/en/3.9'
+---
 
 <div class="topic-navigation">
 

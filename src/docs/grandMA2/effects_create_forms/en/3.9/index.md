@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/grandMA2/effects_create_forms/en/3.9'
+---
 
 <div class="topic-navigation">
 

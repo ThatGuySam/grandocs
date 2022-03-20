@@ -1,3 +1,7 @@
+---
+originalUrl: >-
+  https://help2.malighting.com/Page/Utilities/first_steps_system_requirements/en/1.3
+---
 
 <div class="topic-navigation">
 

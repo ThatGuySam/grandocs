@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/HT_UseMidiAndMSC/pt/1.5'
+---
 
 <div class="topic-navigation">
 

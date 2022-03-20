@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/grandMA3/shutdown_the_system/en/1.6'
+---
 
 <div class="topic-navigation">
 

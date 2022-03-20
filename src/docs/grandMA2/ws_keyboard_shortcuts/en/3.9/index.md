@@ -1,3 +1,6 @@
+---
+originalUrl: 'https://help2.malighting.com/Page/grandMA2/ws_keyboard_shortcuts/en/3.9'
+---
 
 <div class="topic-navigation">
 

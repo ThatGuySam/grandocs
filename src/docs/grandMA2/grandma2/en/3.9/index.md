@@ -1,3 +1,6 @@
+---
+originalUrl: 'http://help2.malighting.com/Page/grandMA2/grandma2/en/3.9'
+---
 
 <div class="topic-navigation">
 
