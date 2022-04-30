@@ -9,7 +9,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/network_dmx_protocols/e
 
 
 <div class="pull-left">
-<form action="/Topic/SetCurrentVersionNumber" class="form-inline" id="frmTagSelector" method="post">	<span class="form-mini">
+<form action="/Topic/SetCurrentVersionNumber?msclkid=4ed0074dc7b411ec80b16af52d32f77a" class="form-inline" id="frmTagSelector" method="post">	<span class="form-mini">
 		<div class="input-prepend"><span class="add-on">Select different version</span><select autocomplete="off" id="versionNumberId" name="versionNumberId" onchange="$(this).closest('#frmTagSelector').submit();" style="width: 120px;"><option value="">- latest -</option>
 <option selected="selected" value="6">3.3</option>
 <option value="14">3.4</option>
@@ -312,7 +312,7 @@ KiNET is a Broadcast protocol, but is transmitted from Ethernet connector 1.</di
 
 
 <div class="pull-left">
-<form action="/Topic/SetCurrentVersionNumber" class="form-inline" id="frmTagSelector" method="post">	<span class="form-mini">
+<form action="/Topic/SetCurrentVersionNumber?msclkid=4ed0074dc7b411ec80b16af52d32f77a" class="form-inline" id="frmTagSelector" method="post">	<span class="form-mini">
 		<div class="input-prepend"><span class="add-on">Select different version</span><select autocomplete="off" id="versionNumberId" name="versionNumberId" onchange="$(this).closest('#frmTagSelector').submit();" style="width: 120px;"><option value="">- latest -</option>
 <option selected="selected" value="6">3.3</option>
 <option value="14">3.4</option>
