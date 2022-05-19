@@ -18,6 +18,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/keyword_park/en/1.4'
 <option selected="selected" value="37">1.4</option>
 <option value="38">1.5</option>
 <option value="39">1.6</option>
+<option value="40">1.7</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="16">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="93d6094a-2d53-4c4e-a4f2-5fd63051fe5c">
@@ -36,7 +37,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/keyword_park/en/1.4'
 <div class="clear-fix" style="margin-bottom: 10px"></div>
 </div>
 
-					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="/Topic/SetCurrentVersionNumber/39/93d6094a-2d53-4c4e-a4f2-5fd63051fe5c">You may want to view the latest help version.</a></div>
+					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="/Topic/SetCurrentVersionNumber/40/93d6094a-2d53-4c4e-a4f2-5fd63051fe5c">You may want to view the latest help version.</a></div>
 
 			<div class="pull-right">
 					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/62395/37'; " title="Open/Save this topic as PDF document for viewing or printing">
@@ -167,6 +168,7 @@ If there are parked channels in a universe, this will be indicated by a blue&nbs
 <option selected="selected" value="37">1.4</option>
 <option value="38">1.5</option>
 <option value="39">1.6</option>
+<option value="40">1.7</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="16">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="93d6094a-2d53-4c4e-a4f2-5fd63051fe5c">
