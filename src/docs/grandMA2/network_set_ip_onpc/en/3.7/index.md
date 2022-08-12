@@ -1,5 +1,5 @@
 ---
-originalUrl: 'http://help2.malighting.com/Page/grandMA2/network_set_ip_onpc/en/3.7'
+originalUrl: 'https://help2.malighting.com/Page/grandMA2/network_set_ip_onpc/en/3.7'
 ---
 
 <div class="topic-navigation">
