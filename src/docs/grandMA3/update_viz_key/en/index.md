@@ -18,18 +18,19 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/update_viz_key/en'
 <option value="37">1.4</option>
 <option value="38">1.5</option>
 <option value="39">1.6</option>
-<option selected="selected" value="40">1.7</option>
+<option value="40">1.7</option>
+<option selected="selected" value="42">1.8</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="16">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="0abafa3e-dc74-4e28-855a-bdee8516aeed">
 	</span>
 </form></div>&nbsp;	</span>
 	<span class="pull-right" style="white-space: nowrap;">
-			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/update_windows_hardware/en/1.7'; " title="Go to previous page 'Update grandMA3 onPC windows hardware'">
+			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/update_windows_hardware/en/1.8'; " title="Go to previous page 'Update grandMA3 onPC windows hardware'">
 				<i class="icon-arrow-left"></i> previous
 			</button>
 
-			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/network_update/en/1.7';" title="Go to next page 'Network update'">
+			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/network_update/en/1.8';" title="Go to next page 'Network update'">
 				next <i class="icon-arrow-right"></i> 
 			</button>
 	</span>
@@ -39,10 +40,10 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/update_viz_key/en'
 
 		
 			<div class="pull-right">
-					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/76499/40'; " title="Open/Save this topic as PDF document for viewing or printing">
+					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/78085/42'; " title="Open/Save this topic as PDF document for viewing or printing">
 						<img src="/Content/images/icons/filetype_pdf.png" style="height: 24px;"> Open topic as PDF
 					</button>
-				<span class="badge badge-info">Version 1.7</span>
+				<span class="badge badge-info">Version 1.8</span>
 			</div>
 		<h1>Update grandMA3 viz-key</h1>
 
@@ -120,18 +121,19 @@ To learn more on how to connect, visit <a href="https://www.malighting.com/viz-k
 <option value="37">1.4</option>
 <option value="38">1.5</option>
 <option value="39">1.6</option>
-<option selected="selected" value="40">1.7</option>
+<option value="40">1.7</option>
+<option selected="selected" value="42">1.8</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="16">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="0abafa3e-dc74-4e28-855a-bdee8516aeed">
 	</span>
 </form></div>&nbsp;	</span>
 	<span class="pull-right" style="white-space: nowrap;">
-			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/update_windows_hardware/en/1.7'; " title="Go to previous page 'Update grandMA3 onPC windows hardware'">
+			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/update_windows_hardware/en/1.8'; " title="Go to previous page 'Update grandMA3 onPC windows hardware'">
 				<i class="icon-arrow-left"></i> previous
 			</button>
 
-			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/network_update/en/1.7';" title="Go to next page 'Network update'">
+			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/network_update/en/1.8';" title="Go to next page 'Network update'">
 				next <i class="icon-arrow-right"></i> 
 			</button>
 	</span>
@@ -139,7 +141,7 @@ To learn more on how to connect, visit <a href="https://www.malighting.com/viz-k
 	<div class="clear-fix"></div>
 	<div class="pull-right">
 	
-			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/76499/40';" title="Open/Save this topic as PDF document for viewing or printing">
+			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/78085/42';" title="Open/Save this topic as PDF document for viewing or printing">
 				<img src="/Content/images/icons/filetype_pdf.png"> Open topic as PDF
 			</button>
 	</div>

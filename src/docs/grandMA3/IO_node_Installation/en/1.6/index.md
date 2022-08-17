@@ -19,6 +19,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/IO_node_Installation/en
 <option value="38">1.5</option>
 <option selected="selected" value="39">1.6</option>
 <option value="40">1.7</option>
+<option value="42">1.8</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="40">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="722aabab-32f1-40c0-b6b3-99c582b58984">
@@ -37,7 +38,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/IO_node_Installation/en
 <div class="clear-fix" style="margin-bottom: 10px"></div>
 </div>
 
-					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="/Topic/SetCurrentVersionNumber/40/722aabab-32f1-40c0-b6b3-99c582b58984">You may want to view the latest help version.</a></div>
+					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="/Topic/SetCurrentVersionNumber/42/722aabab-32f1-40c0-b6b3-99c582b58984">You may want to view the latest help version.</a></div>
 
 			<div class="pull-right">
 					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/73328/39'; " title="Open/Save this topic as PDF document for viewing or printing">
@@ -252,6 +253,7 @@ In order for the device to dissipate heat, comply with a minimum distance of 30 
 <option value="38">1.5</option>
 <option selected="selected" value="39">1.6</option>
 <option value="40">1.7</option>
+<option value="42">1.8</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="40">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="722aabab-32f1-40c0-b6b3-99c582b58984">
