@@ -1,5 +1,5 @@
 ---
-originalUrl: 'http://help2.malighting.com/Page/MA_dot2/GSG_19_BlindPreviewAndDmxTest/es/1.3'
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/GSG_19_BlindPreviewAndDmxTest/es/1.3'
 ---
 
 <div class="topic-navigation">
