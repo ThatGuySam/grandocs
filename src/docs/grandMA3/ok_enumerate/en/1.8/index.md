@@ -30,7 +30,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/ok_enumerate/en/1.8'
 				<i class="icon-arrow-left"></i> previous
 			</button>
 
-			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/ok_forceglobal/en/1.8';" title="Go to next page '/ForceGlobal'">
+			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/ok_file/en/1.8';" title="Go to next page '/File'">
 				next <i class="icon-arrow-right"></i> 
 			</button>
 	</span>
@@ -133,7 +133,7 @@ The number is a three-digit number. If the name of the show file along with the 
 				<i class="icon-arrow-left"></i> previous
 			</button>
 
-			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/ok_forceglobal/en/1.8';" title="Go to next page '/ForceGlobal'">
+			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/ok_file/en/1.8';" title="Go to next page '/File'">
 				next <i class="icon-arrow-right"></i> 
 			</button>
 	</span>
