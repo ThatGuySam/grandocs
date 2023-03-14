@@ -28,7 +28,7 @@ originalUrl: 'http://help2.malighting.com/Page/grandMA2/backup_menu_ascii_show_r
 				<i class="icon-arrow-left"></i> previous
 			</button>
 
-			<button class="btn btn-mini" onclick="location.href='/Page/grandMA2/backup_menu_save_as_grandMA3/en/3.9';" title="Go to next page 'Save as grandMA3'">
+			<button class="btn btn-mini" onclick="location.href='/Page/grandMA2/backup_menu_save_as_grandMA3/en/3.9';" title="Go to next page 'grandMA2 to grandMA3 show file converter'">
 				next <i class="icon-arrow-right"></i> 
 			</button>
 	</span>
@@ -207,7 +207,7 @@ If the Setup is not correct, then the Show Data will not import correctly.</div>
 				<i class="icon-arrow-left"></i> previous
 			</button>
 
-			<button class="btn btn-mini" onclick="location.href='/Page/grandMA2/backup_menu_save_as_grandMA3/en/3.9';" title="Go to next page 'Save as grandMA3'">
+			<button class="btn btn-mini" onclick="location.href='/Page/grandMA2/backup_menu_save_as_grandMA3/en/3.9';" title="Go to next page 'grandMA2 to grandMA3 show file converter'">
 				next <i class="icon-arrow-right"></i> 
 			</button>
 	</span>
