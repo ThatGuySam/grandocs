@@ -20,6 +20,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/update_viz_key/en/1.6'
 <option selected="selected" value="39">1.6</option>
 <option value="40">1.7</option>
 <option value="42">1.8</option>
+<option value="43">1.9</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="16">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="0abafa3e-dc74-4e28-855a-bdee8516aeed">
@@ -38,7 +39,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/update_viz_key/en/1.6'
 <div class="clear-fix" style="margin-bottom: 10px"></div>
 </div>
 
-					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="/Topic/SetCurrentVersionNumber/42/0abafa3e-dc74-4e28-855a-bdee8516aeed">You may want to view the latest help version.</a></div>
+					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="/Topic/SetCurrentVersionNumber/43/0abafa3e-dc74-4e28-855a-bdee8516aeed">You may want to view the latest help version.</a></div>
 
 			<div class="pull-right">
 					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/72718/39'; " title="Open/Save this topic as PDF document for viewing or printing">
@@ -128,6 +129,7 @@ To learn more on how to connect, visit <a href="https://www.malighting.com/viz-k
 <option selected="selected" value="39">1.6</option>
 <option value="40">1.7</option>
 <option value="42">1.8</option>
+<option value="43">1.9</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="16">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="0abafa3e-dc74-4e28-855a-bdee8516aeed">

@@ -20,6 +20,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/viz_key_Conformity/en/1
 <option value="39">1.6</option>
 <option value="40">1.7</option>
 <option selected="selected" value="42">1.8</option>
+<option value="43">1.9</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="41">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="00600bd4-0a9e-4018-9c2f-469bc3ff8a85">
@@ -38,7 +39,8 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/viz_key_Conformity/en/1
 <div class="clear-fix" style="margin-bottom: 10px"></div>
 </div>
 
-		
+					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="/Topic/SetCurrentVersionNumber/43/00600bd4-0a9e-4018-9c2f-469bc3ff8a85">You may want to view the latest help version.</a></div>
+
 			<div class="pull-right">
 					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/78246/42'; " title="Open/Save this topic as PDF document for viewing or printing">
 						<img src="/Content/images/icons/filetype_pdf.png" style="height: 24px;"> Open topic as PDF
@@ -149,6 +151,7 @@ GERMANY</p>
 <option value="39">1.6</option>
 <option value="40">1.7</option>
 <option selected="selected" value="42">1.8</option>
+<option value="43">1.9</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="41">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="00600bd4-0a9e-4018-9c2f-469bc3ff8a85">

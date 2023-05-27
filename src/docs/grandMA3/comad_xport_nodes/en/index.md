@@ -19,18 +19,19 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/comad_xport_nodes/en'
 <option value="38">1.5</option>
 <option value="39">1.6</option>
 <option value="40">1.7</option>
-<option selected="selected" value="42">1.8</option>
+<option value="42">1.8</option>
+<option selected="selected" value="43">1.9</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="16">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="9bbe4bbf-e34e-4a23-8ccf-7bff55e660cf">
 	</span>
 </form></div>&nbsp;	</span>
 	<span class="pull-right" style="white-space: nowrap;">
-			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/control_other_ma_devices/en/1.8'; " title="Go to previous page 'Control other MA Devices'">
+			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/control_other_ma_devices/en/1.9'; " title="Go to previous page 'Control other MA Devices'">
 				<i class="icon-arrow-left"></i> previous
 			</button>
 
-			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/comad_network_switch/en/1.8';" title="Go to next page 'MA Network Switch'">
+			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/comad_network_switch/en/1.9';" title="Go to next page 'MA network switch'">
 				next <i class="icon-arrow-right"></i> 
 			</button>
 	</span>
@@ -40,10 +41,10 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/comad_xport_nodes/en'
 
 		
 			<div class="pull-right">
-					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/78078/42'; " title="Open/Save this topic as PDF document for viewing or printing">
+					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/84242/43'; " title="Open/Save this topic as PDF document for viewing or printing">
 						<img src="/Content/images/icons/filetype_pdf.png" style="height: 24px;"> Open topic as PDF
 					</button>
-				<span class="badge badge-info">Version 1.8</span>
+				<span class="badge badge-info">Version 1.9</span>
 			</div>
 		<h1>Control grandMA3 Nodes</h1>
 
@@ -55,9 +56,11 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/comad_xport_nodes/en'
 						<li>
 							<a href="#toc_header_anchor_1">Change Name and Set IP Address</a>
 								<ul>
-										<li><a href="#toc_header_anchor_2">To Change the Name</a></li>
-										<li><a href="#toc_header_anchor_3">To Change the IP Address</a></li>
+										<li><a href="#toc_header_anchor_2">Change the Name</a></li>
 								</ul>
+						</li>
+						<li>
+							<a href="#toc_header_anchor_3">Change the IP Address</a>
 						</li>
 						<li>
 							<a href="#toc_header_anchor_4">Change the Output Configuration</a>
@@ -88,90 +91,65 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/comad_xport_nodes/en'
 	- Opens the Network menu.</li>
 </ul>
 
-<p><img alt="" src="/Media/Image/img_network_menu01_v1-2.png"></p>
+<figure class="caption"><img alt="" src="/Media/Image/img_network_menu01_v1-9.png">
+<figcaption>Network menu</figcaption>
+</figure>
 
 <div class="important"><strong>Important:</strong><br>
 You can only change the name or IP address of a node if it is not in another session.</div>
 
-<a name="toc_header_anchor_2" id="toc_header_anchor_2" class="topic-toc-item"></a><h3>To Change the Name</h3>
+<div style="page-break-after: always" class="ck_pagebreak"><span style="display:none">&nbsp;</span></div>
 
-<ul>
+<a name="toc_header_anchor_2" id="toc_header_anchor_2" class="topic-toc-item"></a><h3>Change the Name</h3>
+
+<ol>
 	<li>Edit the&nbsp;name of the respective node by right-clicking with a mouse or by using <a href="/Topic/b210b703-76f3-4501-a574-49fed5253a0d">gestures</a>.</li>
-</ul>
+</ol>
 
-<p><img alt="" src="/Media/Image/img_network_menu02_v1-2_1.png"></p>
+<figure class="caption"><img alt="" src="/Media/Image/img_network_menu02_v1-9_1.png">
+<figcaption>Label Node pop-up</figcaption>
+</figure>
 
-<ul>
+<ol start="2">
 	<li>Enter the desired name.</li>
-</ul>
+	<li>To confirm the changes, press <span class="hardkey">Please</span>.</li>
+</ol>
 
-<p><img alt="" src="/Media/Image/img_network_menu03_v1-2_1.png"></p>
+<p>The Node has the new name.</p>
 
-<ul>
-	<li>Tap <span class="softkey">Apply Changes</span> to confirm the changes.</li>
-</ul>
+<a name="toc_header_anchor_3" id="toc_header_anchor_3" class="topic-toc-item"></a><h2>Change the IP Address</h2>
 
-<p><img alt="" src="/Media/Image/img_network_menu04_v1-2.png"></p>
-
-<p><br>
-&nbsp;</p>
-
-<a name="toc_header_anchor_3" id="toc_header_anchor_3" class="topic-toc-item"></a><h3>To Change the IP Address</h3>
-
-<ul>
-	<li>Edit the IP address of the respective node by right-clicking with a mouse or by using <a href="/Topic/b210b703-76f3-4501-a574-49fed5253a0d" target="_blank">gestures</a>.</li>
-</ul>
-
-<p><img alt="" src="/Media/Image/img_network_menu05_v1-2.png"></p>
-
-<ul>
+<ol>
+	<li>Change the IP address of the respective node by right-clicking with a mouse or by using <a href="/Topic/b210b703-76f3-4501-a574-49fed5253a0d" target="_blank">gestures</a>.</li>
 	<li>Edit the DHCP settings by right-clicking the DHCP field with a mouse or by using <a href="/Topic/b210b703-76f3-4501-a574-49fed5253a0d" target="_blank">gestures</a>.</li>
-</ul>
+</ol>
 
-<p><img alt="" src="/Media/Image/img_network_menu06_v1-2.png"></p>
+<figure class="caption"><img alt="" src="/Media/Image/img_network_menu06_v1-9.png">
+<figcaption>Network Interfaces pop-up of a Node</figcaption>
+</figure>
 
-<ul>
-	<li>Set DHCP to Yes or No.</li>
-</ul>
-
-<p><img alt="" src="/Media/Image/img_network_menu07_v1-2.png"></p>
-
-<ul>
-	<li>Edit the IP address of the respective node by right-clicking with a mouse or by using <a href="/Topic/b210b703-76f3-4501-a574-49fed5253a0d" target="_blank">gestures</a>.</li>
-</ul>
-
-<p><img alt="" src="/Media/Image/img_network_menu08_v1-2.png"></p>
-
-<ul>
-	<li>Enter the new IP address (here 172.16.60.224).</li>
-</ul>
-
-<p><img alt="" src="/Media/Image/img_network_menu09_v1-2.png"></p>
-
-<ul>
+<ol start="3">
+	<li>Set DHCP to <strong>Yes</strong> or <strong>No</strong>.</li>
+	<li>Edit the IP address of the respective node by right-clicking with a mouse or by using <a href="/Topic/b210b703-76f3-4501-a574-49fed5253a0d" target="_blank">gestures</a>.<br>
+	The Edit IP pop-up opens.</li>
+	<li>Enter the new IP address.</li>
 	<li>Tap <span class="softkey">Apply Changes</span> to confirm the changes.</li>
-</ul>
+</ol>
 
-<p><img alt="" src="/Media/Image/img_network_menu10_v1-2.png"></p>
-
-<ul>
-	<li>The new IP address is now set.</li>
-</ul>
-
-<p><img alt="" src="/Media/Image/img_network_menu11_v1-2.png"></p>
+<p>The new IP address is set.</p>
 
 <p>For more information about the network menu, read the <a href="/Topic/35814174-6e47-47c5-a68b-4c093a6f9cae" target="_blank">Network Update topic</a> in the <a href="/Topic/82ccae12-1b1a-4928-90b2-9c79ca54d666" target="_blank">Update the Software section</a>.</p>
 
 <div class="tip"><strong>Hint:</strong><br>
-You can also update the Nodes via <a href="/Topic/efcfe19c-2c7e-43e9-a650-7ed6796fcff4" target="_blank">manual update</a>.</div>
+It is also possible to update the Nodes via <a href="/Topic/efcfe19c-2c7e-43e9-a650-7ed6796fcff4" target="_blank">manual update</a>.</div>
 
 <a name="toc_header_anchor_4" id="toc_header_anchor_4" class="topic-toc-item"></a><h2>Change the Output Configuration</h2>
 
-<p>To adjust the output configuration settings in the&nbsp;grandMA3 Nodes, it may be convenient to control them from a connected console or onPC.</p>
+<p>To adjust the output configuration settings in the&nbsp;grandMA3 Nodes, control them from a connected console or onPC.</p>
 
 <p>For more information, read the <a href="/Topic/57069f60-4141-4c2c-9684-f00f006a3947">DMX port configuration topic</a> in the&nbsp;<a href="/Topic/adf01052-c08e-4695-a98b-a4d69d73e5c0">DMX In and Out section</a>.</p>
 
-<p>To connect a&nbsp;grandMA3 Node with the console, make sure that the node is in grandMA3 mode.</p>
+<p>To connect a&nbsp;grandMA3 Node with the console, set the Node to grandMA3 mode.</p>
 
 <a name="toc_header_anchor_5" id="toc_header_anchor_5" class="topic-toc-item"></a><h2>Change Modes</h2>
 
@@ -203,17 +181,15 @@ You can also update the Nodes via <a href="/Topic/efcfe19c-2c7e-43e9-a650-7ed679
 
 <p><img alt="" src="/Media/Image/img_switch_mode_reboot_v1-5.png"></p>
 
-<p>&nbsp;</p>
-
-<div style="page-break-after: always" class="ck_pagebreak"><span style="display:none">&nbsp;</span></div>
-
 <ul>
 	<li>Select <span class="softkey">OK</span> and press the rotary knob to confirm:</li>
 </ul>
 
 <p><img alt="" src="/Media/Image/img_switch_mode_confirmation_v1-5.png"></p>
 
-<p>The Node reboots into Mode2.</p>
+<p>The Node reboots in Mode2.</p>
+
+<p>For more information about how to switch a xPort Node from Mode2 to grandMA3, see <a href="/Page/grandMA2/Change_Modes/en" target="_blank">change modes</a>.</p>
 
 <p>For more information about changing to grandMA3 Mode2, read the <a href="/Page/grandMA2/mode2_introduction/en" target="_blank">Mode2 topic</a> in the section&nbsp;grandMA3 Mode2 of the <a href="/Page/grandMA2/grandma2/en" target="_blank">grandMA2 User Manual</a>.</p>
 
@@ -236,18 +212,19 @@ You can also update the Nodes via <a href="/Topic/efcfe19c-2c7e-43e9-a650-7ed679
 <option value="38">1.5</option>
 <option value="39">1.6</option>
 <option value="40">1.7</option>
-<option selected="selected" value="42">1.8</option>
+<option value="42">1.8</option>
+<option selected="selected" value="43">1.9</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="16">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="9bbe4bbf-e34e-4a23-8ccf-7bff55e660cf">
 	</span>
 </form></div>&nbsp;	</span>
 	<span class="pull-right" style="white-space: nowrap;">
-			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/control_other_ma_devices/en/1.8'; " title="Go to previous page 'Control other MA Devices'">
+			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/control_other_ma_devices/en/1.9'; " title="Go to previous page 'Control other MA Devices'">
 				<i class="icon-arrow-left"></i> previous
 			</button>
 
-			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/comad_network_switch/en/1.8';" title="Go to next page 'MA Network Switch'">
+			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/comad_network_switch/en/1.9';" title="Go to next page 'MA network switch'">
 				next <i class="icon-arrow-right"></i> 
 			</button>
 	</span>
@@ -255,7 +232,7 @@ You can also update the Nodes via <a href="/Topic/efcfe19c-2c7e-43e9-a650-7ed679
 	<div class="clear-fix"></div>
 	<div class="pull-right">
 	
-			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/78078/42';" title="Open/Save this topic as PDF document for viewing or printing">
+			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/84242/43';" title="Open/Save this topic as PDF document for viewing or printing">
 				<img src="/Content/images/icons/filetype_pdf.png"> Open topic as PDF
 			</button>
 	</div>

@@ -1,5 +1,5 @@
 ---
-originalUrl: 'http://help2.malighting.com/Page/MA_dot2/new_in_manual/en/1.9'
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/new_in_manual/en/1.9'
 ---
 
 <div class="topic-navigation">

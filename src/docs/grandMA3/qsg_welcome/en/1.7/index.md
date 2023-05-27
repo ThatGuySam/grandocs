@@ -20,6 +20,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/qsg_welcome/en/1.7'
 <option value="39">1.6</option>
 <option selected="selected" value="40">1.7</option>
 <option value="42">1.8</option>
+<option value="43">1.9</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="25">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="01288fca-4495-459d-8a75-984ed5f5d6ae">
@@ -38,7 +39,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/qsg_welcome/en/1.7'
 <div class="clear-fix" style="margin-bottom: 10px"></div>
 </div>
 
-					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="/Topic/SetCurrentVersionNumber/42/01288fca-4495-459d-8a75-984ed5f5d6ae">You may want to view the latest help version.</a></div>
+					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="/Topic/SetCurrentVersionNumber/43/01288fca-4495-459d-8a75-984ed5f5d6ae">You may want to view the latest help version.</a></div>
 
 			<div class="pull-right">
 					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/74426/40'; " title="Open/Save this topic as PDF document for viewing or printing">
@@ -171,6 +172,7 @@ This is what a hint would look like.</div>
 <option value="39">1.6</option>
 <option selected="selected" value="40">1.7</option>
 <option value="42">1.8</option>
+<option value="43">1.9</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="25">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="01288fca-4495-459d-8a75-984ed5f5d6ae">

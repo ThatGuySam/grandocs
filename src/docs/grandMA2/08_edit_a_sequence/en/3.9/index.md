@@ -1,5 +1,5 @@
 ---
-originalUrl: 'http://help2.malighting.com/Page/grandMA2/08_edit_a_sequence/en/3.9'
+originalUrl: 'https://help2.malighting.com/Page/grandMA2/08_edit_a_sequence/en/3.9'
 ---
 
 <div class="topic-navigation">
