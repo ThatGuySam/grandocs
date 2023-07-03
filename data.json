@@ -141,11 +141,11 @@
 					<div class="content-wrapper">
 						<div class="float-left">
 							<p class="site-title">
-								<span class="site-title-logo"><a href="https://www.malighting.com" target=&quot;_blank&quot;><img src="/Client/Content/images/logo.png" /></a></span>
+								<span class="site-title-logo"><a href="https://www.malighting.com"  target=&quot;_blank&quot;><img src="/Client/Content/images/logo.png" /></a></span>
 								<a href="/Topic" style="text-decoration: none;">
 <span style="color:#828282; white-space: nowrap;" class="site-maintitle"><img src="/Client/Content/images/header_help_pages.png" alt="Help Pages" /></span>
 </a>
-						
+
 									<span class="site-subtitle">
 	
 		<span style="padding-right: 10px;" class="family-name">grandMA2</span>
@@ -168,7 +168,7 @@
 		</div>
 		<div class="clear-fix"></div>
 					<section id="searchBox">
-<form action="/Topic/Search" class="form-horizontal" method="post" onsubmit="if ($(&#39;#Keyword&#39;).val().length &lt; 2) { alert(&#39;Please enter a search topic with at least 2 characters.&#39;); return false; }; return true;"><input id="CurrentProductId" name="CurrentProductId" type="hidden" value="11" /><input class="search-field " id="Keyword" name="Keyword" placeholder="Search in grandMA2 User Manual" type="text" value="" /></form></section>
+<form action="/Topic/Search" class="form-horizontal" method="post" onsubmit="if ($(&#39;#Keyword&#39;).val().length &lt; 2) { alert(&#39;Please enter a search topic with at least 2 characters.&#39;); return false; }; return true;"><input id="ProductIds" name="ProductIds" type="hidden" value="11" /><input class="search-field " id="SearchTopic" name="SearchTopic" placeholder="Search in grandMA2 User Manual" type="text" value="" /></form></section>
 					<section id="languageSelector">
 <form action="/Topic/SetCurrentLanguage" class="form-horizontal" id="frmLanguageSelector" method="post"><select class="input-medium " id="LanguageId" name="LanguageId" onchange="changeLanguage($(this).val());"><option selected="selected" value="1">English (en)</option>
 </select></form></section>
@@ -2325,7 +2325,7 @@
 
 	</div>
 
-	<!-- cache-create-timestamp: 07/03/2023 02:18:40 -->
+	<!-- cache-create-timestamp: 07/03/2023 22:23:24 -->
 
 	<div style="clear: both;">&nbsp;</div>
 </div>
@@ -2397,13 +2397,13 @@ Phone +49 5251 688865-30 | <span class="email-obfuscate-box"><span class="email-
 </div>
 			</footer>
 		</div>
-		
+
 
 		
-		
+
 		<script type="text/javascript">
-			
-			
+
+
 
 
 			/* tabs */
@@ -2428,7 +2428,7 @@ Phone +49 5251 688865-30 | <span class="email-obfuscate-box"><span class="email-
 				$(this).attr('href', $(this).attr('href') + window.location.hash);
 			});
 
-			
+
 			// format diff view
 			function formatDiffBlocks() {
 				$('.diff-text>*:has(del), .diff-text:has(>del)').each(function () {
@@ -2451,7 +2451,7 @@ Phone +49 5251 688865-30 | <span class="email-obfuscate-box"><span class="email-
 				});
 			}
 
-			
+
 			// dirty form monitoring
 			var submitted = false;
 			var submittedElems = {};
@@ -2494,7 +2494,7 @@ Phone +49 5251 688865-30 | <span class="email-obfuscate-box"><span class="email-
 				}
 			}
 
-			
+
 			function showLoadingOverlay(text) {
 				if (text == null) {
 					text = "Loading...";
@@ -2562,7 +2562,22 @@ Phone +49 5251 688865-30 | <span class="email-obfuscate-box"><span class="email-
 
 		</script>
 
-		
-		<!-- version: 2.7 -->	
+				<!-- Matomo -->
+				<script>
+					var _paq = window._paq = window._paq || [];
+					/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+					_paq.push(['trackPageView']);
+					_paq.push(['enableLinkTracking']);
+					(function () {
+						var u = 'https://stats.help.m-a-lighting.de/';
+						_paq.push(['setTrackerUrl', u + 'matomo.php']);
+						_paq.push(['setSiteId', '1']);
+						var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+						g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+					})();
+				</script>
+				<!-- End Matomo Code -->
+
+		<!-- version: 2.7 -->
 	</body>
 </html>
