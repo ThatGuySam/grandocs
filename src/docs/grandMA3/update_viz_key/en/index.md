@@ -41,7 +41,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/update_viz_key/en'
 
 		
 			<div class="pull-right">
-					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/83992/43'; " title="Open/Save this topic as PDF document for viewing or printing">
+					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/86900/43'; " title="Open/Save this topic as PDF document for viewing or printing">
 						<img src="/Content/images/icons/filetype_pdf.png" style="height: 24px;"> Open topic as PDF
 					</button>
 				<span class="badge badge-info">Version 1.9</span>
@@ -72,7 +72,7 @@ The grandMA3 onPC software includes the grandMA3 viz-key software.</div>
 	The required installer is called grandMA3 Software x.x.x.x for grandMA3 viz-key.</li>
 	<li>Extract the zip file grandMA3_viz_key_vx.x.x.x.zip and copy the ma folder into the root directory of the USB flash drive.</li>
 	<li>Insert the USB flash drive in the grandMA3 onPC or console USB port.</li>
-	<li>To access&nbsp;<span class="softkey">Software Update</span>, tap&nbsp;<img alt="gear" src="/Media/Mlg/gear_1.png">.</li>
+	<li>To access&nbsp;<span class="softkey">Software Update</span>, tap&nbsp;<img alt="gear" src="/Media/Image/icon_gear_15px.png">.</li>
 	<li>Tap&nbsp;<span class="softkey">Settings</span>.</li>
 	<li>Tap<strong>&nbsp;</strong><span class="softkey">Software Update</span>.&nbsp;</li>
 </ol>
@@ -81,7 +81,7 @@ The grandMA3 onPC software includes the grandMA3 viz-key software.</div>
 
 <p>The Software Update window opens:</p>
 
-<figure class="caption"><img alt="" src="/Media/Image/img_network_update_viz_v1-9.png">
+<figure class="caption"><img alt="" src="/Media/Image/overlay_network_update_viz_v1-9-3.png">
 <figcaption>Software Update window</figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ The grandMA3 onPC software includes the grandMA3 viz-key software.</div>
 	The selection window opens.</li>
 </ol>
 
-<figure class="caption"><img alt="" src="/Media/Image/img_network_update_viz1_v1-9.png">
+<figure class="caption"><img alt="" src="/Media/Image/popup_network_update_viz1_v1-9-3.png">
 <figcaption>Select Update pop-up</figcaption>
 </figure>
 
@@ -148,7 +148,7 @@ To learn more on how to connect, visit <a href="https://www.malighting.com/viz-k
 	<div class="clear-fix"></div>
 	<div class="pull-right">
 	
-			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/83992/43';" title="Open/Save this topic as PDF document for viewing or printing">
+			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/86900/43';" title="Open/Save this topic as PDF document for viewing or printing">
 				<img src="/Content/images/icons/filetype_pdf.png"> Open topic as PDF
 			</button>
 	</div>
