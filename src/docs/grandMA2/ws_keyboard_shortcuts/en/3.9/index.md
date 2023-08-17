@@ -38,7 +38,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/ws_keyboard_shortcuts/e
 
 		
 			<div class="pull-right">
-					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/54464/31'; " title="Open/Save this topic as PDF document for viewing or printing">
+					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/87120/31'; " title="Open/Save this topic as PDF document for viewing or printing">
 						<img src="/Content/images/icons/filetype_pdf.png" style="height: 24px;"> Open topic as PDF
 					</button>
 				<span class="badge badge-info">Version 3.9</span>
@@ -72,7 +72,9 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/ws_keyboard_shortcuts/e
 			</div>
 
 		<div class="important"><strong>Important:</strong><br>
-Keyboard shortcuts are only available on a grandMA2 onPC.</div>
+1. Keyboard shortcuts are only available on a grandMA2 onPC.<br>
+2. Keyboards that have a different keyboard layout, as opposed to German keyboards, do not support all default keyboard shortcuts.&nbsp;<br>
+If this should be the case with your keyboard, adjust the shortcuts affected. To transfer these to other show files and/or stations, use the Import/Export function. For more information on how adjust the shortcuts see <a href="/Topic/a8154ae3-022a-4e2a-8c3a-fb36f95d66bf">export or import keyboard shortcuts</a>.&nbsp;</div>
 
 <p>The go to the keyboard shortcuts press the <span class="hardkey">Setup</span> and under tab <strong>Console </strong>tap <span class="softkey">Edit Keyboard Shortcuts</span>.</p>
 
@@ -662,7 +664,7 @@ Keyboard shortcuts are only available on a grandMA2 onPC.</div>
 	<div class="clear-fix"></div>
 	<div class="pull-right">
 	
-			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/54464/31';" title="Open/Save this topic as PDF document for viewing or printing">
+			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/87120/31';" title="Open/Save this topic as PDF document for viewing or printing">
 				<img src="/Content/images/icons/filetype_pdf.png"> Open topic as PDF
 			</button>
 	</div>
