@@ -38,7 +38,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/network_session_add_dev
 
 		
 			<div class="pull-right">
-					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/54825/31'; " title="Open/Save this topic as PDF document for viewing or printing">
+					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/87463/31'; " title="Open/Save this topic as PDF document for viewing or printing">
 						<img src="/Content/images/icons/filetype_pdf.png" style="height: 24px;"> Open topic as PDF
 					</button>
 				<span class="badge badge-info">Version 3.9</span>
@@ -61,34 +61,31 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/network_session_add_dev
 								</ul>
 						</li>
 						<li>
-							<a href="#toc_header_anchor_5">&nbsp;</a>
+							<a href="#toc_header_anchor_5">Consoles</a>
 						</li>
 						<li>
-							<a href="#toc_header_anchor_6">Consoles</a>
+							<a href="#toc_header_anchor_6">grandMA2 onPC</a>
 						</li>
 						<li>
-							<a href="#toc_header_anchor_7">grandMA2 onPC</a>
+							<a href="#toc_header_anchor_7">MA NPU</a>
 						</li>
 						<li>
-							<a href="#toc_header_anchor_8">MA NPU</a>
+							<a href="#toc_header_anchor_8">MA 3D</a>
 						</li>
 						<li>
-							<a href="#toc_header_anchor_9">MA 3D</a>
+							<a href="#toc_header_anchor_9">MA VPU</a>
 						</li>
 						<li>
-							<a href="#toc_header_anchor_10">MA VPU</a>
+							<a href="#toc_header_anchor_10">MA NDP</a>
 						</li>
 						<li>
-							<a href="#toc_header_anchor_11">MA NDP</a>
+							<a href="#toc_header_anchor_11">DMX Nodes</a>
 						</li>
 						<li>
-							<a href="#toc_header_anchor_12">DMX Nodes</a>
+							<a href="#toc_header_anchor_12">Network Switch</a>
 						</li>
 						<li>
-							<a href="#toc_header_anchor_13">Network Switch</a>
-						</li>
-						<li>
-							<a href="#toc_header_anchor_14">Bridge</a>
+							<a href="#toc_header_anchor_13">Bridge</a>
 						</li>
 				</ul>
 			</div>
@@ -137,11 +134,11 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/network_session_add_dev
 
 <a name="toc_header_anchor_4" id="toc_header_anchor_4" class="topic-toc-item"></a><h3>Version number</h3>
 
-<p>The version number has a default white text color and it can have a red color. The red color is to indicate that the device have an incompatible software version number and it cannot be used in the session.</p>
+<p>The version number has a default white text color and it can have a red color. The red color indicates that the device has an incompatible software version number and it cannot be used in the session.</p>
 
-<a name="toc_header_anchor_5" id="toc_header_anchor_5" class="topic-toc-item"></a><h2>&nbsp;</h2>
+<p>To add a device to the session, make sure the first three ranges of the version number match the other devices.</p>
 
-<a name="toc_header_anchor_6" id="toc_header_anchor_6" class="topic-toc-item"></a><h2>Consoles</h2>
+<a name="toc_header_anchor_5" id="toc_header_anchor_5" class="topic-toc-item"></a><h2>Consoles</h2>
 
 <p>The consoles tab offers the possibility to configure the ports on a console that is connected to the network.</p>
 
@@ -179,7 +176,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/network_session_add_dev
 	<li><strong>Bridge IP</strong> - The Bridge is not currently implemented.</li>
 </ul>
 
-<a name="toc_header_anchor_7" id="toc_header_anchor_7" class="topic-toc-item"></a><h2>grandMA2 onPC</h2>
+<a name="toc_header_anchor_6" id="toc_header_anchor_6" class="topic-toc-item"></a><h2>grandMA2 onPC</h2>
 
 <p>grandMA2 onPCs are considered "Stations" and can only be added to a session in the <a href="/Topic/da6ff2fc-77c3-4771-8431-36af142fb315">MA Network Control</a>.</p>
 
@@ -195,7 +192,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/network_session_add_dev
 
 <p>The MA onPC command wing has a male DMX port labeled "DMX In". This is "XLR C" in the configuration table. Normally it is possible to use any DMX port as input or output but there is a limitation on the Command wing. It is only possible to use the "DMX A" and "DMX In" for <strong>inputting</strong> DMX to your system from the MA&nbsp;onPC&nbsp;command&nbsp;wing.</p>
 
-<a name="toc_header_anchor_8" id="toc_header_anchor_8" class="topic-toc-item"></a><h2>MA NPU</h2>
+<a name="toc_header_anchor_7" id="toc_header_anchor_7" class="topic-toc-item"></a><h2>MA NPU</h2>
 
 <p>The MA NPUs (Network Processing Unit) are added and connected to the session in the MA Network Configuration. At the <a href="#Standard Control Buttons">bottom of this section you have the same buttons as the Console section</a> and you can use these buttons to add MA NPUs that are in the network.</p>
 
@@ -207,7 +204,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/network_session_add_dev
 
 <p>Read the description of the columns in the <a href="#Column Description">Console section above</a>.</p>
 
-<a name="toc_header_anchor_9" id="toc_header_anchor_9" class="topic-toc-item"></a><h2>MA 3D</h2>
+<a name="toc_header_anchor_8" id="toc_header_anchor_8" class="topic-toc-item"></a><h2>MA 3D</h2>
 
 <p>The MA 3D visualizer is an integrated part of a MA system. It is a visualizer that communicate with the stations and changes made to the setup will automatically be visible in the MA 3D. It has <a href="#Standard Control Buttons">the same buttons at the bottom of the screen as the console</a>.</p>
 
@@ -215,7 +212,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/network_session_add_dev
 
 <p>The MA 3D only have one IP address column and no DHCP column. It is the IP address of the computer running the software. Changing the number here will not change the IP address in the computer.</p>
 
-<a name="toc_header_anchor_10" id="toc_header_anchor_10" class="topic-toc-item"></a><h2>MA VPU</h2>
+<a name="toc_header_anchor_9" id="toc_header_anchor_9" class="topic-toc-item"></a><h2>MA VPU</h2>
 
 <p>The MA VPU (Video Processing Unit) has some extra buttons at the bottom of the screen. Besides the standard buttons, it also got:</p>
 
@@ -243,7 +240,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/network_session_add_dev
 
 <p>For details about the MA VPU or any of the things mentioned above, please have a look the <a href="/Topic/28963ef4-b488-44a4-8771-4f66834c05c4">VPU Manual</a>.</p>
 
-<a name="toc_header_anchor_11" id="toc_header_anchor_11" class="topic-toc-item"></a><h2>MA NDP</h2>
+<a name="toc_header_anchor_10" id="toc_header_anchor_10" class="topic-toc-item"></a><h2>MA NDP</h2>
 
 <p>MA NDP (Network Dimmer Processors) are the processors in the discontinued dimMA system. They connect like the NPU or VPU. They are invited to be a part of a session in the <strong>Session Member</strong> column.</p>
 
@@ -260,7 +257,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/network_session_add_dev
 <div class="restriction"><strong>Restriction:</strong><br>
 Please be careful when changing the settings in your MA NDPs and dimMA system.</div>
 
-<a name="toc_header_anchor_12" id="toc_header_anchor_12" class="topic-toc-item"></a><h2><a id="dmx_nodes" name="dmx_nodes"></a>DMX Nodes</h2>
+<a name="toc_header_anchor_11" id="toc_header_anchor_11" class="topic-toc-item"></a><h2><a id="dmx_nodes" name="dmx_nodes"></a>DMX Nodes</h2>
 
 <p>DMX nodes are the different nodes from MA. There are 2, 4 and 8 port versions in different variations.</p>
 
@@ -298,13 +295,13 @@ If the Node is connected to a managed switch, then the port where the node is co
 
 <p>The last column is called <strong>Remote</strong>. This can turn On or Off (empty cell) the web remote access to the node. Only available in the grandMA2 nodes.</p>
 
-<a name="toc_header_anchor_13" id="toc_header_anchor_13" class="topic-toc-item"></a><h2>Network Switch</h2>
+<a name="toc_header_anchor_12" id="toc_header_anchor_12" class="topic-toc-item"></a><h2>Network Switch</h2>
 
 <p>MA Network Switches can be added to the system. They are not members of any session. But can be added to allow changing the configuration from a station in the network.</p>
 
 <p>The MA Network Switch has a lot of settings and controlling or configuring it from the console/onPC is all described in the <a href="/Topic/405fe333-a0d6-4f0c-b507-985f5fb0263b">Control the MA Network Switch</a> section.</p>
 
-<a name="toc_header_anchor_14" id="toc_header_anchor_14" class="topic-toc-item"></a><h2>Bridge</h2>
+<a name="toc_header_anchor_13" id="toc_header_anchor_13" class="topic-toc-item"></a><h2>Bridge</h2>
 
 <p>The Bridge is not implemented, so there is nothing to do in this tab.</p>
 
@@ -344,7 +341,7 @@ If the Node is connected to a managed switch, then the port where the node is co
 	<div class="clear-fix"></div>
 	<div class="pull-right">
 	
-			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/54825/31';" title="Open/Save this topic as PDF document for viewing or printing">
+			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/87463/31';" title="Open/Save this topic as PDF document for viewing or printing">
 				<img src="/Content/images/icons/filetype_pdf.png"> Open topic as PDF
 			</button>
 	</div>

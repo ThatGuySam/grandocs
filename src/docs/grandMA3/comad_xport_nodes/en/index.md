@@ -41,7 +41,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/comad_xport_nodes/en'
 
 		
 			<div class="pull-right">
-					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/84242/43'; " title="Open/Save this topic as PDF document for viewing or printing">
+					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/87392/43'; " title="Open/Save this topic as PDF document for viewing or printing">
 						<img src="/Content/images/icons/filetype_pdf.png" style="height: 24px;"> Open topic as PDF
 					</button>
 				<span class="badge badge-info">Version 1.9</span>
@@ -78,7 +78,9 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/comad_xport_nodes/en'
 
 <p>For more information, read the <a href="/Topic/b7240dfb-1554-4567-89dc-b8ba3cafc979" target="_blank">Session topic</a> in the <a href="/Topic/81617a99-62a5-4a13-aabc-6935efdd8f29" target="_blank">Networking section</a>.</p>
 
-<p>To connect a&nbsp;grandMA3 Node with the console, make sure that the Node is in grandMA3 mode.</p>
+<div class="tip"><strong>Hint:</strong><br>
+If you want to use Art-Net or sACN using grandMA3 nodes, make sure to switch the console to <a href="Page/grandMA2/mode2_introduction/en">Mode2</a>.<br>
+For information on how to configure the xPort Nodes in Mode2 see <a href="/Page/grandMA2/control_ma_xport_node_configure_on_console/en">Configure xPort Nodes in the Console</a>.&nbsp;</div>
 
 <a name="toc_header_anchor_1" id="toc_header_anchor_1" class="topic-toc-item"></a><h2>Change Name and Set IP Address</h2>
 
@@ -232,7 +234,7 @@ It is also possible to update the Nodes via <a href="/Topic/efcfe19c-2c7e-43e9-a
 	<div class="clear-fix"></div>
 	<div class="pull-right">
 	
-			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/84242/43';" title="Open/Save this topic as PDF document for viewing or printing">
+			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/87392/43';" title="Open/Save this topic as PDF document for viewing or printing">
 				<img src="/Content/images/icons/filetype_pdf.png"> Open topic as PDF
 			</button>
 	</div>
