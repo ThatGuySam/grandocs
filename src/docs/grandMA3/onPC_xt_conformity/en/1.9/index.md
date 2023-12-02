@@ -27,7 +27,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/onPC_xt_conformity/en/1
 	</span>
 </form></div>&nbsp;	</span>
 	<span class="pull-right" style="white-space: nowrap;">
-			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/onPC_xt_technical_data/en/1.9'; " title="Go to previous page 'Technical Data'">
+			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/commandwingxt_instances/en/1.9'; " title="Go to previous page 'Hardware-related Instances'">
 				<i class="icon-arrow-left"></i> previous
 			</button>
 
@@ -156,7 +156,7 @@ GERMANY</p>
 	</span>
 </form></div>&nbsp;	</span>
 	<span class="pull-right" style="white-space: nowrap;">
-			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/onPC_xt_technical_data/en/1.9'; " title="Go to previous page 'Technical Data'">
+			<button class="btn btn-mini" onclick="location.href='/Page/grandMA3/commandwingxt_instances/en/1.9'; " title="Go to previous page 'Hardware-related Instances'">
 				<i class="icon-arrow-left"></i> previous
 			</button>
 
