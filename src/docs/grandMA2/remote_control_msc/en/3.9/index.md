@@ -38,7 +38,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/remote_control_msc/en/3
 
 		
 			<div class="pull-right">
-					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/55018/31'; " title="Open/Save this topic as PDF document for viewing or printing">
+					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/89015/31'; " title="Open/Save this topic as PDF document for viewing or printing">
 						<img src="/Content/images/icons/filetype_pdf.png" style="height: 24px;"> Open topic as PDF
 					</button>
 				<span class="badge badge-info">Version 3.9</span>
@@ -137,8 +137,8 @@ If MSC commands are transmitted and received on the same MIDI channel, then a lo
 	There are three options here:
 	<ul>
 		<li><strong>Default Only</strong> - This option will make the MSC commands go to and from the selected executors on the <strong>Master</strong> station only.</li>
-		<li><strong>Exec.Page</strong> - This option can be used if the commands should be sent to a specific executor. The page and executor number needs to be separated by a dot (Hex = 2E).</li>
-		<li><strong>Exec Page</strong> - This option can be used if the commands should be sent to a specific executor. The page and executor number needs to be separated by a space (Hex = 20).</li>
+		<li><strong>Exec.Page</strong> - This option can be used if the commands should be sent to a specific executor. The page and executor number must be separated by a "period" character (Hex = 2E).</li>
+		<li><strong>Exec Page</strong> - This option can be used if the commands should be sent to a specific executor. The page and executor number must be separated by a "NULL" character (Hex = 00).</li>
 	</ul>
 	</li>
 	<li><strong>Command</strong>:<br>
@@ -314,7 +314,7 @@ If MSC commands are transmitted and received on the same MIDI channel, then a lo
 	</tbody>
 </table>
 
-<p>If the setting is not Default Only, then an executor and page needs to be specified. There are two options for separating the executor number and the page number. It can be separated by a dot (hex = 2E) or by a space (hex = 20). The cue number and the executor/page data needs to be separated by a hex value <strong>00</strong>.</p>
+<p>If the setting is not Default Only, then an executor and page needs to be specified. There are two options for separating the executor number and the page number. It can be separated by a "period" character (hex = 2E) or by a "NULL" character (hex = 00). The cue number and the executor/page data needs to be separated by a "NULL" character (hex = 00).</p>
 
 <p><strong>Example:</strong> Triggering cue number <strong>37.2</strong> on executor 5 on page 1 (<strong>All Devices</strong>,<strong> All Format</strong>, and <strong>Exec.Page</strong> setting):</p>
 
@@ -341,7 +341,7 @@ If MSC commands are transmitted and received on the same MIDI channel, then a lo
 	</tbody>
 </table>
 
-<p>Same example but with a space separated executor and page:</p>
+<p>Same example but with a "Null" separated executor and page:</p>
 
 <table border="1" cellpadding="1" cellspacing="1">
 	<tbody>
@@ -360,7 +360,7 @@ If MSC commands are transmitted and received on the same MIDI channel, then a lo
 			<td>02</td>
 			<td>7F</td>
 			<td>01</td>
-			<td>33 37 2E 32 30 30 00 35 20 31</td>
+			<td>33 37 2E 32 30 30 00 35 00 31</td>
 			<td>F7</td>
 		</tr>
 	</tbody>
@@ -749,7 +749,7 @@ If MSC commands are transmitted and received on the same MIDI channel, then a lo
 	<div class="clear-fix"></div>
 	<div class="pull-right">
 	
-			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/55018/31';" title="Open/Save this topic as PDF document for viewing or printing">
+			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/89015/31';" title="Open/Save this topic as PDF document for viewing or printing">
 				<img src="/Content/images/icons/filetype_pdf.png"> Open topic as PDF
 			</button>
 	</div>

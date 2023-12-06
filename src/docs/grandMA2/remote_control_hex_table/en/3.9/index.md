@@ -38,7 +38,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/remote_control_hex_tabl
 
 		
 			<div class="pull-right">
-					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/55021/31'; " title="Open/Save this topic as PDF document for viewing or printing">
+					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/89016/31'; " title="Open/Save this topic as PDF document for viewing or printing">
 						<img src="/Content/images/icons/filetype_pdf.png" style="height: 24px;"> Open topic as PDF
 					</button>
 				<span class="badge badge-info">Version 3.9</span>
@@ -67,7 +67,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/remote_control_hex_tabl
 			<td style="height:14px; text-align:center; width:52px">1</td>
 			<td style="height:14px; text-align:center; width:52px">00</td>
 			<td style="height:14px; text-align:center; width:52px">0 : 0</td>
-			<td style="height:14px; text-align:center; width:52px">NUL</td>
+			<td style="height:14px; text-align:center; width:52px">NULL</td>
 			<td style="height:14px; text-align:center; width:52px">0</td>
 		</tr>
 		<tr>
@@ -1896,7 +1896,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/remote_control_hex_tabl
 	<div class="clear-fix"></div>
 	<div class="pull-right">
 	
-			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/55021/31';" title="Open/Save this topic as PDF document for viewing or printing">
+			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/89016/31';" title="Open/Save this topic as PDF document for viewing or printing">
 				<img src="/Content/images/icons/filetype_pdf.png"> Open topic as PDF
 			</button>
 	</div>
