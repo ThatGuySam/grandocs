@@ -34,12 +34,13 @@ originalUrl: 'https://help2.malighting.com/Page/MA_dot2/Window_ImportFixtureType
 <div class="clear-fix" style="margin-bottom: 10px"></div>
 </div>
 
+			<div class="infobox"><b>Hint:</b><br><b>New English version</b><br>The language you selected is outdated. <a href="/Topic/a924561a-b1eb-4661-aa5f-99867413e4ea/en">You may want to view the more up-to-date English version?</a></div>
 		
 			<div class="pull-right">
-					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/8320/29'; " title="Open/Save this topic as PDF document for viewing or printing">
+					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/8320/3'; " title="Open/Save this topic as PDF document for viewing or printing">
 						<img src="/Content/images/icons/filetype_pdf.png" style="height: 24px;"> Open topic as PDF
 					</button>
-				<span class="badge badge-info">Version 1.9</span>
+				<span class="badge badge-info">Version 1.1</span>
 			</div>
 		<h1>Janela Importar Tipo de Fixture</h1>
 
@@ -194,7 +195,7 @@ Para rolar pela coluna <strong>Modo</strong> para cima e par abaixo, gire o&nbsp
 	<div class="clear-fix"></div>
 	<div class="pull-right">
 	
-			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/8320/29';" title="Open/Save this topic as PDF document for viewing or printing">
+			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/8320/3';" title="Open/Save this topic as PDF document for viewing or printing">
 				<img src="/Content/images/icons/filetype_pdf.png"> Open topic as PDF
 			</button>
 	</div>
