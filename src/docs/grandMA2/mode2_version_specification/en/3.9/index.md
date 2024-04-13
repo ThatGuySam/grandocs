@@ -38,7 +38,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/mode2_version_specifica
 
 		
 			<div class="pull-right">
-					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/89150/31'; " title="Open/Save this topic as PDF document for viewing or printing">
+					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/89156/31'; " title="Open/Save this topic as PDF document for viewing or printing">
 						<img src="/Content/images/icons/filetype_pdf.png" style="height: 24px;"> Open topic as PDF
 					</button>
 				<span class="badge badge-info">Version 3.9</span>
@@ -164,10 +164,12 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/mode2_version_specifica
 			<td>2.0.0.4</td>
 			<td>3.9.60.73</td>
 		</tr>
+		<tr>
+			<td>2.0.2.0</td>
+			<td>3.9.60.74</td>
+		</tr>
 	</tbody>
 </table>
-
-<p>&nbsp;</p>
 
 
 				<br>
@@ -205,7 +207,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/mode2_version_specifica
 	<div class="clear-fix"></div>
 	<div class="pull-right">
 	
-			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/89150/31';" title="Open/Save this topic as PDF document for viewing or printing">
+			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/89156/31';" title="Open/Save this topic as PDF document for viewing or printing">
 				<img src="/Content/images/icons/filetype_pdf.png"> Open topic as PDF
 			</button>
 	</div>
