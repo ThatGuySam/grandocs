@@ -21,6 +21,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/conformity/en/1.6'
 <option value="40">1.7</option>
 <option value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="29">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="449bfc24-e337-416d-8170-ec43143ffd5d">
@@ -163,6 +164,7 @@ GERMANY</p>
 <option value="40">1.7</option>
 <option value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="29">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="449bfc24-e337-416d-8170-ec43143ffd5d">

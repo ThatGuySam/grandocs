@@ -21,6 +21,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/onPC_command_wing_confo
 <option value="40">1.7</option>
 <option selected="selected" value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="32">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="6f68135e-8c2b-4136-ab48-368be4f145e7">
@@ -142,6 +143,7 @@ GERMANY</p>
 <option value="40">1.7</option>
 <option selected="selected" value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="32">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="6f68135e-8c2b-4136-ab48-368be4f145e7">

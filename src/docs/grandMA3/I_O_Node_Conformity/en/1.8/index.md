@@ -21,6 +21,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/I_O_Node_Conformity/en/
 <option value="40">1.7</option>
 <option selected="selected" value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="40">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="a8b642da-f18d-406c-b97d-9bb478959b5f">
@@ -157,6 +158,7 @@ GERMANY</p>
 <option value="40">1.7</option>
 <option selected="selected" value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="40">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="a8b642da-f18d-406c-b97d-9bb478959b5f">

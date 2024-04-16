@@ -21,6 +21,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/IO_node_Installation/en
 <option selected="selected" value="40">1.7</option>
 <option value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="40">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="722aabab-32f1-40c0-b6b3-99c582b58984">
@@ -256,6 +257,7 @@ In order for the device to dissipate heat, comply with a minimum distance of 30 
 <option selected="selected" value="40">1.7</option>
 <option value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="40">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="722aabab-32f1-40c0-b6b3-99c582b58984">

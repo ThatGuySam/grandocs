@@ -21,6 +21,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/qsg_new_show_setup/en/1
 <option value="40">1.7</option>
 <option value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="25">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="3e99ee4a-f736-47d3-b30e-b3f765ac309c">
@@ -161,6 +162,7 @@ It is always a good idea to store your show in multiple locations. For instance,
 <option value="40">1.7</option>
 <option value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="25">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="3e99ee4a-f736-47d3-b30e-b3f765ac309c">

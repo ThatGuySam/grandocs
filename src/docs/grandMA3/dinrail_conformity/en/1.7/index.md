@@ -21,6 +21,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/dinrail_conformity/en/1
 <option selected="selected" value="40">1.7</option>
 <option value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="34">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="ec72a64f-8e6a-4838-9db8-d476fbca70d5">
@@ -152,6 +153,7 @@ GERMANY</p>
 <option selected="selected" value="40">1.7</option>
 <option value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="34">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="ec72a64f-8e6a-4838-9db8-d476fbca70d5">

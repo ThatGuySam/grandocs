@@ -21,6 +21,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/rn_v1_3/en/1.6'
 <option value="40">1.7</option>
 <option value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="26">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="d18a4646-53e6-48cf-8d24-8ef4c158c24e">
@@ -460,6 +461,7 @@ To change the handles, select the Move Handles tool, and tap and drag the desire
 <option value="40">1.7</option>
 <option value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="26">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="d18a4646-53e6-48cf-8d24-8ef4c158c24e">

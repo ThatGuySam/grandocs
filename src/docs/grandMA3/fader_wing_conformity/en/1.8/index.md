@@ -21,6 +21,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/fader_wing_conformity/e
 <option value="40">1.7</option>
 <option selected="selected" value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="39">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="97f8e885-0f99-4e52-9f02-609faa26e47c">
@@ -154,6 +155,7 @@ GERMANY</p>
 <option value="40">1.7</option>
 <option selected="selected" value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="39">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="97f8e885-0f99-4e52-9f02-609faa26e47c">

@@ -21,6 +21,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/dinrail_installation/en
 <option selected="selected" value="40">1.7</option>
 <option value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="34">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="a8aacd88-0135-48c0-8e04-46f00cdad2be">
@@ -223,6 +224,7 @@ In order for the device to dissipate heat, comply with a minimum distance of 30 
 <option selected="selected" value="40">1.7</option>
 <option value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="34">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="a8aacd88-0135-48c0-8e04-46f00cdad2be">

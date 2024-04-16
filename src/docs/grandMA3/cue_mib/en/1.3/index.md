@@ -21,6 +21,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/cue_mib/en/1.3'
 <option value="40">1.7</option>
 <option value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="16">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="c00678da-dcac-49fe-b195-745f13857780">
@@ -39,7 +40,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/cue_mib/en/1.3'
 <div class="clear-fix" style="margin-bottom: 10px"></div>
 </div>
 
-					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="/Topic/SetCurrentVersionNumber/43/c00678da-dcac-49fe-b195-745f13857780">You may want to view the latest help version.</a></div>
+					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="/Topic/SetCurrentVersionNumber/44/c00678da-dcac-49fe-b195-745f13857780">You may want to view the latest help version.</a></div>
 
 			<div class="pull-right">
 					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/60566/36'; " title="Open/Save this topic as PDF document for viewing or printing">
@@ -225,6 +226,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/cue_mib/en/1.3'
 <option value="40">1.7</option>
 <option value="42">1.8</option>
 <option value="43">1.9</option>
+<option value="44">2.0</option>
 </select></div>
 		<input data-val="true" data-val-number="The field Int32 must be a number." data-val-required="The Int32 field is required." id="ProductId" name="ProductId" type="hidden" value="16">
 		<input id="CurrentGuid" name="CurrentGuid" type="hidden" value="c00678da-dcac-49fe-b195-745f13857780">
