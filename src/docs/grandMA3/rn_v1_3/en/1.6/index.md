@@ -40,7 +40,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/rn_v1_3/en/1.6'
 <div class="clear-fix" style="margin-bottom: 10px"></div>
 </div>
 
-					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="/Topic/SetCurrentVersionNumber/43/d18a4646-53e6-48cf-8d24-8ef4c158c24e">You may want to view the latest help version.</a></div>
+					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="https://help.malighting.com/grandMA3/latest/?p=help.html">You may want to view the latest help version.</a></div>
 
 			<div class="pull-right">
 					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/71971/39'; " title="Open/Save this topic as PDF document for viewing or printing">

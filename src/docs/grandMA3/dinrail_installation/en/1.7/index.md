@@ -40,7 +40,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA3/dinrail_installation/en
 <div class="clear-fix" style="margin-bottom: 10px"></div>
 </div>
 
-					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="/Topic/SetCurrentVersionNumber/43/a8aacd88-0135-48c0-8e04-46f00cdad2be">You may want to view the latest help version.</a></div>
+					<div class="infobox"><b>Hint:</b><br><b>New help version</b><br>The help version you selected belongs to an older software version. <a href="https://help.malighting.com/grandMA3/latest/?p=help.html">You may want to view the latest help version.</a></div>
 
 			<div class="pull-right">
 					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/74488/40'; " title="Open/Save this topic as PDF document for viewing or printing">
