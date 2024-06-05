@@ -38,7 +38,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/Change_Modes/en/3.9'
 
 		
 			<div class="pull-right">
-					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/87348/31'; " title="Open/Save this topic as PDF document for viewing or printing">
+					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/89196/31'; " title="Open/Save this topic as PDF document for viewing or printing">
 						<img src="/Content/images/icons/filetype_pdf.png" style="height: 24px;"> Open topic as PDF
 					</button>
 				<span class="badge badge-info">Version 3.9</span>
@@ -72,7 +72,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/Change_Modes/en/3.9'
 <p><strong>Requirements:</strong> A grandMA3 station running in Mode2.</p>
 
 <ul>
-	<li>To switch from Mode2 to grandMA3, use the&nbsp;<a href="/Page/grandMA3/keyword_switchtograndma3software/en">SwitchTograndMA3Software</a>&nbsp;keyword described in the grandMA3 User Manual.</li>
+	<li>To switch from Mode2 to grandMA3, use the&nbsp;<a href="https://help.malighting.com/grandMA3/latest/?p=keyword_switchtograndma3software.html">SwitchTograndMA3Software</a>&nbsp;keyword described in the grandMA3 User Manual.</li>
 </ul>
 
 <a name="toc_header_anchor_3" id="toc_header_anchor_3" class="topic-toc-item"></a><h3>Reboot Processing Unit from Mode2 to grandMA3</h3>
@@ -139,7 +139,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/Change_Modes/en/3.9'
 
 <p>The xPort Node reboots into grandMA3 mode.</p>
 
-<p>For more information about changing from grandMA3 mode to Mode2, read the topic <a href="/Page/grandMA3/comad_xport_nodes/en" target="_blank">Control other MA devices</a> in the <a href="/Page/grandMA3/grandMA3/en" target="_blank">grandMA3 User Manual</a>.</p>
+<p>For more information about changing from grandMA3 mode to Mode2, read the topic <a href="https://help.malighting.com/grandMA3/2.0/HTML/control_other_ma_devices.html" target="_blank">Control other MA devices</a> in the <a href="https://help.malighting.com/grandMA3/latest/?p=help.html" target="_blank">grandMA3 User Manual</a>.</p>
 
 
 				<br>
@@ -177,7 +177,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/Change_Modes/en/3.9'
 	<div class="clear-fix"></div>
 	<div class="pull-right">
 	
-			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/87348/31';" title="Open/Save this topic as PDF document for viewing or printing">
+			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/89196/31';" title="Open/Save this topic as PDF document for viewing or printing">
 				<img src="/Content/images/icons/filetype_pdf.png"> Open topic as PDF
 			</button>
 	</div>
