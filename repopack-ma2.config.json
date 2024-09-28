@@ -1,0 +1,31 @@
+{
+  "output": {
+    "filePath": "grandma2.context.xml",
+    "style": "xml",
+    "removeComments": false,
+    "removeEmptyLines": false,
+    "topFilesLength": 5,
+    "showLineNumbers": false
+  },
+  "include": [
+    "**/grandMA2/**/3.9/**",
+    "**/*.mdx"
+  ],
+  "ignore": {
+    "useGitignore": true,
+    "useDefaultPatterns": true,
+    "customPatterns": [
+      "**/grandMA2_quick_manual_onPC_solutions/**",
+      "**/network_dmx_protocols/**",
+      "**/remote_control_hex_table/**",
+      "**/remote_control_msc/**",
+      "**/es/**",
+      "**/fr/**",
+      "**/de/**",
+      "**/pt/**"
+    ]
+  },
+  "security": {
+    "enableSecurityCheck": true
+  }
+}
