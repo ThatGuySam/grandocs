@@ -38,7 +38,7 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/backup_menu_save_as_gra
 
 		
 			<div class="pull-right">
-					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/86298/31'; " title="Open/Save this topic as PDF document for viewing or printing">
+					<button class="btn btn-mini" style="margin-right: 10px; height: 30px;" onclick="location.href = '/Media/TopicPdf/89215/31'; " title="Open/Save this topic as PDF document for viewing or printing">
 						<img src="/Content/images/icons/filetype_pdf.png" style="height: 24px;"> Open topic as PDF
 					</button>
 				<span class="badge badge-info">Version 3.9</span>
@@ -61,18 +61,25 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/backup_menu_save_as_gra
 
 		<p>A grandMA2 show file saved as a grandMA3 show file exports the following elements:</p>
 
-<ul>
-	<li>Patch (Fixture Types, Attributes and Fixtures).</li>
+<ol>
+	<li>Patch (Fixture Types, Attributes, and Fixtures).</li>
+	<li>DMX Profiles.</li>
+	<li>DMX Universes.</li>
+	<li>Multipatch Fixtures.</li>
 	<li>Presets with values that include timings.</li>
-	<li>Sequences, Cues and Cue Timings.</li>
-	<li>Groups and Worlds.</li>
-	<li>Filters.</li>
+	<li>Sequences, Cues, and Cue Timings.</li>
+	<li>Groups, Worlds and Filters.</li>
+	<li>Timecodes.</li>
+	<li>Layouts.</li>
+	<li>Macros.</li>
+	<li>DMX-, MIDI-, and Analog Remotes.</li>
+	<li>Special Masters are converted into Masters in grandMA3.</li>
 	<li>Object appearances are converted into the grandMA3 appearance pool.</li>
 	<li>Executors and Pages are converted.</li>
-	<li>Selective effect pool objects are converted into preset pool 22 (All 2). This pool will be renamed to Effects.<br>
-	grandMA2 effects will be converted into acceleration and deceleration values.</li>
+	<li>Selective effect pool objects are converted into preset pool 22 (All 2). This pool will be renamed to Effects. grandMA2 effects will be converted into acceleration and deceleration values.</li>
 	<li>Barndoor attributes are converted to shaper attributes in grandMA3 for visualization.</li>
-</ul>
+	<li>Infos in objects are converted to notes in grandMA3.</li>
+</ol>
 
 <a name="toc_header_anchor_1" id="toc_header_anchor_1" class="topic-toc-item"></a><h2>Known Limitations</h2>
 
@@ -84,6 +91,8 @@ originalUrl: 'https://help2.malighting.com/Page/grandMA2/backup_menu_save_as_gra
 	<li>Fixture types with more than 8 192 channel sets in an attribute do not convert the channel sets after the 8 192th channel set.</li>
 	<li>The grandMA2 Xkeys&nbsp;<span class="hardkey">X5</span>,&nbsp;<span class="hardkey">X6</span>,&nbsp;<span class="hardkey">X15</span>, and&nbsp;<span class="hardkey">X16</span>&nbsp;are not converted.</li>
 	<li>The option "Save to grandMA3" is not supported on grandMA2 onPC running in the Parallels Desktop application.</li>
+	<li>Macro commands can not be converted. Macro syntax have to be verified manually by the user in grandMA3.</li>
+	<li>Type and target of remotes are not converted.</li>
 </ul>
 
 <div style="page-break-after: always" class="ck_pagebreak"><span style="display:none">&nbsp;</span></div>
@@ -99,19 +108,30 @@ If the button <span class="softkey">Save as grandMA3 x.x.x</span> is not visible
 <p>To save the currently open grandMA2 show file as a grandMA3 show file, follow the steps below:</p>
 
 <ol>
-	<li>Open the Backup menu, tap <span class="softkey">Backup</span> or press <span class="hardkey">Backup</span>. The <strong>Backup menu</strong> opens.</li>
-	<li>Tap <span class="softkey">Save as grandMA3 x.x.x</span> (x.x.x is a place holder for the installed grandMA3 version number).</li>
+	<li>Open the Backup menu, tap <span class="softkey">Backup</span> or press <span class="hardkey">Backup</span>. The <strong>Backup menu</strong> opens.
+
+	<figure class="caption"><img alt="" src="/Media/Image/window_save_as_grandma3.png">
+	<figcaption>Backup</figcaption>
+	</figure>
+	</li>
+	<li>Tap <span class="softkey">Save as grandMA3 x.x.x</span> (x.x.x is a place holder for the installed grandMA3 version number). A pop-up opens.
+	<figure class="caption"><img alt="" src="/Media/Image/popup_showconverter_3_9.png">
+	<figcaption>Pop-up</figcaption>
+	</figure>
+	</li>
 </ol>
 
-<figure class="caption"><img alt="" src="/Media/Image/window_save_as_grandma3.png">
-<figcaption>Backup</figcaption>
-</figure>
+<ol start="3">
+	<li>Tap <span class="softkey">Ok</span> to confirm the pop-up.</li>
+</ol>
 
 <p>The current grandMA2 show file is saved in&nbsp;<strong>C:\ProgramData\MALightingTechnology\gma3_x.x.x\shared\shows</strong>.</p>
 
 <p>When saving on an USB stick, the grandMA2 show file is saved in <strong>D:\grandMA3\shared\shows</strong>.</p>
 
 <p>Now, this show file can be opened in the grandMA3 software.</p>
+
+<p>&nbsp;</p>
 
 
 				<br>
@@ -149,7 +169,7 @@ If the button <span class="softkey">Save as grandMA3 x.x.x</span> is not visible
 	<div class="clear-fix"></div>
 	<div class="pull-right">
 	
-			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/86298/31';" title="Open/Save this topic as PDF document for viewing or printing">
+			<button class="btn btn-mini" onclick="location.href='/Media/TopicPdf/89215/31';" title="Open/Save this topic as PDF document for viewing or printing">
 				<img src="/Content/images/icons/filetype_pdf.png"> Open topic as PDF
 			</button>
 	</div>
