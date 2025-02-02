@@ -1,5 +1,5 @@
 ---
-originalUrl: 'http://help2.malighting.com/Page/MA_dot2/GSG_04_PatchDimmers/es/1.2'
+originalUrl: 'https://help2.malighting.com/Page/MA_dot2/GSG_04_PatchDimmers/es/1.2'
 ---
 
 <div class="topic-navigation">
