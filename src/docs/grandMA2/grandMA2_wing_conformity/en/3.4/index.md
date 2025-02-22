@@ -1,5 +1,5 @@
 ---
-originalUrl: 'http://help2.malighting.com/Page/grandMA2/grandMA2_wing_conformity/en/3.4'
+originalUrl: 'https://help2.malighting.com/Page/grandMA2/grandMA2_wing_conformity/en/3.4'
 ---
 
 <div class="topic-navigation">
