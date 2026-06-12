@@ -1,0 +1,42 @@
+---
+title: grandocs
+description: Unofficial, agent-native mirror of MA Lighting documentation — grandMA3, grandMA2, dot2 — searchable, versioned, and readable by humans and AI agents alike.
+template: splash
+hero:
+  tagline: The MA Lighting manuals — searchable, in clean markdown, built for humans and AI agents.
+  actions:
+    - text: About the project
+      link: /about/
+      icon: right-arrow
+    - text: Building with AI
+      link: /building-with-ai/
+      icon: seti:powershell
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+	<Card title="grandMA3" icon="rocket">
+		The current MA generation — user manual, quick start guide, and per-device
+		quick manuals, version by version.
+	</Card>
+	<Card title="grandMA2" icon="setting">
+		The workhorse. Full manual mirror, including content the official legacy
+		help site no longer serves.
+	</Card>
+	<Card title="dot2" icon="heart">
+		Compact console docs, preserved — keywords, views, and guided tours.
+	</Card>
+	<Card title="Agent-ready" icon="open-book">
+		Every page has a markdown twin. llms.txt, MCP server, and installable
+		skills — see [Building with AI](/building-with-ai/).
+	</Card>
+</CardGrid>
+
+:::note[Unofficial mirror]
+grandocs is a fan-maintained mirror. All documentation content belongs to
+[MA Lighting International GmbH](https://www.malighting.com/). For
+authoritative answers, always cross-check the
+[official help](https://help.malighting.com/).
+:::

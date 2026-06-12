@@ -1,0 +1,35 @@
+/* grandocs theme — MA-console amber on near-black, dark-first. */
+
+:root {
+	--sl-color-accent-low: #42320b;
+	--sl-color-accent: #d09a00;
+	--sl-color-accent-high: #f2c14e;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #ededef;
+	--sl-color-gray-2: #c1c2c5;
+	--sl-color-gray-3: #a3a4a8;
+	--sl-color-gray-4: #585962;
+	--sl-color-gray-5: #383941;
+	--sl-color-gray-6: #26272e;
+	--sl-color-black: #17181c;
+}
+
+:root[data-theme='light'] {
+	--sl-color-accent-low: #f8e8bb;
+	--sl-color-accent: #9a7100;
+	--sl-color-accent-high: #4d3900;
+	--sl-color-white: #17181c;
+	--sl-color-gray-1: #26272e;
+	--sl-color-gray-2: #383941;
+	--sl-color-gray-3: #585962;
+	--sl-color-gray-4: #a3a4a8;
+	--sl-color-gray-5: #c1c2c5;
+	--sl-color-gray-6: #ededef;
+	--sl-color-black: #ffffff;
+	--sl-color-gray-7: #f6f6f7;
+}
+
+/* Command-syntax tables from the manuals read better with a touch more space. */
+.sl-markdown-content table td code {
+	white-space: nowrap;
+}
