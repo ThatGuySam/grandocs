@@ -1,0 +1,45 @@
+name: Sync MA docs
+
+# Replaces the retired Flat Data pipeline. Crawls the official help platform,
+# converts changed topics to markdown, and commits deltas.
+on:
+  schedule:
+    - cron: '0 4 * * 1' # Mondays 04:00 UTC
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: 'Space-separated source keys (e.g. "grandma3:2.4 dot2"). Empty = default set.'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-docs
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Crawl
+        run: node scripts/crawl.ts ${{ inputs.sources }}
+      - name: Summarize changes
+        id: diff
+        run: |
+          ADDED=$(git status --porcelain src/content/docs | grep -c '^??' || true)
+          MODIFIED=$(git status --porcelain src/content/docs | grep -c '^ M' || true)
+          echo "summary=+$ADDED new, ~$MODIFIED updated" >> "$GITHUB_OUTPUT"
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'docs: sync MA docs (${{ steps.diff.outputs.summary }})'
+          file_pattern: 'src/content/docs/** public/img/** data/manifest/** src/data/sidebar/**'

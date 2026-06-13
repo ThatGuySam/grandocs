@@ -1,0 +1,43 @@
+name: Probe for new MA versions
+
+# Monthly check for a newer grandMA3 help version than we currently mirror.
+# Opens an issue when one appears so a maintainer can run a targeted sync.
+on:
+  schedule:
+    - cron: '0 6 1 * *' # 1st of the month, 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  issues: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe next grandMA3 versions
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const candidates = ['2.5', '2.6', '2.7', '3.0'];
+            const found = [];
+            for (const v of candidates) {
+              const url = `https://help.malighting.com/grandMA3/${v}/HTML/help.html`;
+              const res = await fetch(url, { method: 'HEAD' });
+              if (res.ok) found.push(v);
+            }
+            if (found.length === 0) {
+              core.info('No new grandMA3 versions live.');
+              return;
+            }
+            const title = `New grandMA3 help version(s) live: ${found.join(', ')}`;
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo, state: 'open',
+            });
+            if (existing.data.some((i) => i.title === title)) return;
+            await github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo, title,
+              body: [
+                `These versions answer 200 on help.malighting.com but are not yet mirrored:`,
+                ...found.map((v) => `- ${v} → \`node scripts/crawl.ts grandma3:${v}\` (add the source to scripts/crawl.ts first)`),
+              ].join('\n'),
+            });

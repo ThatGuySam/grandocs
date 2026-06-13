@@ -1,0 +1,39 @@
+---
+title: "StationSettings"
+description: "To enter the StationSettings keyword in the command line, use one of the options:"
+product: grandma3
+version: "2.4"
+lang: en
+sourceUrl: "https://help.malighting.com/grandMA3/2.4/HTML/keyword_stationsettings.html"
+scrapedAt: "2026-06-12T21:24:37.213Z"
+---
+To enter the StationSettings keyword in the command line, use one of the options:
+
+- Type **StationSettings**
+- Type the shortcut **Stations**
+
+## Description
+
+StationSettings keyword is used to address settings of your station.
+
+## Syntax
+
+**\[Function] StationSettings (\["StationSettings\_Name" or StationSettings\_Number] Property \["Property\_Name"] \[Value])**
+
+****
+
+## Examples
+
+- To list all station settings, type:
+
+|                                                                    |                                           |
+| ------------------------------------------------------------------ | ----------------------------------------- |
+| ![](/img/grandma3/2-4/icon_commandline-input_logo_v2-0-a59235.png) | User name\[Fixture]>List StationSettings  |
+
+ 
+
+- To set your desk light to 25%, type:
+
+|                                                                    |                                                                                                |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
+| ![](/img/grandma3/2-4/icon_commandline-input_logo_v2-0-a59235.png) | User name\[Fixture]>Set StationSettings "DesklightsCollect"."DeskLights" Property "Master" 25  |

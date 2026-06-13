@@ -1,0 +1,27 @@
+---
+title: "Copy Pool Objects"
+description: "Pool objects can be copied to an empty location using the Copy keyword."
+product: grandma3
+version: "2.4"
+lang: en
+sourceUrl: "https://help.malighting.com/grandMA3/2.4/HTML/wvm_pool_copy.html"
+scrapedAt: "2026-06-12T21:24:44.583Z"
+---
+Pool objects can be copied to an empty location using the [Copy](/grandma3/2-4/keyword_copy/) keyword.
+
+A single object or a selection of several objects can be copied at once. Using the selection order, they are positioned at the new location.
+
+### Example
+
+Copy sequence 1 at pool object 22 using the following command:
+
+|                                                                    |                                           |
+| ------------------------------------------------------------------ | ----------------------------------------- |
+| ![](/img/grandma3/2-4/icon_commandline-input_logo_v2-0-a59235.png) | User name\[Fixture]>Copy Sequence 1 At 22 |
+
+If the destination is not empty, then the old object will be overwritten. There is a pop-up asking if this is desired.
+
+|                                            |                                                                                                               |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| ![](/img/grandma3/2-4/tip_gray-639af3.png) | **Hint:**                                                                                                     |
+|                                            | It is also possible to copy a pool object using a [Swipey Command](/grandma3/2-4/wvm_pool/#h2__1144791563).   |

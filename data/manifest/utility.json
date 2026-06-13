@@ -1,0 +1,117 @@
+{
+	"index": {
+		"hash": "e20ce9b69320386cc409e7540acfce80304df28b",
+		"title": "MA Fixture Builder",
+		"path": "utility/index.md"
+	},
+	"key_first_steps": {
+		"hash": "6a01ffb12f39f412d74a07ea688030cd0f9f4b95",
+		"title": "First Steps",
+		"path": "utility/key_first_steps.md"
+	},
+	"key_introduction_fixture_builder": {
+		"hash": "7e44e1e3ff001b8fdca94d3f7dc991c89ed4e1e3",
+		"title": "Introduction",
+		"path": "utility/key_introduction_fixture_builder.md"
+	},
+	"key_first_steps_system_requirements": {
+		"hash": "932cd9666747f3dda9eb5826f5be5eca5e3df8fc",
+		"title": "System requirements",
+		"path": "utility/key_first_steps_system_requirements.md"
+	},
+	"key_start_the_program": {
+		"hash": "a026371801f70a3e91e7e7110d3838dbe6756927",
+		"title": "Start the program",
+		"path": "utility/key_start_the_program.md"
+	},
+	"key_installation_on_your_computer": {
+		"hash": "a0405d64b5b2938faee3d7479fd41ff28b152033",
+		"title": "Installation on your computer",
+		"path": "utility/key_installation_on_your_computer.md"
+	},
+	"key_program_surface": {
+		"hash": "25c5edda39a3e65efe76267c3b368cb034b55c34",
+		"title": "Program surface",
+		"path": "utility/key_program_surface.md"
+	},
+	"key_attributes": {
+		"hash": "99caec67997426c103c827d46ca7956560218f89",
+		"title": "Attributes",
+		"path": "utility/key_attributes.md"
+	},
+	"key_fixture_type_information": {
+		"hash": "3fb72e1a5033d0e055611c85ef4179497f5a187c",
+		"title": "Fixture Type Information",
+		"path": "utility/key_fixture_type_information.md"
+	},
+	"key_mix_color_attribute_table": {
+		"hash": "47150356befd863cbc4985a7b1e5a1c922dac321",
+		"title": "Mix color attribute table",
+		"path": "utility/key_mix_color_attribute_table.md"
+	},
+	"key_add_dmx_channels": {
+		"hash": "c94022bc1ab8ee994252624b49c0540a22b1aefb",
+		"title": "Add DMX channels",
+		"path": "utility/key_add_dmx_channels.md"
+	},
+	"key_delete_dmx_channels": {
+		"hash": "7a5d783a8e0b1a281d2cf0b5d2e682d50bfc18d9",
+		"title": "Delete DMX channels",
+		"path": "utility/key_delete_dmx_channels.md"
+	},
+	"key_channel_function_ranges": {
+		"hash": "a1cf11a86b5ef2034531c1d1774dbf400a861a45",
+		"title": "Channel Function Ranges",
+		"path": "utility/key_channel_function_ranges.md"
+	},
+	"key_delete_channel_function_ranges": {
+		"hash": "95b5b7b87315f878f5d286eea74e63a8eb0dbc25",
+		"title": "Delete channel function ranges",
+		"path": "utility/key_delete_channel_function_ranges.md"
+	},
+	"key_add_function_ranges": {
+		"hash": "ce05d69388897c4e9b9d2e4ba16415e7a34d392c",
+		"title": "Add channel function ranges",
+		"path": "utility/key_add_function_ranges.md"
+	},
+	"key_wizard": {
+		"hash": "fe389bf1b8efc3ca8266e6f1f13384091202bf5c",
+		"title": "Wizard",
+		"path": "utility/key_wizard.md"
+	},
+	"key_function_sets": {
+		"hash": "5fd2600953aa45f6b987c7b6b2689cff1b6fce16",
+		"title": "Function Sets",
+		"path": "utility/key_function_sets.md"
+	},
+	"key_add_function_set": {
+		"hash": "bfe9d7c92e27d3d35e2bb5efeb1e3528f59f680c",
+		"title": "Add a function set",
+		"path": "utility/key_add_function_set.md"
+	},
+	"key_delete_function_set": {
+		"hash": "ec0b795dd1fb37bfa234c432674a32c66746a0b1",
+		"title": "Delete a function set",
+		"path": "utility/key_delete_function_set.md"
+	},
+	"key_export_fixture": {
+		"hash": "cbe66e75ad1d389e3393e5a53277b32e685fd701",
+		"title": "Export fixture",
+		"path": "utility/key_export_fixture.md"
+	},
+	"key_export_and_import": {
+		"hash": "dcbcbfd5b5d98e71247291e33811dca66b87d097",
+		"title": "Export and Import",
+		"path": "utility/key_export_and_import.md"
+	},
+	"key_import_fixture": {
+		"hash": "303249a4c8c26c93358095305c1429adf987c563",
+		"title": "Import fixture",
+		"path": "utility/key_import_fixture.md"
+	},
+	"key_inline_releasenotes": {
+		"hash": "105e99603fc9574c194e36fd0fc36c3dc2ca4244",
+		"title": "Release Notes",
+		"path": "utility/key_inline_releasenotes.md"
+	}
+}

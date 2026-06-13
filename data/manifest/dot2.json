@@ -1,0 +1,1412 @@
+{
+	"index": {
+		"hash": "73e28e5f063e9e9bfe64d9672db767c66aca6138",
+		"title": "dot2 User Manual",
+		"path": "dot2/index.md"
+	},
+	"key_introduction": {
+		"hash": "23f641d2ead8a015883a3a9452022891f475ff4e",
+		"title": "Introduction",
+		"path": "dot2/key_introduction.md"
+	},
+	"key_new_in_manual": {
+		"hash": "325408b15664c468f30a914b8ceb3919e9eb2093",
+		"title": "New in the Manual",
+		"path": "dot2/key_new_in_manual.md"
+	},
+	"key_introduction_intendeduse": {
+		"hash": "3700c0f67b25b39e7aa89a95c66b3f90f8779a7a",
+		"title": "Intended Use",
+		"path": "dot2/key_introduction_intendeduse.md"
+	},
+	"key_system_requirements_dot2_onpc": {
+		"hash": "2f4bffd847efd41a62b2428ceba7f69dc2ae9b1f",
+		"title": "System Requirements dot2 onPC",
+		"path": "dot2/key_system_requirements_dot2_onpc.md"
+	},
+	"key_installation_of_ma_dot2_onpc": {
+		"hash": "834e6dbaaa055d85e9d7f4a86c1e12ba1f006ab6",
+		"title": "Installation of dot2 onPC",
+		"path": "dot2/key_installation_of_ma_dot2_onpc.md"
+	},
+	"key_wi_this": {
+		"hash": "2eda9cce8d2af264cb4493ff469b45ca93d65dcc",
+		"title": "What are...",
+		"path": "dot2/key_wi_this.md"
+	},
+	"key_system_colors": {
+		"hash": "fb6b400c095cd608cb0307b60dd0cf5ecc225933",
+		"title": "System Colors",
+		"path": "dot2/key_system_colors.md"
+	},
+	"key_command_history_colors": {
+		"hash": "1358b595f6b739c67c657c7f038f4cf7467a547b",
+		"title": "Command History",
+		"path": "dot2/key_command_history_colors.md"
+	},
+	"key_executor_colors": {
+		"hash": "3e62fa58c34864837457ced8584fdb76f4472602",
+		"title": "Executor",
+		"path": "dot2/key_executor_colors.md"
+	},
+	"key_systemcolors_values": {
+		"hash": "d2eb41972ea6e216b80c5014d7d7831d42102955",
+		"title": "Values",
+		"path": "dot2/key_systemcolors_values.md"
+	},
+	"key_wa_programmer": {
+		"hash": "4b508e2af8e2a4d2006a9408cd688f8c7ed52130",
+		"title": "Programmer",
+		"path": "dot2/key_wa_programmer.md"
+	},
+	"key_wi_groups": {
+		"hash": "287e87bd25a0752ead0e03848b33c4b5caec9ae9",
+		"title": "Groups",
+		"path": "dot2/key_wi_groups.md"
+	},
+	"key_wi_presets": {
+		"hash": "fe410526eed8eb8439d2e24830242eb482b5971e",
+		"title": "Presets",
+		"path": "dot2/key_wi_presets.md"
+	},
+	"key_wi_tracking": {
+		"hash": "4e4c229cdf4a06bf853ff842ed5c969455c3527f",
+		"title": "Tracking",
+		"path": "dot2/key_wi_tracking.md"
+	},
+	"key_background_colors": {
+		"hash": "54112cb372492fb91abc543f663b4141b90b50a8",
+		"title": "Background",
+		"path": "dot2/key_background_colors.md"
+	},
+	"key_wi_cues": {
+		"hash": "739e25ce4257b404dbb037bdbc1a35b645c53fb4",
+		"title": "Cues",
+		"path": "dot2/key_wi_cues.md"
+	},
+	"key_wi_executors": {
+		"hash": "ecf6fd0123c85a8e7b5c972d31c4565f1f8a8008",
+		"title": "Executors",
+		"path": "dot2/key_wi_executors.md"
+	},
+	"key_wi_chasers": {
+		"hash": "d55fc0203e3f75ea6df3502a28434ee07d0a5a6f",
+		"title": "Chasers",
+		"path": "dot2/key_wi_chasers.md"
+	},
+	"key_wa_effects": {
+		"hash": "12ebd2f86f515e5900b90046633824c3094f0a3b",
+		"title": "Effects",
+		"path": "dot2/key_wa_effects.md"
+	},
+	"key_wa_previewandblind": {
+		"hash": "1d9ee7ae119fade193ea471a3eca66c5f32adc73",
+		"title": "Preview and Blind",
+		"path": "dot2/key_wa_previewandblind.md"
+	},
+	"key_wa_network": {
+		"hash": "5c1763df84871d76daac45bd7d774c9326e82981",
+		"title": "Network",
+		"path": "dot2/key_wa_network.md"
+	},
+	"key_wa_ipv6": {
+		"hash": "f988e86ba8b1b0e7445d37d93df5b59329148231",
+		"title": "IPv6",
+		"path": "dot2/key_wa_ipv6.md"
+	},
+	"key_wi_dmxtester": {
+		"hash": "902e1e429a023c4bb93d692b57305628c9bc1233",
+		"title": "DMX Tester",
+		"path": "dot2/key_wi_dmxtester.md"
+	},
+	"key_ht_howto": {
+		"hash": "b1a21080edb60d7c62727396d81767c19cb49d20",
+		"title": "How to...",
+		"path": "dot2/key_ht_howto.md"
+	},
+	"key_ht_turnonandoff": {
+		"hash": "3f05a7aad4fb2b7cbe80b65048549d067681e760",
+		"title": "Turn the console on and off",
+		"path": "dot2/key_ht_turnonandoff.md"
+	},
+	"key_ht_updatetheconsole": {
+		"hash": "db0f15745637c0b83fcca4f0eb5a09d20f0efc70",
+		"title": "Update the console",
+		"path": "dot2/key_ht_updatetheconsole.md"
+	},
+	"key_ht_addandpatchfixtures": {
+		"hash": "e1dd693b5ea4d774ddc7f554647d5bf6c7771ce3",
+		"title": "Add, patch, change, and delete fixtures",
+		"path": "dot2/key_ht_addandpatchfixtures.md"
+	},
+	"key_ht_saveandloadshow": {
+		"hash": "caa460a86ed62e414bf7daaf6f77fe97193e3f02",
+		"title": "Save and load your show",
+		"path": "dot2/key_ht_saveandloadshow.md"
+	},
+	"key_ht_usecommandline": {
+		"hash": "07b4af09dd7d5690c41293371ffd7dfa8f06e2b7",
+		"title": "Use the command line",
+		"path": "dot2/key_ht_usecommandline.md"
+	},
+	"key_ht_use-encoders-onpc": {
+		"hash": "c0e47463b26969b9773f2dbec6e8204ae6be8b82",
+		"title": "Use Encoders in the onPC",
+		"path": "dot2/key_ht_use-encoders-onpc.md"
+	},
+	"key_ht_groups": {
+		"hash": "52293350bfcf365b0de2a04672f779f559e4baa1",
+		"title": "Work with groups",
+		"path": "dot2/key_ht_groups.md"
+	},
+	"key_ht_presets": {
+		"hash": "c5bd959442a47ba9114308a1fd14ffa0872b21e3",
+		"title": "Work with presets",
+		"path": "dot2/key_ht_presets.md"
+	},
+	"key_ht_cues": {
+		"hash": "b206c8e0eca8f8286d1f1614571cac426de503ff",
+		"title": "Work with cues",
+		"path": "dot2/key_ht_cues.md"
+	},
+	"key_ht_chasers": {
+		"hash": "c1a094c23547547ca1db9f27129faebefa49aec8",
+		"title": "Work with chasers",
+		"path": "dot2/key_ht_chasers.md"
+	},
+	"key_ht_effects": {
+		"hash": "86e24eeafaa471a1bf785d052aced30622f1ada4",
+		"title": "Work with effects",
+		"path": "dot2/key_ht_effects.md"
+	},
+	"key_ht_wingsnodes3donpc": {
+		"hash": "617ab6e8a96e7174fe6d42c23e48d254dafa9027",
+		"title": "Connect nodes, wings, 3D and onPC",
+		"path": "dot2/key_ht_wingsnodes3donpc.md"
+	},
+	"key_ht_useexternalinput": {
+		"hash": "e95d08fe1ded351c42b9a7a1afa3c9fdd3212941",
+		"title": "Use external input triggers",
+		"path": "dot2/key_ht_useexternalinput.md"
+	},
+	"key_ht_usemidiandmsc": {
+		"hash": "1a1e0de9b27181da78a9bae4c4cd5e48d8e03f43",
+		"title": "Use MIDI and MIDI Show Control (MSC)",
+		"path": "dot2/key_ht_usemidiandmsc.md"
+	},
+	"key_ht_useexternalscreen": {
+		"hash": "2b45e422bcd639458212bc2b0b843fd4c8cc3d14",
+		"title": "Use the external screen",
+		"path": "dot2/key_ht_useexternalscreen.md"
+	},
+	"key_ht_use_web_remote": {
+		"hash": "f7cd99f1a8d23e308796f2aa3b290c66857bd7da",
+		"title": "Use web remote",
+		"path": "dot2/key_ht_use_web_remote.md"
+	},
+	"key_ht_resettheconsole": {
+		"hash": "4b74bb3dcc04ed479bbf84c998b821e0a636944e",
+		"title": "Reset the console",
+		"path": "dot2/key_ht_resettheconsole.md"
+	},
+	"key_keys": {
+		"hash": "b1d8d2d04940f67a374f7db8c1849de52a9cb40b",
+		"title": "Keys",
+		"path": "dot2/key_keys.md"
+	},
+	"key_key_align": {
+		"hash": "ef397ab7dbf94d3f9acf814b789bc5f42d97d7c1",
+		"title": "Align",
+		"path": "dot2/key_key_align.md"
+	},
+	"key_key_at": {
+		"hash": "1844f8bef74d70f7a6760d5da34e3fefbb280a38",
+		"title": "At",
+		"path": "dot2/key_key_at.md"
+	},
+	"key_key_backup": {
+		"hash": "3086a683433758e7edc05a6c4448cb8b61e1114d",
+		"title": "Backup",
+		"path": "dot2/key_key_backup.md"
+	},
+	"key_key_blind": {
+		"hash": "1b25ba9e1a3197756069d17ceb0546ddb89d1008",
+		"title": "Blind",
+		"path": "dot2/key_key_blind.md"
+	},
+	"key_key_bo": {
+		"hash": "3e7656c2e3a5397c64d0e984b6a648c027c3ca27",
+		"title": "B.O.",
+		"path": "dot2/key_key_bo.md"
+	},
+	"key_key_clear": {
+		"hash": "6864da03cc8f67de781b814edb5dc8ff41084190",
+		"title": "Clear",
+		"path": "dot2/key_key_clear.md"
+	},
+	"key_key_copy": {
+		"hash": "85b4d13ff9e481bf1d69677e9bc88ad7b74c0e7d",
+		"title": "Copy",
+		"path": "dot2/key_key_copy.md"
+	},
+	"key_key_cue": {
+		"hash": "d3714243895ea03cc6a3bab900c407ecf6092c0d",
+		"title": "Cue",
+		"path": "dot2/key_key_cue.md"
+	},
+	"key_key_delete": {
+		"hash": "e04209f5a085cf27d9aaf32630d387f8d980d0ae",
+		"title": "Delete",
+		"path": "dot2/key_key_delete.md"
+	},
+	"key_key_dmx": {
+		"hash": "944544f8b67a068672697a3c32878c2929cf2202",
+		"title": "DMX",
+		"path": "dot2/key_key_dmx.md"
+	},
+	"key_key_dot": {
+		"hash": "5ac1a61dc59ada1221fb6a3ba6b684626c1834ae",
+		"title": "[dot]",
+		"path": "dot2/key_key_dot.md"
+	},
+	"key_key_down": {
+		"hash": "e48ca0c9220cb2cd6c8bf1af7ef8c83f6ed13a9b",
+		"title": "Down",
+		"path": "dot2/key_key_down.md"
+	},
+	"key_key_edit": {
+		"hash": "85f68d5cef88e4c08242c709152148cb3463fff5",
+		"title": "Edit",
+		"path": "dot2/key_key_edit.md"
+	},
+	"key_key_effect": {
+		"hash": "952d57cb755e11f890e02cd6c40ec0a1e015d168",
+		"title": "Effect",
+		"path": "dot2/key_key_effect.md"
+	},
+	"key_key_encoder": {
+		"hash": "a03c8000dc7675a56b02d81327c8dadc65261d7b",
+		"title": "[Encoder]",
+		"path": "dot2/key_key_encoder.md"
+	},
+	"key_key_esc": {
+		"hash": "596065083613f51189b9dea56110d347478ed857",
+		"title": "Esc",
+		"path": "dot2/key_key_esc.md"
+	},
+	"key_key_exec": {
+		"hash": "b75ef527d9417b44d3af6a9b7156fa3559a43fe7",
+		"title": "Exec (Executor)",
+		"path": "dot2/key_key_exec.md"
+	},
+	"key_key_execflash": {
+		"hash": "cf9b4e38a8d5b7f975b069f1635f72c172fefbcb",
+		"title": "[Exec Flash]",
+		"path": "dot2/key_key_execflash.md"
+	},
+	"key_key_execgo": {
+		"hash": "7f512e61993947726e10ed6265ebd8e28523aac9",
+		"title": "[Exec Go]",
+		"path": "dot2/key_key_execgo.md"
+	},
+	"key_key_fix": {
+		"hash": "a44e968749f2dc596d47911f94da449deafc281c",
+		"title": "Fix",
+		"path": "dot2/key_key_fix.md"
+	},
+	"key_key_fixture": {
+		"hash": "89f08a7d7b0aa7f88cdcf0f632f34cbecfc9b660",
+		"title": "Fixture",
+		"path": "dot2/key_key_fixture.md"
+	},
+	"key_key_flash": {
+		"hash": "dd87ab9f685cd2e1ff4ed9f90d3b56b9aa987add",
+		"title": "Flash",
+		"path": "dot2/key_key_flash.md"
+	},
+	"key_key_full": {
+		"hash": "c846d223080dd7e4d4d4728288c86b67868b6fb1",
+		"title": "Full",
+		"path": "dot2/key_key_full.md"
+	},
+	"key_key_goback": {
+		"hash": "dd2044e3a9c0a78c85a296d8e1f26fbbf30f26f9",
+		"title": "Go-",
+		"path": "dot2/key_key_goback.md"
+	},
+	"key_key_defgominus": {
+		"hash": "4baef4c5932672539b506b0a4e082be458fc5bc3",
+		"title": "Go- (Large)",
+		"path": "dot2/key_key_defgominus.md"
+	},
+	"key_key_goforward": {
+		"hash": "cae67605295e24a22c7213a5f9cb32dac06961cc",
+		"title": "Go+",
+		"path": "dot2/key_key_goforward.md"
+	},
+	"key_key_defgoplus": {
+		"hash": "b57ac3fd419a062c955bc5f442084c0c68547c9f",
+		"title": "Go+ (Large)",
+		"path": "dot2/key_key_defgoplus.md"
+	},
+	"key_key_gofastback": {
+		"hash": "9d5cc93d43e1f7bdbdbc5744b65e9d4d051f4af9",
+		"title": "[GoFastBack] <<<",
+		"path": "dot2/key_key_gofastback.md"
+	},
+	"key_key_gofastforward": {
+		"hash": "6b195e146391c51b45327efb112fe1578e483ccf",
+		"title": "[GoFastForward] >>>",
+		"path": "dot2/key_key_gofastforward.md"
+	},
+	"key_key_goto": {
+		"hash": "2ad55e54065ca763cc3bc8a8a9fa68afe110feb8",
+		"title": "Goto",
+		"path": "dot2/key_key_goto.md"
+	},
+	"key_key_group": {
+		"hash": "f9f5e9d404e58745da02976d9fd15f70249025ed",
+		"title": "Group",
+		"path": "dot2/key_key_group.md"
+	},
+	"key_key_help": {
+		"hash": "f4641f1eba5bfae3aad7f1e65f9ef0c37f14dbee",
+		"title": "Help",
+		"path": "dot2/key_key_help.md"
+	},
+	"key_key_highlight": {
+		"hash": "57723fb6ec5382a50a2b5b3b295efea435b4ab1e",
+		"title": "Highlt (Highlight)",
+		"path": "dot2/key_key_highlight.md"
+	},
+	"key_key_label": {
+		"hash": "b6743bc375be680021048ea883ab80d6660c7343",
+		"title": "Label",
+		"path": "dot2/key_key_label.md"
+	},
+	"key_key_if": {
+		"hash": "b0a102cd37d299fe349725e4549ca3ee1ee42799",
+		"title": "If",
+		"path": "dot2/key_key_if.md"
+	},
+	"key_key_ma": {
+		"hash": "2ecfd830e224b21d939371426e8375f68a0ccca8",
+		"title": "MA",
+		"path": "dot2/key_key_ma.md"
+	},
+	"key_key_macro": {
+		"hash": "175ccb404c661daa1fcefc3b81a94e9fb129ca07",
+		"title": "Macro",
+		"path": "dot2/key_key_macro.md"
+	},
+	"key_key_magic": {
+		"hash": "d4262a4658688da8031d8a25e854c070d11aa14e",
+		"title": "Magic",
+		"path": "dot2/key_key_magic.md"
+	},
+	"key_key_minus": {
+		"hash": "545344902216a2801ed591d676cf190c1613590d",
+		"title": "[Minus] -",
+		"path": "dot2/key_key_minus.md"
+	},
+	"key_key_move": {
+		"hash": "1580868c3ff47bdbb33fdae5a17f815ee1b3ca48",
+		"title": "Move",
+		"path": "dot2/key_key_move.md"
+	},
+	"key_key_next": {
+		"hash": "d1836a3b7ba1e18bd9e43d41fbf971c9808be5c5",
+		"title": "Next",
+		"path": "dot2/key_key_next.md"
+	},
+	"key_key_numeric": {
+		"hash": "4a0e255fcaed39b51f654f1e6361c48f22061615",
+		"title": "[Numeric keys]",
+		"path": "dot2/key_key_numeric.md"
+	},
+	"key_key_off": {
+		"hash": "2a56e60439d2bdb257af95b8bc6b4e1f124c2499",
+		"title": "Off",
+		"path": "dot2/key_key_off.md"
+	},
+	"key_key_on": {
+		"hash": "02d853e0137e7788a3ac7c3d1adce39701b9cf62",
+		"title": "On",
+		"path": "dot2/key_key_on.md"
+	},
+	"key_key_oops": {
+		"hash": "2b3f3e8685331903f67b3a22062d1c97468a6c46",
+		"title": "Oops",
+		"path": "dot2/key_key_oops.md"
+	},
+	"key_key_page": {
+		"hash": "e919cf6d43f07790b98060bc3605a174bc0ffc03",
+		"title": "Page",
+		"path": "dot2/key_key_page.md"
+	},
+	"key_key_pagenext": {
+		"hash": "7cb5607ddcfeaae035f2258c2874a92984eb10ce",
+		"title": "Page+",
+		"path": "dot2/key_key_pagenext.md"
+	},
+	"key_key_pageprevious": {
+		"hash": "5882959398b776fb24e998ebcdeac9ace81b8c73",
+		"title": "Page-",
+		"path": "dot2/key_key_pageprevious.md"
+	},
+	"key_key_pause": {
+		"hash": "6b09b080335e91c9278d980fdb6041d65ac02ef2",
+		"title": "Pause",
+		"path": "dot2/key_key_pause.md"
+	},
+	"key_key_defpause": {
+		"hash": "65aac78ecaa2a1c1fd40379e01fbc437285ea798",
+		"title": "Pause (Large)",
+		"path": "dot2/key_key_defpause.md"
+	},
+	"key_key_please": {
+		"hash": "5cfa39c45b0c73b544d44e48e5a55cb67cdfdb23",
+		"title": "Please",
+		"path": "dot2/key_key_please.md"
+	},
+	"key_key_plus": {
+		"hash": "a45a3e6f65bd3bdca9c4ab676fc8c7002fc13b4f",
+		"title": "[Plus] +",
+		"path": "dot2/key_key_plus.md"
+	},
+	"key_key_preset": {
+		"hash": "b1929100ccac90443116bb3acad2410a43afc661",
+		"title": "Preset",
+		"path": "dot2/key_key_preset.md"
+	},
+	"key_key_prev": {
+		"hash": "44b8883fa546f2ed9dc9c21f59ffdf1ada85730c",
+		"title": "Prev (Previous)",
+		"path": "dot2/key_key_prev.md"
+	},
+	"key_key_preview": {
+		"hash": "6d9e5c1f60bad1009769b634a86feaeaed2cb36f",
+		"title": "Prvw (Preview)",
+		"path": "dot2/key_key_preview.md"
+	},
+	"key_key_select": {
+		"hash": "b1ae32b6bfe4bb97c6dc098193775c7f2fab09e0",
+		"title": "Select",
+		"path": "dot2/key_key_select.md"
+	},
+	"key_key_set": {
+		"hash": "9c6e755ee01a4a493f6b005638c5d2f56e1a9137",
+		"title": "Set",
+		"path": "dot2/key_key_set.md"
+	},
+	"key_key_setup": {
+		"hash": "0b717b4175a79ba5520c0cea4ca101beaee0f762",
+		"title": "Setup",
+		"path": "dot2/key_key_setup.md"
+	},
+	"key_key_speed": {
+		"hash": "f1d7fba12a2bf5e9b8dfa1d5ce8307f22170025d",
+		"title": "Speed",
+		"path": "dot2/key_key_speed.md"
+	},
+	"key_key_store": {
+		"hash": "61862f86b95717567317bc5686f5929914f2e152",
+		"title": "Store",
+		"path": "dot2/key_key_store.md"
+	},
+	"key_key_thru": {
+		"hash": "41c40ef88b0ff204b029e3460afdedb8c9cfb7ac",
+		"title": "Thru",
+		"path": "dot2/key_key_thru.md"
+	},
+	"key_key_time": {
+		"hash": "4999b39bfb5ff839d90c4f207edb658d5e30f231",
+		"title": "Time",
+		"path": "dot2/key_key_time.md"
+	},
+	"key_key_toggle": {
+		"hash": "d4b73e79616f8e77c4a2359a468e540d62a4aaf0",
+		"title": "Toggle",
+		"path": "dot2/key_key_toggle.md"
+	},
+	"key_key_tools": {
+		"hash": "7682e18a36b3dd550090b6ee80b6254949a0625f",
+		"title": "Tools",
+		"path": "dot2/key_key_tools.md"
+	},
+	"key_key_up": {
+		"hash": "223976f8d9151994ac803db8b52c5ee7cbe322cc",
+		"title": "Up",
+		"path": "dot2/key_key_up.md"
+	},
+	"key_key_update": {
+		"hash": "158cb111b6866bf39fa761d9b325127d2673fd7d",
+		"title": "Update",
+		"path": "dot2/key_key_update.md"
+	},
+	"key_key_view": {
+		"hash": "791166d022c98d3592e1db38198c2feb0ef31711",
+		"title": "View [Eye]",
+		"path": "dot2/key_key_view.md"
+	},
+	"key_views_and_windows_overview": {
+		"hash": "f1ba1a8a0ade8734fe5b08964d3f51f96894d532",
+		"title": "Views & Windows",
+		"path": "dot2/key_views_and_windows_overview.md"
+	},
+	"key_control_elements": {
+		"hash": "1e3b4f6cc2242ba68995cbe1f8b6905a6755d686",
+		"title": "Control Elements",
+		"path": "dot2/key_control_elements.md"
+	},
+	"key_widget_commandlineinput": {
+		"hash": "f990d9840d295c7d5aa5faf587367563873ff3e3",
+		"title": "Command Line",
+		"path": "dot2/key_widget_commandlineinput.md"
+	},
+	"key_widget_encoderbar": {
+		"hash": "a36ffee3efc79b2750332845573219f930a741e0",
+		"title": "Encoder Bar",
+		"path": "dot2/key_widget_encoderbar.md"
+	},
+	"key_widget_executorlabelbar": {
+		"hash": "96616fe5d48d6503c55935365276470577b31e63",
+		"title": "Executor Bar",
+		"path": "dot2/key_widget_executorlabelbar.md"
+	},
+	"key_widget_presettypebar": {
+		"hash": "5b087ff197806faecdcf974478a6364a2b4304ba",
+		"title": "Preset Type Bar",
+		"path": "dot2/key_widget_presettypebar.md"
+	},
+	"key_title_bar": {
+		"hash": "69affe47ab7e9fb6aa78dedb96b171929f385b5b",
+		"title": "Title Bar",
+		"path": "dot2/key_title_bar.md"
+	},
+	"key_widget_viewbar": {
+		"hash": "ba243c11bb80a2c06a496c78d08d1a499ae28bd6",
+		"title": "View Bar",
+		"path": "dot2/key_widget_viewbar.md"
+	},
+	"key_views_and_windows_icons": {
+		"hash": "33f3d8bc5905b43576987149e4a6738c7d2ef258",
+		"title": "Icons",
+		"path": "dot2/key_views_and_windows_icons.md"
+	},
+	"key_window_addnewfixtures": {
+		"hash": "4f7761c039eeddf64bb8031b8885c818dfb2a291",
+		"title": "Add New Fixtures",
+		"path": "dot2/key_window_addnewfixtures.md"
+	},
+	"key_window_backup": {
+		"hash": "837d11f59213d72465b913562f728a7ca8e4d819",
+		"title": "Backup",
+		"path": "dot2/key_window_backup.md"
+	},
+	"key_viewitem_beam": {
+		"hash": "0e8a424396cf01c74777c3e9ef2e726211cc7ae4",
+		"title": "Beam Preset Type",
+		"path": "dot2/key_viewitem_beam.md"
+	},
+	"key_window_calibratescreens": {
+		"hash": "8dc442a04a21b4dab0e0d87b8af1dac717d073c7",
+		"title": "Calibrate Screens",
+		"path": "dot2/key_window_calibratescreens.md"
+	},
+	"key_window_changefunctionsofexecutor": {
+		"hash": "2079dc50226387276d8925d903a53b6d6eb0da2d",
+		"title": "Change Functions of Executor",
+		"path": "dot2/key_window_changefunctionsofexecutor.md"
+	},
+	"key_window_chooseclonemethod": {
+		"hash": "be77043354f54a113352ae5a1b6a1b78578777f4",
+		"title": "Choose Clone Method",
+		"path": "dot2/key_window_chooseclonemethod.md"
+	},
+	"key_window_choosecopymethod": {
+		"hash": "e3f65237fdd7bf1ff6b17b3e5d2a9d8790c065a1",
+		"title": "Choose Copy Method",
+		"path": "dot2/key_window_choosecopymethod.md"
+	},
+	"key_window_choosedeletemethod": {
+		"hash": "d700a0313d00995d0f58242e2ce4866c114288b0",
+		"title": "Choose Delete Method",
+		"path": "dot2/key_window_choosedeletemethod.md"
+	},
+	"key_view_calculator": {
+		"hash": "2afe88d0b1eea582c8c71bbf7425fbd97fe8b720",
+		"title": "Calculator",
+		"path": "dot2/key_view_calculator.md"
+	},
+	"key_window_choosestoremethod": {
+		"hash": "d561e51bb213ec385b67769138e74bc5cc55fec6",
+		"title": "Choose Store Method",
+		"path": "dot2/key_window_choosestoremethod.md"
+	},
+	"key_window_chooseupdatemethod": {
+		"hash": "57f76044f41e863d09203c8f1fd19577a5e1e095",
+		"title": "Choose Update Method",
+		"path": "dot2/key_window_chooseupdatemethod.md"
+	},
+	"key_views_and_windows_clock": {
+		"hash": "01eb04c905e265611d81ee9427da913ff2ce114f",
+		"title": "Clock",
+		"path": "dot2/key_views_and_windows_clock.md"
+	},
+	"key_viewitem_color": {
+		"hash": "6aa99aa5182c947c2c1f0f636931cc7e7fa5d832",
+		"title": "Color Preset Type",
+		"path": "dot2/key_viewitem_color.md"
+	},
+	"key_view_commandline": {
+		"hash": "a10f6f02d005de0ad5df96815a749188c6f4fd34",
+		"title": "Command Line",
+		"path": "dot2/key_view_commandline.md"
+	},
+	"key_window_configureslot": {
+		"hash": "21891e5280238eaa20bd8125a5f5ef1c07f45526",
+		"title": "Configure Slot",
+		"path": "dot2/key_window_configureslot.md"
+	},
+	"key_viewitem_control": {
+		"hash": "a71916bfc2f2a598e58998a9089e1aec12e060c5",
+		"title": "Control Preset Type",
+		"path": "dot2/key_viewitem_control.md"
+	},
+	"key_viewitem_cue": {
+		"hash": "9b90b87072d9eab2b4c893e86b62ab6c70cfc095",
+		"title": "Cues",
+		"path": "dot2/key_viewitem_cue.md"
+	},
+	"key_viewitem_dimmer": {
+		"hash": "ce3d8281726cd1428cec916b0986f5caf467f7ad",
+		"title": "Dimmer Preset Type",
+		"path": "dot2/key_viewitem_dimmer.md"
+	},
+	"key_viewitem_dmx": {
+		"hash": "9c67fab1215c685ec7730ce63ef0b9bdf97237df",
+		"title": "DMX",
+		"path": "dot2/key_viewitem_dmx.md"
+	},
+	"key_window_editcuenumbers": {
+		"hash": "9e69bb5834276ec52eef07c86540212694a1ea85",
+		"title": "Edit Cue Number(s)",
+		"path": "dot2/key_window_editcuenumbers.md"
+	},
+	"key_viewitem_effect": {
+		"hash": "33eb4cdf8d8812ef52f910e525a3a63f61276faa",
+		"title": "Effects",
+		"path": "dot2/key_viewitem_effect.md"
+	},
+	"key_window_emptyexecutor": {
+		"hash": "a0e0c2b224be30918d907a0c204026addce58751",
+		"title": "Empty Executor",
+		"path": "dot2/key_window_emptyexecutor.md"
+	},
+	"key_window_enternameforwindow": {
+		"hash": "773e0667c2bebfdb50469aabf76adc178365a424",
+		"title": "Enter Name for",
+		"path": "dot2/key_window_enternameforwindow.md"
+	},
+	"key_window_playback": {
+		"hash": "ff8a94caf00924738b7adcf164ce1899b3f6d931",
+		"title": "Executor Bar",
+		"path": "dot2/key_window_playback.md"
+	},
+	"key_viewitem_executorpool": {
+		"hash": "433a1cd708d18813210296bbc59b30d05c040167",
+		"title": "Executor Pool",
+		"path": "dot2/key_viewitem_executorpool.md"
+	},
+	"key_viewitem_fixture": {
+		"hash": "af2d3f6575c3c19177ac2624b32eab9151822457",
+		"title": "Fixtures",
+		"path": "dot2/key_viewitem_fixture.md"
+	},
+	"key_window_fixturescheduleoverview": {
+		"hash": "372d83b85d2a85f5e25cabb5c412a52a4b2d34e5",
+		"title": "Fixture Schedule Overview",
+		"path": "dot2/key_window_fixturescheduleoverview.md"
+	},
+	"key_viewitem_focus": {
+		"hash": "9ee36977706df3319a949f4b994b389c58dcd48a",
+		"title": "Focus Preset Type",
+		"path": "dot2/key_viewitem_focus.md"
+	},
+	"key_viewitem_gobo": {
+		"hash": "c7462b2d43325fb6ca5e286497ec663d689c3f99",
+		"title": "Gobo Preset Type",
+		"path": "dot2/key_viewitem_gobo.md"
+	},
+	"key_window_globalsettings": {
+		"hash": "3bab3890ca1502e160d780e6ea28f1cda5523b0b",
+		"title": "Global Settings",
+		"path": "dot2/key_window_globalsettings.md"
+	},
+	"key_viewitem_group": {
+		"hash": "c43dd262264310ea0787198631c289561069ae84",
+		"title": "Groups",
+		"path": "dot2/key_viewitem_group.md"
+	},
+	"key_viewitem_help": {
+		"hash": "2dc28b2292798a6de24bfc5c54e5aaec656fc452",
+		"title": "Help",
+		"path": "dot2/key_viewitem_help.md"
+	},
+	"key_window_importfixturetype": {
+		"hash": "1c136685ac8d1d50dbb2e00845c2036e1c8c27c2",
+		"title": "Import Fixture Type",
+		"path": "dot2/key_window_importfixturetype.md"
+	},
+	"key_window_keybacklight": {
+		"hash": "cff061af5e58b67bfdb57c9a1eb9bb9bbb36b64d",
+		"title": "Key Backlight",
+		"path": "dot2/key_window_keybacklight.md"
+	},
+	"key_window_leavingpatchandfixtureschedule": {
+		"hash": "61bfc112c3a6c0e9dec55072cdc9ee99f2e830cd",
+		"title": "Leaving Patch & Fixture Schedule...",
+		"path": "dot2/key_window_leavingpatchandfixtureschedule.md"
+	},
+	"key_window_loadshow": {
+		"hash": "3cd609e4edfa68f66ce06427f11f0eae86d542cf",
+		"title": "Load Show",
+		"path": "dot2/key_window_loadshow.md"
+	},
+	"key_viewitem_macro": {
+		"hash": "a1892fa35416b9007adc05760c293341e3667a9f",
+		"title": "Macros Pool",
+		"path": "dot2/key_viewitem_macro.md"
+	},
+	"key_viewitem_speed": {
+		"hash": "48ba355166eabad1f3e54d39c60b9ceaa87eced0",
+		"title": "Magic Speeds",
+		"path": "dot2/key_viewitem_speed.md"
+	},
+	"key_window_midiconfiguration": {
+		"hash": "d8e4fee7c160b28a91fd532e115c387fd68e996c",
+		"title": "MIDI Configuration",
+		"path": "dot2/key_window_midiconfiguration.md"
+	},
+	"key_window_midimonitor": {
+		"hash": "bafc58c20a29e8d145a5807696fcccadf54176f2",
+		"title": "MIDI Monitor",
+		"path": "dot2/key_window_midimonitor.md"
+	},
+	"key_window_midishowcontrol": {
+		"hash": "dc55b5c8dbbfd2cc01e6ce1c1d68558597eacdd1",
+		"title": "MIDI Show Control",
+		"path": "dot2/key_window_midishowcontrol.md"
+	},
+	"key_window_networkinterface": {
+		"hash": "83dd92e56274699917ff2e582f60d5a8533359fb",
+		"title": "Network Interface",
+		"path": "dot2/key_window_networkinterface.md"
+	},
+	"key_window_networksetup": {
+		"hash": "9b7f73318c7061cd617a3cede9916dcda1a68bc3",
+		"title": "Network Setup",
+		"path": "dot2/key_window_networksetup.md"
+	},
+	"key_window_newshow": {
+		"hash": "747cdb303900ebb7df099e3a42242cdbc20b0739",
+		"title": "New Show",
+		"path": "dot2/key_window_newshow.md"
+	},
+	"key_window_off": {
+		"hash": "c4222c06e976a1f7c398701dbcfc5336a6949670",
+		"title": "Off...",
+		"path": "dot2/key_window_off.md"
+	},
+	"key_view_oops": {
+		"hash": "b4007e216ec006a35318c953e86ff533bb1e7f8b",
+		"title": "Oops",
+		"path": "dot2/key_view_oops.md"
+	},
+	"key_viewitem_page": {
+		"hash": "66d97869a18ba8a1a29e657ae5acf6a620b4354e",
+		"title": "Page Pool",
+		"path": "dot2/key_viewitem_page.md"
+	},
+	"key_window_patchandfixtureschedule": {
+		"hash": "1b0fd35937408b164f96686d3dce1060fec3656a",
+		"title": "Patch and Fixture Schedule",
+		"path": "dot2/key_window_patchandfixtureschedule.md"
+	},
+	"key_window_networkprotocols": {
+		"hash": "9e85d0179d0574c43e52fdfa3ab0e60d35c40880",
+		"title": "Network Protocols Configuration",
+		"path": "dot2/key_window_networkprotocols.md"
+	},
+	"key_viewitem_position": {
+		"hash": "4e253977a9536e9bebf1df46ae7f15eadd434d75",
+		"title": "Position Preset Type",
+		"path": "dot2/key_viewitem_position.md"
+	},
+	"key_viewitem_preset": {
+		"hash": "f368e85c4d2eacbead3af86053753d0e3246299e",
+		"title": "Presets Pools",
+		"path": "dot2/key_viewitem_preset.md"
+	},
+	"key_window_remote": {
+		"hash": "9adc87ac87b2b4ae0030fa64fd3742bfceb08366",
+		"title": "Remote Inputs Configuration",
+		"path": "dot2/key_window_remote.md"
+	},
+	"key_window_saveshowas": {
+		"hash": "ad10e3ed11c2721a331763a1c7fdf6343bfc01de",
+		"title": "Save Show As...",
+		"path": "dot2/key_window_saveshowas.md"
+	},
+	"key_window_selectdmxaddress": {
+		"hash": "e1870be354324f0b18877784d01c60f9ae23467b",
+		"title": "Select DMX Address...",
+		"path": "dot2/key_window_selectdmxaddress.md"
+	},
+	"key_window_selectdmxports": {
+		"hash": "5c644bed249cebc37520970f471e38e8fc1e2b8c",
+		"title": "Select DMX Ports",
+		"path": "dot2/key_window_selectdmxports.md"
+	},
+	"key_window_selectfixturesidswindow": {
+		"hash": "fa889ace812dc0a08e2b3c5fbc9646a87769058c",
+		"title": "Select Fixtures ID(s)",
+		"path": "dot2/key_window_selectfixturesidswindow.md"
+	},
+	"key_window_selectfixturetype": {
+		"hash": "ec41abb8aca3412ec5fa27847fc5f5d075b88240",
+		"title": "Select Fixture Type...",
+		"path": "dot2/key_window_selectfixturetype.md"
+	},
+	"key_window_selectbutton": {
+		"hash": "439cb53bca1aecb53ff643adc0256333426ae228",
+		"title": "Select Function  for Remote Inputs Configuration",
+		"path": "dot2/key_window_selectbutton.md"
+	},
+	"key_window_selectfunctionofexecutor": {
+		"hash": "c02f090607a21b6be0cd22c891fb9ee40f9b1623",
+		"title": "Select Function of Executor",
+		"path": "dot2/key_window_selectfunctionofexecutor.md"
+	},
+	"key_window_selectlanguage": {
+		"hash": "7162d8c171c67a1a9c2d1521b8fddee881a6fdaa",
+		"title": "Select Language...",
+		"path": "dot2/key_window_selectlanguage.md"
+	},
+	"key_window_selectsessionnumber": {
+		"hash": "d2ece58be04675b313cd3b8be425f5ebacca14f0",
+		"title": "Select Session Number",
+		"path": "dot2/key_window_selectsessionnumber.md"
+	},
+	"key_window_selectstation": {
+		"hash": "7468148250bacccbf5815564c7a8bcff002ad253",
+		"title": "Select Station...",
+		"path": "dot2/key_window_selectstation.md"
+	},
+	"key_viewitem_selecttrig": {
+		"hash": "682cc60fcc2713c382248efff1ce42eb1b3f201e",
+		"title": "Select Trig",
+		"path": "dot2/key_viewitem_selecttrig.md"
+	},
+	"key_window_selecttype": {
+		"hash": "c3cb5daa48ef9fb2ef197a5c9d7b7c87d9da8be6",
+		"title": "Select Type",
+		"path": "dot2/key_window_selecttype.md"
+	},
+	"key_viewitem_selectview": {
+		"hash": "aae35955af3241a3296603fa0e2a580857f57aad",
+		"title": "Select View",
+		"path": "dot2/key_viewitem_selectview.md"
+	},
+	"key_window_selectview": {
+		"hash": "469c2c8098021cd77458e0ab02496ed8d15ec175",
+		"title": "Select View for External Screen",
+		"path": "dot2/key_window_selectview.md"
+	},
+	"key_window_selectwing": {
+		"hash": "f67d77dc578d2db542e90f545ea492e4fa9c959f",
+		"title": "Select Wing...",
+		"path": "dot2/key_window_selectwing.md"
+	},
+	"key_window_sessioncollision": {
+		"hash": "a47ed271233b6fb5cbf3613359d3836373b918e2",
+		"title": "Session Collision",
+		"path": "dot2/key_window_sessioncollision.md"
+	},
+	"key_window_settingsofexecutor": {
+		"hash": "91432976488e27f865ed55235f9335d7da69acf8",
+		"title": "Settings of Executor",
+		"path": "dot2/key_window_settingsofexecutor.md"
+	},
+	"key_window_setup": {
+		"hash": "afa4bb7b470f1674a3da2e00f3fc1cc9707df06d",
+		"title": "Setup",
+		"path": "dot2/key_window_setup.md"
+	},
+	"key_viewitem_shapers": {
+		"hash": "684f55e092bd069782759dcefec112c7290819da",
+		"title": "Shapers Preset Type",
+		"path": "dot2/key_viewitem_shapers.md"
+	},
+	"key_window_softwareupdate": {
+		"hash": "0d0dfdb6e15f15db22eca19abd7b3a3047f14f9a",
+		"title": "Software Update via USB",
+		"path": "dot2/key_window_softwareupdate.md"
+	},
+	"key_window_soundinput": {
+		"hash": "8d4e6b533b9cc82fe7e75b2e329ff32989246759",
+		"title": "Sound Input Configuration",
+		"path": "dot2/key_window_soundinput.md"
+	},
+	"key_window_statusandmessages": {
+		"hash": "52f6052ff64bbf6184078fb9003a6ccbed1dd986",
+		"title": "Status and Messages",
+		"path": "dot2/key_window_statusandmessages.md"
+	},
+	"key_window_systemclock": {
+		"hash": "a694e63b15b62a08ea30be865961db8e2d9abf08",
+		"title": "System Clock",
+		"path": "dot2/key_window_systemclock.md"
+	},
+	"key_window_systeminformation": {
+		"hash": "bd59b552f0b17cfe9d9b8e77c6429589dafd8e5f",
+		"title": "System Information",
+		"path": "dot2/key_window_systeminformation.md"
+	},
+	"key_window_timedefaults": {
+		"hash": "ed326f2fbd74cfd514b280d34b5f60cd089a8832",
+		"title": "Time defaults",
+		"path": "dot2/key_window_timedefaults.md"
+	},
+	"key_window_timecode": {
+		"hash": "02db198d19686506b12a806ef54f98d9f87452fe",
+		"title": "Timecode Configuration",
+		"path": "dot2/key_window_timecode.md"
+	},
+	"key_window_tools": {
+		"hash": "a5645eef55f39843c47bb0c203941fce33046a70",
+		"title": "Tools",
+		"path": "dot2/key_window_tools.md"
+	},
+	"key_viewitem_video": {
+		"hash": "823eb3529512dc096a2168f1cdd98d27cab89e7b",
+		"title": "Video Preset Type",
+		"path": "dot2/key_viewitem_video.md"
+	},
+	"key_viewitem_virtualplayback": {
+		"hash": "584256286ff70124878c6c1247344aed8555d4a9",
+		"title": "Virtual Playbacks",
+		"path": "dot2/key_viewitem_virtualplayback.md"
+	},
+	"key_window_windowsettings": {
+		"hash": "745d1489fd2a7e34981fd052e85e88aaba7b6128",
+		"title": "Window Settings",
+		"path": "dot2/key_window_windowsettings.md"
+	},
+	"key_window_wings": {
+		"hash": "35a80c693a04ffd898d4360b75d350f557be4eae",
+		"title": "Wings",
+		"path": "dot2/key_window_wings.md"
+	},
+	"key_window_wingsandnodesdiagnosis": {
+		"hash": "2f2da8d65eb5ffa45d097c5657e5bc32fa595026",
+		"title": "Wings & Nodes Diagnosis",
+		"path": "dot2/key_window_wingsandnodesdiagnosis.md"
+	},
+	"key_commands_overview": {
+		"hash": "bb98336f4a28d98d314d94067a3ef5fa386b5d57",
+		"title": "Commands",
+		"path": "dot2/key_commands_overview.md"
+	},
+	"key_keyword_skipplus": {
+		"hash": "f55a93e772cf9caee66000b7a2b40ea71405f140",
+		"title": ">>> [GoFastForward]",
+		"path": "dot2/key_keyword_skipplus.md"
+	},
+	"key_keyword_skipminus": {
+		"hash": "cc718dd5ca1d0e6df5989479786ff49cfb9e0365",
+		"title": "<<< [GoFastBack]",
+		"path": "dot2/key_keyword_skipminus.md"
+	},
+	"key_keyword_minus": {
+		"hash": "57acac1c75c7b1c7c7e22e305d8c15387ff328df",
+		"title": "- [Minus]",
+		"path": "dot2/key_keyword_minus.md"
+	},
+	"key_keyword_plus": {
+		"hash": "52d2ad47cb3ef76589c6656e1d2382c3597d8599",
+		"title": "+ [Plus]",
+		"path": "dot2/key_keyword_plus.md"
+	},
+	"key_keyword_assign": {
+		"hash": "d24668c861310a225850816a05cbe2e4fdca6fb1",
+		"title": "Assign",
+		"path": "dot2/key_keyword_assign.md"
+	},
+	"key_keyword_at": {
+		"hash": "02051f526de1373fadb86a977a2beff8fb05f43b",
+		"title": "At",
+		"path": "dot2/key_keyword_at.md"
+	},
+	"key_keyword_black": {
+		"hash": "a39ab2a81228cda88c84f176092bec493af96495",
+		"title": "Black",
+		"path": "dot2/key_keyword_black.md"
+	},
+	"key_keyword_blind": {
+		"hash": "71e5a6844e01efcf0620f4472228237198205c3f",
+		"title": "Blind",
+		"path": "dot2/key_keyword_blind.md"
+	},
+	"key_keyword_call": {
+		"hash": "bead20441fa8a5fe1c4b2844d1c8cba5538e0604",
+		"title": "Call",
+		"path": "dot2/key_keyword_call.md"
+	},
+	"key_keyword_clone": {
+		"hash": "9c422d6bcb9292622c3e2ab27b84bc44287b30bc",
+		"title": "Clone",
+		"path": "dot2/key_keyword_clone.md"
+	},
+	"key_keyword_copy": {
+		"hash": "ca84c6b06b3ac41e0dde25f132da53c1e174c98b",
+		"title": "Copy",
+		"path": "dot2/key_keyword_copy.md"
+	},
+	"key_keyword_cue": {
+		"hash": "01a448c00243c6c7641b9aa2bc9ca7707cdf9d6e",
+		"title": "Cue",
+		"path": "dot2/key_keyword_cue.md"
+	},
+	"key_keyword_default": {
+		"hash": "a0ff854231bf68b8981fe2335f73bea381fc23a8",
+		"title": "Default",
+		"path": "dot2/key_keyword_default.md"
+	},
+	"key_keyword_delay": {
+		"hash": "72908872c902232beb0ca90bac17dac1f9acc984",
+		"title": "Delay",
+		"path": "dot2/key_keyword_delay.md"
+	},
+	"key_keyword_delete": {
+		"hash": "0f827a37560ebc6a82b3e338a278637468af4e9f",
+		"title": "Delete",
+		"path": "dot2/key_keyword_delete.md"
+	},
+	"key_keyword_dmx": {
+		"hash": "2cfc9f33d964a470a86a6c65d7eab1248f6e2368",
+		"title": "Dmx",
+		"path": "dot2/key_keyword_dmx.md"
+	},
+	"key_keyword_dmxuniverse": {
+		"hash": "e473a220916235207559264760911de2e8ef846d",
+		"title": "DmxUniverse",
+		"path": "dot2/key_keyword_dmxuniverse.md"
+	},
+	"key_keyword_edit": {
+		"hash": "096c8f7470e9d7d885427bfd09bf8c65ef7882c9",
+		"title": "Edit",
+		"path": "dot2/key_keyword_edit.md"
+	},
+	"key_keyword_effect": {
+		"hash": "31a3de5f834a69dc5b4fc6e9a2aba1124526ffab",
+		"title": "Effect",
+		"path": "dot2/key_keyword_effect.md"
+	},
+	"key_keyword_executor": {
+		"hash": "2c4479f78bcf35ba00f38379697bdaf1948495d7",
+		"title": "Executor",
+		"path": "dot2/key_keyword_executor.md"
+	},
+	"key_keyword_fade": {
+		"hash": "b0f4c99ec3964359f079188cc5ab4b7c96431b2d",
+		"title": "Fade",
+		"path": "dot2/key_keyword_fade.md"
+	},
+	"key_keyword_fix": {
+		"hash": "58a088b42517106f8b3527f46f17288f99a3f827",
+		"title": "Fix",
+		"path": "dot2/key_keyword_fix.md"
+	},
+	"key_keyword_fixture": {
+		"hash": "991667ca6433f2a01f70fc8c37cc9fb81d0489ff",
+		"title": "Fixture",
+		"path": "dot2/key_keyword_fixture.md"
+	},
+	"key_keyword_flash": {
+		"hash": "76b6beea129e15f8d149da064843ea55dea6cd25",
+		"title": "Flash",
+		"path": "dot2/key_keyword_flash.md"
+	},
+	"key_keyword_full": {
+		"hash": "f9c15c8d3ebceef67699a9e4c406924c63298ed0",
+		"title": "Full",
+		"path": "dot2/key_keyword_full.md"
+	},
+	"key_keyword_fullhighlight": {
+		"hash": "884c72896df999d2b480d5dfcd68b063eaa6cf79",
+		"title": "FullHighlight",
+		"path": "dot2/key_keyword_fullhighlight.md"
+	},
+	"key_keyword_go": {
+		"hash": "38b296a92b8473388c62e4a0521d040eabb968a2",
+		"title": "Go",
+		"path": "dot2/key_keyword_go.md"
+	},
+	"key_keyword_goback": {
+		"hash": "da19d3363397d385dabd51a7acd0c95db89e059e",
+		"title": "GoBack",
+		"path": "dot2/key_keyword_goback.md"
+	},
+	"key_keyword_goto": {
+		"hash": "3063319ea11f7ab26af0f3c0ffff9cea28b1d996",
+		"title": "Goto",
+		"path": "dot2/key_keyword_goto.md"
+	},
+	"key_keyword_group": {
+		"hash": "2ad4031a994c972da707b4e87d02eb8e3f96d46c",
+		"title": "Group",
+		"path": "dot2/key_keyword_group.md"
+	},
+	"key_keyword_help": {
+		"hash": "b9ae28973e8c5da8b5c4195d3a8ea21173069d31",
+		"title": "Help",
+		"path": "dot2/key_keyword_help.md"
+	},
+	"key_keyword_if": {
+		"hash": "72e150fce1e4f261b38e012854f3bfe3d59f94dc",
+		"title": "If",
+		"path": "dot2/key_keyword_if.md"
+	},
+	"key_keyword_ifoutput": {
+		"hash": "e2926c34a28c07af62ff3ffe9e4c40f3225aca6c",
+		"title": "IfOutput",
+		"path": "dot2/key_keyword_ifoutput.md"
+	},
+	"key_keyword_invert": {
+		"hash": "54749e45b45ac069203d113973a6fbe62996a3c6",
+		"title": "Invert",
+		"path": "dot2/key_keyword_invert.md"
+	},
+	"key_keyword_label": {
+		"hash": "7f09fd1cd26a92837a0050b1dbb830e17360329c",
+		"title": "Label",
+		"path": "dot2/key_keyword_label.md"
+	},
+	"key_keyword_learn": {
+		"hash": "d426722cf4e2f75a4f7ff728062d338e777fd647",
+		"title": "Learn",
+		"path": "dot2/key_keyword_learn.md"
+	},
+	"key_keyword_macro": {
+		"hash": "6cb9df19ccbac6daafddc8f9e3d5545f545fab5c",
+		"title": "Macro",
+		"path": "dot2/key_keyword_macro.md"
+	},
+	"key_keyword_midinote": {
+		"hash": "44a3fe1345249cdc5ebc99c165d3b70d5ac612c1",
+		"title": "MidiNote",
+		"path": "dot2/key_keyword_midinote.md"
+	},
+	"key_keyword_move": {
+		"hash": "245d174ad1c3e8ad9d4061170646d5f6ef3e0925",
+		"title": "Move",
+		"path": "dot2/key_keyword_move.md"
+	},
+	"key_keyword_off": {
+		"hash": "a2cc83b1240487365b51a318617826e61f255eb8",
+		"title": "Off",
+		"path": "dot2/key_keyword_off.md"
+	},
+	"key_keyword_on": {
+		"hash": "cdb79c0472e92985220ae43dfb2edbd23754999e",
+		"title": "On",
+		"path": "dot2/key_keyword_on.md"
+	},
+	"key_keyword_outdelay": {
+		"hash": "59b48ba1f798375113adf7697d63b3f6e43eaef1",
+		"title": "OutDelay",
+		"path": "dot2/key_keyword_outdelay.md"
+	},
+	"key_keyword_outfade": {
+		"hash": "7133b9e6ad78470fe8a0327a81b48e8c261cb2a5",
+		"title": "OutFade",
+		"path": "dot2/key_keyword_outfade.md"
+	},
+	"key_keyword_page": {
+		"hash": "8492f7edf2237b259f647eb429e82799642fa844",
+		"title": "Page",
+		"path": "dot2/key_keyword_page.md"
+	},
+	"key_keyword_park": {
+		"hash": "e998149fbbcf06e0dbda1a7d5349dfc419de954d",
+		"title": "Park",
+		"path": "dot2/key_keyword_park.md"
+	},
+	"key_keyword_pause": {
+		"hash": "e4eced45d35b1ceabdf93ee2b21a9d1d9e0aca82",
+		"title": "Pause",
+		"path": "dot2/key_keyword_pause.md"
+	},
+	"key_keyword_preset": {
+		"hash": "3edf6388402651957adaeffce27e5895f3aa8eb9",
+		"title": "Preset",
+		"path": "dot2/key_keyword_preset.md"
+	},
+	"key_keyword_presettype": {
+		"hash": "b7de877f98c3ed210cb0e7c07ba460da10c77722",
+		"title": "PresetType",
+		"path": "dot2/key_keyword_presettype.md"
+	},
+	"key_keyword_previewexecutor": {
+		"hash": "634d4a5115bdf5fae22dcf64e3fae0e6334bf107",
+		"title": "Preview",
+		"path": "dot2/key_keyword_previewexecutor.md"
+	},
+	"key_keyword_rate": {
+		"hash": "c4a6fa489b1b49d0afe8ae70e082f8720d22c043",
+		"title": "Rate",
+		"path": "dot2/key_keyword_rate.md"
+	},
+	"key_keyword_record": {
+		"hash": "6e0ccba90da522de8fc688942044571e6cb07795",
+		"title": "Record",
+		"path": "dot2/key_keyword_record.md"
+	},
+	"key_keyword_release": {
+		"hash": "26b650b8e65320a8e682cb0d633ee89835640102",
+		"title": "Release",
+		"path": "dot2/key_keyword_release.md"
+	},
+	"key_keyword_remove": {
+		"hash": "942951e8da0ae3cb955714a56f4832451359e646",
+		"title": "Remove",
+		"path": "dot2/key_keyword_remove.md"
+	},
+	"key_keyword_replace": {
+		"hash": "d0173552f34176f8c27f081e24a1c0a69986df0f",
+		"title": "Replace",
+		"path": "dot2/key_keyword_replace.md"
+	},
+	"key_keyword_select": {
+		"hash": "8bb4bff9e0f80c8b61be2c074df5e93c4a925b06",
+		"title": "Select",
+		"path": "dot2/key_keyword_select.md"
+	},
+	"key_keyword_selection": {
+		"hash": "f0f54291d3fb4b730ecd0de25dd87f56a4469317",
+		"title": "Selection",
+		"path": "dot2/key_keyword_selection.md"
+	},
+	"key_keyword_setip": {
+		"hash": "fb788b5f3e7569d2ebc441fbe51b2f640abbf915",
+		"title": "SetIP",
+		"path": "dot2/key_keyword_setip.md"
+	},
+	"key_keyword_snappercent": {
+		"hash": "6f48415c6b0ac7bcbee2208a2fa25776ecbe6c0b",
+		"title": "SnapPercent",
+		"path": "dot2/key_keyword_snappercent.md"
+	},
+	"key_keyword_solo": {
+		"hash": "fd627e3c8c4389d7f86a3b41d48b26535301ff60",
+		"title": "Solo",
+		"path": "dot2/key_keyword_solo.md"
+	},
+	"key_keyword_stomp": {
+		"hash": "6119a17b720b034edf8e19cb7fc60c4b39da2eb8",
+		"title": "Stomp",
+		"path": "dot2/key_keyword_stomp.md"
+	},
+	"key_keyword_store": {
+		"hash": "8a31eec5412f0f873cc8fe3323ea3a2ff321d208",
+		"title": "Store",
+		"path": "dot2/key_keyword_store.md"
+	},
+	"key_keyword_storelook": {
+		"hash": "081a0cb53dfc7b029e15527bce1618cb36ee5e7f",
+		"title": "StoreLook",
+		"path": "dot2/key_keyword_storelook.md"
+	},
+	"key_keyword_synceffects": {
+		"hash": "0befff2e5a43a7f0dac06244b57f355d1ebc5c29",
+		"title": "SyncEffects",
+		"path": "dot2/key_keyword_synceffects.md"
+	},
+	"key_keyword_temp": {
+		"hash": "30b438e85edb6e8c69bb24d0fe41828014b0a17d",
+		"title": "Temp",
+		"path": "dot2/key_keyword_temp.md"
+	},
+	"key_keyword_thru": {
+		"hash": "cffb17cc5c0d6173ccf837f15e8e786854b8b81f",
+		"title": "Thru",
+		"path": "dot2/key_keyword_thru.md"
+	},
+	"key_keyword_toggle": {
+		"hash": "04697187d71c023c0c8a2c96b8d0d4eabf067a63",
+		"title": "Toggle",
+		"path": "dot2/key_keyword_toggle.md"
+	},
+	"key_keyword_top": {
+		"hash": "2fe19da7680403a183dcb7237b1dbfd20e328963",
+		"title": "Top",
+		"path": "dot2/key_keyword_top.md"
+	},
+	"key_keyword_unpark": {
+		"hash": "394071aa6e04ea8c761caa1a148915216c7fae87",
+		"title": "Unpark",
+		"path": "dot2/key_keyword_unpark.md"
+	},
+	"key_keyword_update": {
+		"hash": "9e76aafdbc2797ccc368b9a7fb8347d8542f8d12",
+		"title": "Update",
+		"path": "dot2/key_keyword_update.md"
+	},
+	"key_keyword_view": {
+		"hash": "9cfd6687a431271031f87690aaa77f5778663feb",
+		"title": "View [Eye]",
+		"path": "dot2/key_keyword_view.md"
+	},
+	"key_keyword_zero": {
+		"hash": "e7b0388e93eaee68dd285772fea2a8bf789a848e",
+		"title": "Zero",
+		"path": "dot2/key_keyword_zero.md"
+	},
+	"key_hints_for_operating": {
+		"hash": "03e29453eab5d83b094a2d572c1fcd08e045ecd0",
+		"title": "Hints for Operating",
+		"path": "dot2/key_hints_for_operating.md"
+	},
+	"key_error_handling": {
+		"hash": "c436d7131b46a7b984582f0654167eb7fe113380",
+		"title": "Error Handling",
+		"path": "dot2/key_error_handling.md"
+	},
+	"key_keyword_crashlogcopy": {
+		"hash": "5d376b3ef0c60b90b9376af19c544b216ba6f7d4",
+		"title": "CrashLogCopy",
+		"path": "dot2/key_keyword_crashlogcopy.md"
+	},
+	"key_keyword_crashlogdelete": {
+		"hash": "61fe3a30cb666746fcfbc903e75e69c0e09c025d",
+		"title": "CrashLogDelete",
+		"path": "dot2/key_keyword_crashlogdelete.md"
+	},
+	"key_keyword_crashloglist": {
+		"hash": "1f5bb47e40982a1f6c257a8b8533284e822bf929",
+		"title": "CrashLogList",
+		"path": "dot2/key_keyword_crashloglist.md"
+	},
+	"key_error_messages": {
+		"hash": "080e782676062d9f1a7407685430820e99fdea62",
+		"title": "Error Messages",
+		"path": "dot2/key_error_messages.md"
+	},
+	"key_glossary": {
+		"hash": "d38cb0ac108b4b302cec50c78b61143a0d7127e7",
+		"title": "Glossary",
+		"path": "dot2/key_glossary.md"
+	}
+}

@@ -5,8 +5,10 @@ node_modules/
 dist/
 .astro/
 
-# crawler scratch space (manifests are committed; raw HTML cache is not)
+# crawler scratch space (manifests are committed; raw HTML cache + logs are not)
 data/html-cache/
+data/*.log
+.wrangler-snapshot.jsonc
 
 # debug
 npm-debug.log*

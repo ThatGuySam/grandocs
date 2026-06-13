@@ -1,0 +1,72 @@
+---
+title: "Déclaration de conformité"
+description: "Fabricant :"
+product: grandma3
+version: "2.4"
+lang: en
+sourceUrl: "https://help.malighting.com/grandMA3/2.4/HTML/key_viz_key_conformity-1-2.html"
+scrapedAt: "2026-06-12T21:25:42.000Z"
+---
+## Normes et approbations CE et FCC
+
+**Fabricant :**
+
+MA Lighting Technology GmbH\
+\
+Dachdeckerstraße 16\
+97297 Waldbüttelbrunn\
+ALLEMAGNE
+
+---
+
+_déclare que les produits_
+
+---
+
+**Nom de produit :**
+
+- grandMA3 viz-key
+
+---
+
+_est conforme aux directives et normes harmonisées suivantes_ 
+
+---
+
+**Sécurité: **
+
+**2014/35/UE (Directive Basse Tension)**
+
+- IEC/EN/UL 62368-1:2014 
+- CAN/CSA-C22. No. 62368-1:2014
+
+---
+
+**CEM - Compatibilité électromagnétique **
+
+**FCC**
+
+- 47 CFR, Part 15, Subpart B: 2019 (Class A)
+
+**2014/30/UE**
+
+- EN55032:2016-02 (Class A)
+- EN61000-3-2
+- EN55035:2018-04
+
+---
+
+**RoHS:**
+
+**2011/65/UE (RoHS II)**
+
+- EN50581:2012
+- WEEE-Reg.-NR. DE 14150988
+
+---
+
+Waldbüttelbrunn, 01 novembre 2020
+
+Dipl.-Ing. Michael Adenau (CEO)
+
+![](/img/grandma3/2-4/img_signature_m-adenau_5_-1-_2-2ff2a2.png)![](/img/grandma3/2-4/ma_logo_120_3_3-701619.png)

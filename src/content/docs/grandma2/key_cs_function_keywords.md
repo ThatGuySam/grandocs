@@ -1,0 +1,176 @@
+---
+title: "Function keywords"
+description: "Function keywords perform a task or a function."
+product: grandma2
+lang: en
+sourceUrl: "https://help.malighting.com/grandMA2/en/help/key_cs_function_keywords.html"
+scrapedAt: "2026-06-12T21:27:43.664Z"
+---
+Function keywords perform a task or a function.
+
+These keywords are often followed by objects to which the function or task is to be applied. 
+
+**Important:**\
+Function keywords are the verbs of the console, so to speak.
+
+### Example:
+
+\[Channel]> **Goto** Cue 3
+
+\- or -
+
+ \[Channel]> **Delete** Preset "Blue"
+
+ 
+
+**Important:**\
+Some functions are global and do not need to be followed by objects, for example **Blackout**. 
+
+ 
+
+---
+
+### List of Function Keywords
+
+- [>>> keyword](/grandma2/key_keyword_skipplus/)
+- [<<< keyword](/grandma2/key_keyword_skipminus/)
+- [AddUserVar keyword](/grandma2/key_keyword_adduservar/)
+- [AddVar keyword](/grandma2/key_keyword_addvar/)
+- [Align keyword](/grandma2/key_keyword_align/)
+- [AlignFaderModules keyword](/grandma2/key_keyword_alignfadermodules/)
+- [All keyword](/grandma2/key_keyword_all/)
+- [AllRows keyword](/grandma2/key_keyword_allrows/)
+- [Assign keyword](/grandma2/key_keyword_assign/)
+- [At keyword](/grandma2/key_keyword_at/)
+- [Backup keyword](/grandma2/key_keyword_backup/)
+- [Black keyword](/grandma2/key_keyword_black/)
+- [Blackout keyword](/grandma2/key_keyword_blackout/)
+- [Blind keyword](/grandma2/key_keyword_blind/)
+- [BlindEdit keyword](/grandma2/key_keyword_blindedit/)
+- [Block keyword](/grandma2/key_keyword_block/)
+- [Call keyword](/grandma2/key_keyword_call/)
+- [ChangeDest keyword](/grandma2/key_keyword_changedest/)
+- [ChannelLink keyword](/grandma2/key_keyword_channellink/)
+- [Clear keyword](/grandma2/key_keyword_clear/)
+- [CircularCopy keyword](/grandma2/key_keyword_circularcopy/)
+- [ClearActive keyword](/grandma2/key_keyword_clearactive/)
+- [ClearAll keyword](/grandma2/key_keyword_clearall/)
+- [ClearSelection keyword](/grandma2/key_keyword_clearselection/)
+- [Clone keyword](/grandma2/key_keyword_clone/)
+- [CmdHelp keyword](/grandma2/key_keyword_cmdhelp/)
+- [Copy keyword](/grandma2/key_keyword_copy/)
+- [Delete keyword](/grandma2/key_keyword_delete/)
+- [DeleteShow keyword](/grandma2/key_keyword_deleteshow/)
+- [DisconnectStation keyword](/grandma2/key_keyword_disconnectstation/)
+- [DoubleRate keyword](/grandma2/key_keyword_doublerate/)
+- [DoubleSpeed keyword](/grandma2/key_keyword_doublespeed/)
+- [Edit keyword](/grandma2/key_keyword_edit/)
+- [EndSession keyword](/grandma2/key_keyword_endsession/)
+- [Export keyword](/grandma2/key_keyword_export/)
+- [Extract keyword](/grandma2/key_keyword_extract/)
+- [Fix keyword](/grandma2/key_keyword_fix/)
+- [Flash keyword](/grandma2/key_keyword_flash/)
+- [Flip keyword](/grandma2/key_keyword_flip/)
+- [Freeze keyword](/grandma2/key_keyword_freeze/)
+- [Go keyword](/grandma2/key_keyword_go/)
+- [GoBack keyword](/grandma2/key_keyword_goback/)
+- [Goto keyword](/grandma2/key_keyword_goto/)
+- [HalfRate keyword](/grandma2/key_keyword_halfrate/)
+- [HalfSpeed keyword](/grandma2/key_keyword_halfspeed/)
+- [Help keyword](/grandma2/key_keyword_help/)
+- [Highlight keyword](/grandma2/key_keyword_highlight/)
+- [If keyword](/grandma2/key_keyword_if/)
+- [IfActive keyword](/grandma2/key_keyword_ifactive/)
+- [IfOutput keyword](/grandma2/key_keyword_ifoutput/)
+- [IfProg keyword](/grandma2/key_keyword_ifprog/)
+- [Import keyword](/grandma2/key_keyword_import/)
+- [Info keyword](/grandma2/key_keyword_info/)
+- [Insert keyword](/grandma2/key_keyword_insert/)
+- [Invert keyword](/grandma2/key_keyword_invert/)
+- [InviteStation keyword](/grandma2/key_keyword_invitestation/)
+- [JoinSession keyword](/grandma2/key_keyword_joinsession/)
+- [Kill keyword ](/grandma2/key_keyword_kill/)
+- [Label keyword](/grandma2/key_keyword_label/)
+- [Layer keyword](/grandma2/key_keyword_layer/)
+- [Learn keyword](/grandma2/key_keyword_learn/)
+- [LeaveSession keyword](/grandma2/key_keyword_leavesession/)
+- [List keyword](/grandma2/key_keyword_list/)
+- [ListFaderModules keyword](/grandma2/key_keyword_listfadermodules/)
+- [ListLibrary keyword](/grandma2/key_keyword_listlibrary/)
+- [ListEffectLibrary keyword](/grandma2/key_keyword_listeffectlibrary/)
+- [ListMacroLibrary keyword](/grandma2/key_keyword_listmacrolibrary/)
+- [ListShows keyword](/grandma2/key_keyword_listshows/)
+- [ListUserVar keyword](/grandma2/key_keyword_listuservar/)
+- [ListVar keyword](/grandma2/key_keyword_listvar/)
+- [Load keyword](/grandma2/key_keyword_load/)
+- [LoadShow keyword](/grandma2/key_keyword_loadshow/)
+- [Lock keyword](/grandma2/key_keyword_lock/)
+- [Login keyword](/grandma2/key_keyword_login/)
+- [Logout keyword](/grandma2/key_keyword_logout/)
+- [MasterFade keyword](/grandma2/key_keyword_masterfade/)
+- [MAtricksBlocks keyword](/grandma2/key_keyword_matricksblocks/)
+- [MAtricksFilter keyword](/grandma2/key_keyword_matricksfilter/)
+- [MAtricksGroups keyword](/grandma2/key_keyword_matricksgroups/)
+- [MAtricksInterleave keyword](/grandma2/key_keyword_matricksinterleave/)
+- [MAtricksReset keyword](/grandma2/key_keyword_matricksreset/)
+- [MAtricksWings keyword](/grandma2/key_keyword_matrickswings/)
+- [Menu keyword](/grandma2/key_keyword_menu/)
+- [MidiControl keyword](/grandma2/key_keyword_midicontrol/)
+- [MidiNote keyword](/grandma2/key_keyword_midinote/)
+- [MidiProgram keyword](/grandma2/key_keyword_midiprogram/)
+- [Move keyword](/grandma2/key_keyword_move/)
+- [NetworkInfo keyword](/grandma2/key_keyword_networkinfo/)
+- [NetworkNodeInfo keyword](/grandma2/key_keyword_networknodeinfo/)
+- [NetworkNodeUpdate keyword](/grandma2/key_keyword_networknodeupdate/)
+- [NetworkSpeedTest keyword](/grandma2/key_keyword_networkspeedtest/)
+- [NewShow keyword](/grandma2/key_keyword_newshow/)
+- [NextRow keyword](/grandma2/key_keyword_nextrow/)
+- [Off keyword](/grandma2/key_keyword_off/)
+- [On keyword](/grandma2/key_keyword_on/)
+- [Oops keyword](/grandma2/key_keyword_oops/)
+- [Park keyword](/grandma2/key_keyword_park/)
+- [Pause keyword](/grandma2/key_keyword_pause/)
+- [Preview keyword](/grandma2/key_keyword_preview/)
+- [PreviewEdit keyword](/grandma2/key_keyword_previewedit/)
+- [PreviewExecutor keyword](/grandma2/key_keyword_previewexecutor/)
+- [PrevRow keyword](/grandma2/key_keyword_prevrow/)
+- [PSR keyword](/grandma2/key_keyword_psr/)
+- [PSRList keyword](/grandma2/key_keyword_psrlist/)
+- [PSRPrepare keyword](/grandma2/key_keyword_psrprepare/)
+- [Rate1 keyword](/grandma2/key_keyword_rate1/)
+- [Reboot keyword](/grandma2/key_keyword_reboot/)
+- [Record keyword](/grandma2/key_keyword_record/)
+- [SaveShow keyword](/grandma2/key_keyword_saveshow/)
+- [Select keyword](/grandma2/key_keyword_select/)
+- [SelectDrive keyword](/grandma2/key_keyword_selectdrive/)
+- [SelFix keyword](/grandma2/key_keyword_selfix/)
+- [SetIP keyword](/grandma2/key_keyword_setip/)
+- [Setup keyword](/grandma2/key_keyword_setup/)
+- [SetUserVar keyword](/grandma2/key_keyword_setuservar/)
+- [SetVar keyword](/grandma2/key_keyword_setvar/)
+- [ShuffleSelection keyword](/grandma2/key_keyword_shuffleselection/)
+- [ShuffleValues keyword](/grandma2/key_keyword_shufflevalues/)
+- [Shutdown keyword](/grandma2/key_keyword_shutdown/)
+- [Solo keyword](/grandma2/key_keyword_solo/)
+- [Speed keyword](/grandma2/key_keyword_speed/)
+- [StepFade keyword](/grandma2/key_keyword_stepfade/)
+- [StepInFade keyword](/grandma2/key_keyword_stepinfade/)
+- [StepOutFade keyword](/grandma2/key_keyword_stepoutfade/)
+- [Stomp keyword](/grandma2/key_keyword_stomp/)
+- [Store keyword](/grandma2/key_keyword_store/)
+- [StoreLook keyword](/grandma2/key_keyword_storelook/)
+- [Swop keyword](/grandma2/key_keyword_swop/)
+- [SwopGo keyword](/grandma2/key_keyword_swopgo/)
+- [SwopOn keyword](/grandma2/key_keyword_swopon/)
+- [Temp keyword](/grandma2/key_keyword_temp/)
+- [TempFader keyword](/grandma2/key_keyword_tempfader/)
+- [Toggle keyword](/grandma2/key_keyword_toggle/)
+- [Tools keyword](/grandma2/key_keyword_tools/)
+- [Top keyword](/grandma2/key_keyword_top/)
+- [Unblock keyword](/grandma2/key_keyword_unblock/)
+- [Unpark keyword](/grandma2/key_keyword_unpark/)
+- [Update keyword](/grandma2/key_keyword_update/)
+- [UpdateFirmware keyword](/grandma2/key_keyword_updatefirmware/)
+- [UpdateSoftware keyword](/grandma2/key_keyword_updatesoftware/)
+- [UpdateThumbnails keyword](/grandma2/key_keyword_updatethumbnails/)
+- [Version keyword](/grandma2/key_keyword_version/)

@@ -1,0 +1,123 @@
+[
+	{
+		"label": "MA Fixture Builder",
+		"slug": "index",
+		"items": [
+			{
+				"label": "Introduction",
+				"slug": "key_introduction_fixture_builder",
+				"items": []
+			},
+			{
+				"label": "First Steps",
+				"slug": "key_first_steps",
+				"items": [
+					{
+						"label": "System requirements",
+						"slug": "key_first_steps_system_requirements",
+						"items": []
+					},
+					{
+						"label": "Installation on your computer",
+						"slug": "key_installation_on_your_computer",
+						"items": []
+					},
+					{
+						"label": "Start the program",
+						"slug": "key_start_the_program",
+						"items": []
+					},
+					{
+						"label": "Program surface",
+						"slug": "key_program_surface",
+						"items": []
+					}
+				]
+			},
+			{
+				"label": "Fixture Type Information",
+				"slug": "key_fixture_type_information",
+				"items": []
+			},
+			{
+				"label": "Attributes",
+				"slug": "key_attributes",
+				"items": [
+					{
+						"label": "Mix color attribute table",
+						"slug": "key_mix_color_attribute_table",
+						"items": []
+					},
+					{
+						"label": "Add DMX channels",
+						"slug": "key_add_dmx_channels",
+						"items": []
+					},
+					{
+						"label": "Delete DMX channels",
+						"slug": "key_delete_dmx_channels",
+						"items": []
+					}
+				]
+			},
+			{
+				"label": "Channel Function Ranges",
+				"slug": "key_channel_function_ranges",
+				"items": [
+					{
+						"label": "Add channel function ranges",
+						"slug": "key_add_function_ranges",
+						"items": []
+					},
+					{
+						"label": "Delete channel function ranges",
+						"slug": "key_delete_channel_function_ranges",
+						"items": []
+					},
+					{
+						"label": "Wizard",
+						"slug": "key_wizard",
+						"items": []
+					}
+				]
+			},
+			{
+				"label": "Function Sets",
+				"slug": "key_function_sets",
+				"items": [
+					{
+						"label": "Add a function set",
+						"slug": "key_add_function_set",
+						"items": []
+					},
+					{
+						"label": "Delete a function set",
+						"slug": "key_delete_function_set",
+						"items": []
+					}
+				]
+			},
+			{
+				"label": "Export and Import",
+				"slug": "key_export_and_import",
+				"items": [
+					{
+						"label": "Export fixture",
+						"slug": "key_export_fixture",
+						"items": []
+					},
+					{
+						"label": "Import fixture",
+						"slug": "key_import_fixture",
+						"items": []
+					}
+				]
+			},
+			{
+				"label": "Release Notes",
+				"slug": "key_inline_releasenotes",
+				"items": []
+			}
+		]
+	}
+]

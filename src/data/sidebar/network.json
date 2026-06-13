@@ -1,0 +1,330 @@
+[
+	{
+		"label": "MA Network Switch",
+		"slug": "index",
+		"items": [
+			{
+				"label": "Introduction",
+				"slug": "key_introduction",
+				"items": [
+					{
+						"label": "Intended Use",
+						"slug": "key_intended_use",
+						"items": []
+					},
+					{
+						"label": "Dangers caused by Electric Current",
+						"slug": "key_dangers_caused_by_electric_current",
+						"items": []
+					},
+					{
+						"label": "General Safety Instructions",
+						"slug": "key_generals_safety_instructions",
+						"items": []
+					},
+					{
+						"label": "System Requirements",
+						"slug": "key_system_requirements",
+						"items": []
+					},
+					{
+						"label": "SFP Transceiver Compatibility",
+						"slug": "key_sfp_transceiver_compatibility",
+						"items": []
+					}
+				]
+			},
+			{
+				"label": "Device Overview",
+				"slug": "key_device_overview",
+				"items": [
+					{
+						"label": "Front Panel",
+						"slug": "key_front_panel",
+						"items": []
+					},
+					{
+						"label": "Rear Panel",
+						"slug": "key_rear_panel",
+						"items": []
+					},
+					{
+						"label": "LED Indicators",
+						"slug": "key_led_indicators",
+						"items": []
+					},
+					{
+						"label": "Factory Defaults",
+						"slug": "key_factory_defaults",
+						"items": []
+					}
+				]
+			},
+			{
+				"label": "First Steps",
+				"slug": "key_first_steps",
+				"items": [
+					{
+						"label": "Unpack the Device",
+						"slug": "key_unpack_the_device",
+						"items": []
+					},
+					{
+						"label": "Install Mini-GBIC (SFP)",
+						"slug": "key_install_mini-gbic_-sfp-",
+						"items": []
+					},
+					{
+						"label": "Installation in a Rack",
+						"slug": "key_installation_in_a_rack",
+						"items": []
+					},
+					{
+						"label": "Connect the Hardware",
+						"slug": "key_connect_hardware",
+						"items": []
+					},
+					{
+						"label": "Set the IP Address on the PC",
+						"slug": "key_set_the_ip_address_on_the_pc",
+						"items": []
+					},
+					{
+						"label": "Access the Web Interface",
+						"slug": "key_access_web_interface",
+						"items": []
+					}
+				]
+			},
+			{
+				"label": "Display Navigation",
+				"slug": "key_display_navigation",
+				"items": [
+					{
+						"label": "Groups View",
+						"slug": "key_groups_view",
+						"items": []
+					},
+					{
+						"label": "Name View",
+						"slug": "key_navigation_name_view",
+						"items": []
+					},
+					{
+						"label": "Workload View",
+						"slug": "key_workload_view",
+						"items": []
+					},
+					{
+						"label": "LAG View",
+						"slug": "key_navigation_lag_view",
+						"items": []
+					},
+					{
+						"label": "Reset View",
+						"slug": "key_reset_view",
+						"items": []
+					}
+				]
+			},
+			{
+				"label": "Ports / Groups",
+				"slug": "key_ports_groups",
+				"items": [
+					{
+						"label": "Change Port Description",
+						"slug": "key_change_port_description",
+						"items": []
+					},
+					{
+						"label": "Assign Groups to Ports",
+						"slug": "key_assign_groups_to_ports",
+						"items": []
+					},
+					{
+						"label": "Edit LAGs",
+						"slug": "key_ports_groups_edit_lags",
+						"items": []
+					},
+					{
+						"label": "Edit RSTP",
+						"slug": "key_edit_rstp",
+						"items": []
+					},
+					{
+						"label": "Edit Speed Setting",
+						"slug": "key_edit_speed_setting",
+						"items": []
+					},
+					{
+						"label": "Change Group Name",
+						"slug": "key_change_group_name",
+						"items": []
+					},
+					{
+						"label": "Edit IGMP Snooping",
+						"slug": "key_edit_igmp_snooping",
+						"items": []
+					},
+					{
+						"label": "Edit IGMP Querier",
+						"slug": "key_edit_igmp_querier",
+						"items": []
+					},
+					{
+						"label": "Edit Unknown Flooding",
+						"slug": "key_edit_unknown_flooding",
+						"items": []
+					},
+					{
+						"label": "Change VLAN ID",
+						"slug": "key_change_vlan_id",
+						"items": []
+					}
+				]
+			},
+			{
+				"label": "Presets / Filters",
+				"slug": "key_presets_filters",
+				"items": [
+					{
+						"label": "Assign Presets to Ports",
+						"slug": "key_assign_presets_to_ports",
+						"items": []
+					},
+					{
+						"label": "Apply Filters to Ports",
+						"slug": "key_apply_filters_to_ports",
+						"items": []
+					},
+					{
+						"label": "Create New Presets",
+						"slug": "key_create_new_presets",
+						"items": []
+					},
+					{
+						"label": "Update Presets",
+						"slug": "key_update_presets",
+						"items": []
+					},
+					{
+						"label": "Create New Filter",
+						"slug": "key_create_new_filter",
+						"items": []
+					},
+					{
+						"label": "View Filters",
+						"slug": "key_view_filters",
+						"items": []
+					},
+					{
+						"label": "Delete Presets",
+						"slug": "key_delete_presets",
+						"items": []
+					},
+					{
+						"label": "Delete Filter",
+						"slug": "key_delete_filter",
+						"items": []
+					}
+				]
+			},
+			{
+				"label": "General Settings",
+				"slug": "key_general_settings",
+				"items": [
+					{
+						"label": "Change Name",
+						"slug": "key_change_name",
+						"items": []
+					},
+					{
+						"label": "Change ID",
+						"slug": "key_change_id",
+						"items": []
+					},
+					{
+						"label": "Change DHCP Client",
+						"slug": "key_change_dhcp_client",
+						"items": []
+					},
+					{
+						"label": "Change IP Address",
+						"slug": "key_change_ip_address",
+						"items": []
+					},
+					{
+						"label": "Change Subnet Mask",
+						"slug": "key_change_subnet_mask",
+						"items": []
+					},
+					{
+						"label": "Change Default Gateway",
+						"slug": "key_change_default_gateway",
+						"items": []
+					},
+					{
+						"label": "Change SNMP Status",
+						"slug": "key_general_settings_change_snmp",
+						"items": []
+					},
+					{
+						"label": "Change Password",
+						"slug": "key_change_password",
+						"items": []
+					},
+					{
+						"label": "Update Firmware",
+						"slug": "key_update_firmware",
+						"items": []
+					},
+					{
+						"label": "Fallback to Backup Firmware",
+						"slug": "key_general_settings_fallback_old_firmware",
+						"items": []
+					},
+					{
+						"label": "Get Switch Configuration",
+						"slug": "key_get_switch_configuration",
+						"items": []
+					},
+					{
+						"label": "Edit Port Mirroring",
+						"slug": "key_general_settings_port_mirroring",
+						"items": []
+					},
+					{
+						"label": "Upload Switch Configuration",
+						"slug": "key_upload_switch_configuration",
+						"items": []
+					},
+					{
+						"label": "Reset Settings",
+						"slug": "key_reset_settings",
+						"items": []
+					},
+					{
+						"label": "Web Interface and grandMA2",
+						"slug": "key_general_settings_webinterface_grandma2",
+						"items": []
+					}
+				]
+			},
+			{
+				"label": "Specifications",
+				"slug": "key_specifications",
+				"items": []
+			},
+			{
+				"label": "Support",
+				"slug": "key_support",
+				"items": []
+			},
+			{
+				"label": "Glossary",
+				"slug": "key_glossary",
+				"items": []
+			}
+		]
+	}
+]
