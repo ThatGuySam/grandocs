@@ -4,11 +4,23 @@
 	"main": "src/index.ts",
 	"compatibility_date": "2026-06-01",
 	"compatibility_flags": ["nodejs_compat"],
-	// Publishes to https://grandocs-mcp.<account>.workers.dev/mcp out of the box.
+	// Publishes to https://grandocs-mcp.samcarlton.workers.dev/mcp out of the box.
 	"workers_dev": true,
 	"observability": {
 		"enabled": true
-	}
+	},
+	// Origin the static search index + .md twins are served from. Point at the
+	// custom domain (https://grandocs.samcarlton.com) once it is attached.
+	"vars": {
+		"SITE_ORIGIN": "https://grandocs.samcarlton.workers.dev"
+	},
+	// Service binding to the site worker. A Worker fetching another same-account
+	// worker over its workers.dev hostname hits Cloudflare's loopback guard (404),
+	// so we route index/.md reads through this binding instead of a public fetch.
+	// Once the site is on a custom domain you can drop this and rely on SITE_ORIGIN.
+	"services": [
+		{ "binding": "SITE", "service": "grandocs" }
+	]
 
 	// Eventual stable endpoint — point clients at https://grandocs-mcp.samcarlton.com/mcp.
 	// Requires the DNS zone + a Workers Routes:Edit token; uncomment once the domain is ready:

@@ -31,10 +31,41 @@ import {
 // Configuration
 // ---------------------------------------------------------------------------
 
-/** Origin the static index, meta, and `.md` twins are published from. */
-const SITE_ORIGIN = 'https://grandocs.samcarlton.com'
-const SEARCH_INDEX_URL = `${SITE_ORIGIN}/agent/search-index.json`
-const META_URL = `${SITE_ORIGIN}/agent/meta.json`
+/**
+ * Origin the static index, meta, and `.md` twins are published from.
+ * Overridable via the SITE_ORIGIN wrangler var, so the same worker can point at
+ * the workers.dev deployment now and a custom domain later without a code change.
+ */
+const DEFAULT_SITE_ORIGIN = 'https://grandocs.samcarlton.workers.dev'
+let SITE_ORIGIN = DEFAULT_SITE_ORIGIN
+let SEARCH_INDEX_URL = `${SITE_ORIGIN}/agent/search-index.json`
+let META_URL = `${SITE_ORIGIN}/agent/meta.json`
+
+/** Optional service binding to the site worker (avoids workers.dev loopback). */
+interface Env {
+	SITE_ORIGIN?: string
+	SITE?: { fetch: typeof fetch }
+}
+let siteBinding: Env['SITE'] | undefined
+
+/** Apply env (origin + service binding) before handling a request. */
+function configureOrigin(env: Env | undefined): void {
+	siteBinding = env?.SITE
+	const origin = env?.SITE_ORIGIN?.replace(/\/+$/, '')
+	if (origin && origin !== SITE_ORIGIN) {
+		SITE_ORIGIN = origin
+		SEARCH_INDEX_URL = `${SITE_ORIGIN}/agent/search-index.json`
+		META_URL = `${SITE_ORIGIN}/agent/meta.json`
+	}
+}
+
+/**
+ * Fetch a site URL via the service binding when available, else a public fetch.
+ * No `cf` cache options: they interfere with same-account workers.dev subrequests.
+ */
+function siteFetch(url: string): Promise<Response> {
+	return siteBinding ? siteBinding.fetch(url) : fetch(url)
+}
 
 const SERVER_NAME = 'grandocs'
 const SERVER_VERSION = '0.1.0'
@@ -107,9 +138,7 @@ let metaPromise: Promise<unknown> | null = null
 function getIndex(): Promise<MiniSearch<StoredDoc>> {
 	if (!indexPromise) {
 		indexPromise = (async () => {
-			const res = await fetch(SEARCH_INDEX_URL, {
-				cf: { cacheTtl: 3600, cacheEverything: true },
-			})
+			const res = await siteFetch(SEARCH_INDEX_URL)
 			if (!res.ok) {
 				throw new Error(
 					`failed to fetch search index (${res.status} ${res.statusText}) from ${SEARCH_INDEX_URL}`,
@@ -133,9 +162,7 @@ function getIndex(): Promise<MiniSearch<StoredDoc>> {
 function getMeta(): Promise<unknown> {
 	if (!metaPromise) {
 		metaPromise = (async () => {
-			const res = await fetch(META_URL, {
-				cf: { cacheTtl: 3600, cacheEverything: true },
-			})
+			const res = await siteFetch(META_URL)
 			if (!res.ok) {
 				throw new Error(
 					`failed to fetch meta (${res.status} ${res.statusText}) from ${META_URL}`,
@@ -345,9 +372,7 @@ async function searchDocs(args: Record<string, unknown>): Promise<ToolText> {
 }
 
 async function fetchPageMarkdown(path: string): Promise<string | null> {
-	const res = await fetch(mdUrl(path), {
-		cf: { cacheTtl: 3600, cacheEverything: true },
-	})
+	const res = await siteFetch(mdUrl(path))
 	if (!res.ok) return null
 	return await res.text()
 }
@@ -384,10 +409,12 @@ async function commandLookup(args: Record<string, unknown>): Promise<ToolText> {
 	const verDir = version ?? (product === 'grandma3' ? '2-4' : undefined)
 	const base = verDir ? `${product}/${verDir}` : product
 
-	// 1) Try the known slug conventions directly (cheap, exact).
+	// 1) Try the known slug conventions directly (cheap, exact). For command
+	// lookups the `keyword_<kw>` page holds the command-line syntax, so it is
+	// tried before `key_<kw>` (the physical console key of the same name).
 	const candidates = [
-		`${base}/key_${keyword}`,
 		`${base}/keyword_${keyword}`,
+		`${base}/key_${keyword}`,
 		`${base}/cue_${keyword}`,
 		`${base}/${keyword}`,
 	]
@@ -562,7 +589,8 @@ function corsHeaders(): Record<string, string> {
 }
 
 export default {
-	async fetch(request: Request): Promise<Response> {
+	async fetch(request: Request, env?: Env): Promise<Response> {
+		configureOrigin(env)
 		const url = new URL(request.url)
 
 		if (request.method === 'OPTIONS') {
