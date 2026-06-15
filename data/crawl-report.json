@@ -1,16 +1,6 @@
 [
-	"https://help.malighting.com/grandMA3/2.4/HTML/timecode_settings.html: Error: no #offline-content in https://help.malighting.com/grandMA3/2.4/HTML/timecode_settings.html",
-	"https://help.malighting.com/grandMA3/2.4/HTML/lua_objectfree_objectlist.html: Error: no #offline-content in https://help.malighting.com/grandMA3/2.4/HTML/lua_objectfree_objectlist.html",
-	"https://help.malighting.com/grandMA3/2.4/HTML/deutsch-quick-manual-konsolen.html: Error: no #offline-content in https://help.malighting.com/grandMA3/2.4/HTML/deutsch-quick-manual-konsolen.html",
-	"https://help.malighting.com/grandMA3/2.4/HTML/rn_changes-2-4.html: Error: no #offline-content in https://help.malighting.com/grandMA3/2.4/HTML/rn_changes-2-4.html",
-	"Error: img 404 https://help.malighting.com/grandMA3/2.4/Storage/grandma3-user-manual-publication/img/window_keyboard_shortcuts_enabled_v1-0.png",
-	"Error: img 404 https://help.malighting.com/grandMA3/2.4/Storage/grandma3-user-manual-publication/img/window_edit_keyboard_shortcuts_v1-9.png",
-	"Error: img 404 https://help.malighting.com/grandMA3/2.4/Storage/grandma3-user-manual-publication/img/img_command-line_battery-discharge_pulsating_v2-3.png",
-	"Error: img 404 https://help.malighting.com/grandMA3/2.4/Storage/grandma3-user-manual-publication/img/img_command-line_battery_session_v2-3.png",
-	"Error: img 404 https://help.malighting.com/grandMA3/2.4/Storage/grandma3-user-manual-publication/img/img_command-line_battery-none_v2-3.png",
-	"Error: img 404 https://help.malighting.com/img_GM3_onPC-fader-wing_3D5.png",
-	"Error: img 404 https://help.malighting.com/img_GMA3_onPC_fader_wing_rear5.png",
-	"Error: img 404 https://help.malighting.com/danger-of-electric-shock_63.png",
-	"Error: img 404 https://help.malighting.com/grandMA3/2.4/Storage/grandma3-user-manual-publication/img/icon_ndi_v2-2.png",
-	"TypeError: fetch failed"
+	"https://help.malighting.com/grandMA3/2.3/HTML/keyword_slash.html: Error: no #offline-content in https://help.malighting.com/grandMA3/2.3/HTML/keyword_slash.html",
+	"https://help.malighting.com/grandMA3/2.3/HTML/timecode_settings.html: Error: no #offline-content in https://help.malighting.com/grandMA3/2.3/HTML/timecode_settings.html",
+	"https://help.malighting.com/grandMA3/2.3/HTML/lua_objectfree_objectlist.html: Error: no #offline-content in https://help.malighting.com/grandMA3/2.3/HTML/lua_objectfree_objectlist.html",
+	"https://help.malighting.com/grandMA3/2.3/HTML/deutsch-quick-manual-konsolen.html: Error: no #offline-content in https://help.malighting.com/grandMA3/2.3/HTML/deutsch-quick-manual-konsolen.html"
 ]

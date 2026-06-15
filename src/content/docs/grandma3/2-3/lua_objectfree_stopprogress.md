@@ -1,0 +1,38 @@
+---
+title: "StopProgress(handle)"
+description: "The StopProgress Lua function removes a progress bar. A handle input argument defines which progress bar it removes. The progress bar must exist before it can b"
+product: grandma3
+version: "2.3"
+lang: en
+sourceUrl: "https://help.malighting.com/grandMA3/2.3/HTML/lua_objectfree_stopprogress.html"
+scrapedAt: "2026-06-15T18:25:35.279Z"
+pagefind: false
+---
+## Description
+
+The StopProgress Lua function removes a progress bar. A handle input argument defines which progress bar it removes. The progress bar must exist before it can be removed. Progress bars are created using the [StartProgress](/grandma3/2-3/lua_objectfree_startprogress/) function.
+
+See the [ProgressBar topic](/grandma3/2-3/lua_interface_progressbar/) for more info regarding progress bars and links to other related functions.
+
+## Arguments
+
+- **Handle**:\
+  The handle for the progress bar to be stopped.
+
+## Return
+
+This function does not return anything.
+
+## Example
+
+This example stops the progress bar created using the example in the StartProgress topic (link above):
+
+|                                                                                                                                  |
+| -------------------------------------------------------------------------------------------------------------------------------- |
+| [Copy Code](javascript:void\(0\))Lua                                                                                             |
+| ```
+return function()
+    -- Stops and closes the progress bar with the matching handle
+    StopProgress(progressHandle)
+end
+``` |

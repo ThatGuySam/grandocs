@@ -1,0 +1,23 @@
+---
+title: "New in the Manual"
+description: "Learn what is new in the latest release of the help manual."
+product: grandma3
+version: "2.3"
+lang: en
+sourceUrl: "https://help.malighting.com/grandMA3/2.3/HTML/news.html"
+scrapedAt: "2026-06-15T18:24:46.894Z"
+pagefind: false
+---
+Learn what is new in the latest release of the help manual.
+
+| New                             | Description                                                                                                                               | Topic                                                                                                                                                                                                                       |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Executor Assignment             | The Handle tab of the assign menu provides an easier and faster way to assign function to executors.                                      | [Assign Object to an Executor](/grandma3/2-3/executor_assign/#h2_1296303096)                                                                                                                                                |
+| Statuses in Message Center      | Status icons can be displayed in the command line and configured in the message center.                                                   | [Message Center](/grandma3/2-3/system_message_center/)                                                                                                                                                                      |
+| Filters and Sheet Masking       | Create filters with filter rules and mask what is displayed in a sheet using filters and worlds.                                          | [Worlds and Filters](/grandma3/2-3/worldfilter/)[Create a Filter](/grandma3/2-3/worldfilter_filter_create/)[At Filter Window](/grandma3/2-3/worldfilter_at_filter/)[Sheet Masking](/grandma3/2-3/worldfilter_filter_rules/) |
+| grandMA3 net duct               | The grandMA3 net duct forms the basis of the MA-Net3 connection between grandMA3 devices and external tracking systems or media servers.  | [grandMA3 net duct](/grandma3/2-3/update_net_duct/)                                                                                                                                                                         |
+| Command Bot                     | Open elements, such as windows or menus, directly from the help window.                                                                   | [Navigate in the Help](/grandma3/2-3/atm_navigate_in_the_help/)                                                                                                                                                             |
+| Keywords                        | New keyword topics were added.                                                                                                            | [](/grandma3/2-3/keyword_copycrashlog/)[FastSync Keyword](/grandma3/2-3/keyword_fastsync/)[Learn Keyword](/grandma3/2-3/keyword_learn/)[ReSync](/grandma3/2-3/keyword_resync/)                                              |
+| Option Keywords                 | New option keyword topics were added.                                                                                                     | [/AutoFit Option Keyword](/grandma3/2-3/ok_autofit/)[/HighPrecision](/grandma3/2-3/ok_highprecision/)[/OddEven Option Keyword](/grandma3/2-3/ok_oddeven/)                                                                   |
+| Videos                          | Videos were added to several topics.                                                                                                      | [Recipes](/grandma3/2-3/recipes/)[Assign Object to an Executor](/grandma3/2-3/executor_assign/#h3_1689083776)[](/grandma3/2-3/operate_shapers/)[](/grandma3/2-3/operate_special/)                                           |
+| Updated Topics in This Release  | A number of topics were updated.For more information on other changes, see Release Notes.                                                 | [Release Notes 2.3](/grandma3/2-3/key_releasenotes/)                                                                                                                                                                        |

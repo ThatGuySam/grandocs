@@ -1,157 +1,97 @@
-# Boilerplate and Starter for Next JS 12+, Tailwind CSS 3 and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+# grandocs
 
-<p align="center">
-  <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
-</p>
+**An unofficial, agent-native mirror of MA Lighting's documentation** — grandMA3,
+grandMA2, and dot2 — rebuilt as clean, searchable markdown for humans and AI agents.
 
-🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
+> Live (workers.dev): <https://grandocs.samcarlton.workers.dev> ·
+> MCP: <https://grandocs-mcp.samcarlton.workers.dev/mcp> ·
+> Skills: `npx skills add ThatGuySam/grandocs`
 
-Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/Nextjs-Boilerplate/).
+Documentation content belongs to [MA Lighting International GmbH](https://www.malighting.com/).
+This is a fan-maintained mirror; every page links its canonical source. For
+authoritative or safety-relevant information, always consult the
+[official help](https://help.malighting.com/).
 
-### Features
+## Why
 
-Developer experience first:
+The previous MA help platform (`help2.malighting.com`) went offline and the old
+scraper (a daily GitHub "Flat Data" job over a Google-indexed URL list) died with
+it. grandocs rebuilds the mirror from the current official help site with:
 
-- 🔥 [Next.js](https://nextjs.org) for Static Site Generator
-- 🎨 Integrate with [Tailwind CSS](https://tailwindcss.com)
-- 💅 PostCSS for processing Tailwind CSS and integrated to `styled-jsx`
-- 🎉 Type checking [TypeScript](https://www.typescriptlang.org)
-- ✅ Strict Mode for TypeScript and React 17
-- ✏️ Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
-- 💡 Absolute Imports
-- 🛠 Code Formatter with [Prettier](https://prettier.io)
-- 🦊 Husky for Git Hooks
-- 🚫 Lint-staged for running linters on Git staged files
-- 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
-- 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
-- ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
-- 🖱️ One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
-- 🌈 Include a FREE minimalist theme
-- 💯 Maximize lighthouse score
+- **Full coverage** crawled from the official table-of-contents trees, not a search index.
+- **Real markdown** (not HTML-in-frontmatter), formatted for reading.
+- **Search** (Pagefind) across every page.
+- **Versioning** — grandMA3 docs by software version with a page-level switcher.
+- **Agent-first delivery** — llms.txt, per-page `.md` twins, an MCP server, and skills.
 
-Built-in feature from Next.js:
+## For AI agents
 
-- ☕ Minify HTML & CSS
-- 💨 Live reload
-- ✅ Cache busting
-
-### Philosophy
-
-- Minimal code
-- SEO-friendly
-- 🚀 Production-ready
-
-### Nextless.js SaaS Boilerplate
-
-Build your SaaS product faster with [React SaaS Boilerplate](https://nextlessjs.com).
-
-[![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/next-js-saas-starter-kit.jpg)](https://nextlessjs.com)
-
-### Premium Themes
-
-| [Green Nextjs Landing Page Template](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [Purple Saas Nextjs Theme](https://creativedesignsguru.com/landing-purple-modern-react-theme/) |
+| Surface | URL |
 | --- | --- |
-| [![Green Nextjs Landing Page Template](https://creativedesignsguru.com/assets/images/themes/landing-green-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [![Blue Landing Page Nextjs Theme](https://creativedesignsguru.com/assets/images/themes/landing-blue-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-blue-modern-react-theme/) |
+| llms.txt (index + instructions) | `/llms.txt`, `/llms-full.txt`, `/llms-small.txt` |
+| Raw markdown of any page | append `.md` to the URL (e.g. `/grandma3/2-4/keyword_store.md`) |
+| MCP server | `https://grandocs-mcp.samcarlton.workers.dev/mcp` |
+| Skills | `npx skills add ThatGuySam/grandocs` |
 
-Find more [Nextjs Themes](https://creativedesignsguru.com/category/nextjs/).
+MCP tools: `search_docs`, `get_page`, `command_lookup`, `list_products_versions`.
+Skills: `grandma3-docs`, `grandma2-dot2-docs`, `grandma-command-syntax`,
+`grandma3-lua-api`, `grandma-macro-writer`, `grandma-troubleshooting`.
 
-### Requirements
-
-- Node.js 14+ and npm
-
-### Getting started
-
-Run the following command on your local environment:
-
-```
-git clone --depth=1 https://github.com/ixartz/Next-js-Boilerplate.git my-project-name
-cd my-project-name
-npm install
+```bash
+# Claude Code
+claude mcp add --transport http grandocs https://grandocs-mcp.samcarlton.workers.dev/mcp
 ```
 
-Then, you can run locally in development mode with live reload:
+## How it works
 
 ```
-npm run dev
+scripts/crawl.ts            ToC-driven crawler -> src/content/docs/<product>[/<ver>]/<slug>.md
+                            (+ data/manifest/*.json for idempotent delta syncs)
+scripts/build-search-index  -> public/agent/search-index.json (MiniSearch, read by the MCP worker)
+scripts/build-version-manifest -> src/data/grandma3-versions.json (powers the version switcher)
+astro build (Starlight)     -> dist/  (HTML + .md twins + llms*.txt + Pagefind index)
+mcp/                        stateless Cloudflare Worker MCP server over the search index
+skills/                     six installable agent skills
 ```
 
-Open http://localhost:3000 with your favorite browser to see your project.
+### Develop
 
-```
-.
-├── README.md                # README file
-├── next.config.js           # Next JS configuration
-├── public                   # Public folder
-│   └── assets
-│       └── images           # Image used by default template
-├── src
-│   ├── layout               # Atomic layout components
-│   ├── pages                # Next JS pages
-│   ├── styles               # PostCSS style folder with Tailwind
-│   ├── templates            # Default template
-│   └── utils                # Utility folder
-├── tailwind.config.js       # Tailwind CSS configuration
-└── tsconfig.json            # TypeScript configuration
+```bash
+pnpm install
+pnpm dev                    # local dev server
+pnpm build                  # version manifest + search index + static site
 ```
 
-### Customization
+### Re-sync docs
 
-You can easily configure Next js Boilerplate. Please change the following file:
-
-- `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your website favicon, you can generate from https://favicon.io/favicon-converter/
-- `src/styles/global.css`: your CSS file using Tailwind CSS
-- `src/utils/AppConfig.ts`: configuration file
-- `src/templates/Main.tsx`: default theme
-
-### Deploy to production
-
-You can see the results locally in production mode with:
-
-```
-$ npm run build
-$ npm run start
+```bash
+pnpm crawl                  # default set (grandMA3 latest + grandMA2/dot2/utility/network)
+node scripts/crawl.ts grandma3:2.3   # a specific source
 ```
 
-The generated HTML and CSS files are minified (built-in feature from Next js). It will also removed unused CSS from [Tailwind CSS](https://tailwindcss.com).
+The [`Sync MA docs`](.github/workflows/sync-docs.yml) workflow runs this weekly and
+commits deltas; [`version-probe`](.github/workflows/version-probe.yml) opens an issue
+when MA ships a new grandMA3 version.
 
-You can create an optimized production build with:
+### Deploy
 
+Static output deploys as Cloudflare Workers assets:
+
+```bash
+scripts/deploy-snapshot.sh prod      # grandocs.samcarlton.workers.dev
+scripts/deploy-snapshot.sh 6         # a frozen per-phase snapshot
 ```
-npm run build-prod
-```
 
-Now, your blog is ready to be deployed. All generated files are located at `out` folder, which you can deploy with any hosting service.
+## Project layout
 
-### Deploy to Netlify
+- [`PLAN.md`](PLAN.md) — the rebuild roadmap.
+- [`docs/plan/`](docs/plan/) — per-phase detail.
+- [`docs/research/`](docs/research/) — sourced research memo.
+- Branch `archive/pre-starlight-2026-06-12` — the frozen pre-rebuild state (the only
+  surviving copy of some legacy multi-version grandMA2/dot2 content).
 
-Clone this repository on own GitHub account and deploy to Netlify:
+## License & attribution
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Next-js-Boilerplate)
-
-### Deploy to Vercel
-
-Deploy this Next JS Boilerplate on Vercel in one click:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fixartz%2FNext-js-Boilerplate)
-
-### VSCode information (optional)
-
-If you are VSCode users, you can have a better integration with VSCode by installing the suggested extension in `.vscode/extension.json`. The starter code comes up with Settings for a seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
-
-Pro tips: if you need a project wide type checking with TypeScript, you can run a build with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> on Mac.
-
-### Contributions
-
-Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug.
-
-### License
-
-Licensed under the MIT License, Copyright © 2022
-
-See [LICENSE](LICENSE) for more information.
-
----
-
-Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
-
-[![Sponsor Next JS Boilerplate](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://www.buymeacoffee.com/ixartz)
+Project code: ISC. Documentation content © MA Lighting International GmbH, mirrored
+unofficially with attribution and canonical links. Not affiliated with or endorsed
+by MA Lighting.

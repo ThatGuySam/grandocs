@@ -1,0 +1,20 @@
+---
+title: "Transport"
+description: "Noncompliance of the safety instructions can result in personal injury or material damage;"
+product: grandma3
+version: "2.3"
+lang: en
+sourceUrl: "https://help.malighting.com/grandMA3/2.3/HTML/key_dinrail_transport.html"
+scrapedAt: "2026-06-15T18:25:47.230Z"
+pagefind: false
+---
+- The grandMA3 xPort Node DIN-Rails must be protected from environmental factors such as physical shocks and vibration during transportation;
+- Remove all cables before transport;
+- The user is responsible for securely fastening the products for transport and for following the manufacturer´s safety instructions when transporting the device;\
+  Noncompliance of the safety instructions can result in personal injury or material damage;
+- Do not place the grandMA3 xPort Node DIN-Rails on unstable surfaces;
+- Do not place any objects on top of the grandMA3 xPort Node DIN-Rails.
+
+## Subtopics
+
+- [Limitations](/grandma3/2-3/key_dinrail_limitations/)

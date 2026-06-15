@@ -1,0 +1,62 @@
+---
+title: "Quick Start"
+description: "grandMA3 8Port Node DIN-Rail front panel"
+product: grandma3
+version: "2.3"
+lang: en
+sourceUrl: "https://help.malighting.com/grandMA3/2.3/HTML/key_dinrail_quick_start.html"
+scrapedAt: "2026-06-15T18:25:47.224Z"
+pagefind: false
+---
+![](/img/grandma3/2-3/img_gm3_8port-node-din-rail_front_callouts-56fb2b.png)
+
+_grandMA3 8Port Node DIN-Rail_ front panel
+
+1. [Terminal block](/grandma3/2-3/do_connector_pin_assignment/)
+2. Rotary knob 
+
+![](/img/grandma3/2-3/img_gm3_8port-node-din-rail_rear_callouts-e1eb10.png)
+
+_grandMA3 8Port Node DIN-Rail_ rear panel
+
+1. [DMX](/grandma3/2-3/fs_connect_dmx/)
+2. [Ethernet with L (link) and G (gigabit) LEDs](/grandma3/2-3/fs_connect_ethernet/)
+3. [USB 2.0](/grandma3/2-3/fs_connect_usb/)
+
+![](/img/grandma3/2-3/img_gm3_4port-node-din-rail_rear_callouts_1-1fc8a2.png)
+
+_grandMA3 4Port Node DIN-Rail_ rear panel 
+
+![](/img/grandma3/2-3/img_gm3_2port-node-din-rail_rear_callouts_1-153687.png)
+
+_grandMA3 2Port Node DIN-Rail_ rear panel
+
+ 
+
+### Start-up
+
+1. Unpack the device.
+2. Remove the packaging and cushioning material. 
+3. Install the device on a rail. For more information see [Installation](/grandma3/2-3/key_dinrail_installation/).
+4. Connect the grandMA3 xPort Node DIN-Rail with your PC, laptop, or a grandMA3 console using the RJ45 connector.
+5. Connect the grandMA3 xPort Node DIN-Rail with the electrical grid using a terminal block connector, a PoE switch, or a PoE injector.
+6. The device starts booting.
+7. To make basic settings, turn the rotary knob on the front panel of the device.
+8. To turn off the grandMA3 xPort Node DIN-Rail, disconnect the RJ45 connector or the terminal block connector. 
+
+### Update the software
+
+1. To update a grandMA3 device, download the latest software version from www\.malighting.com.
+2. The required installer is called grandMA3 Software x.x.x.x.
+3. Extract the zip file "grandMA3\_stick\_v.x.x.x.x.zip" and copy the folders EFI, ma, and the update.scr file into the root directory of your USB flash drive. 
+4. Insert the USB flash drive in the device's USB port.
+5. Turn off the grandMA3 device.
+6. Turn on the grandMA3 device. \
+   The grandMA3 device starts to boot.
+7. Follow the onscreen instructions during the update process.
+
+## Subtopics
+
+- [Control other MA Devices](/grandma3/2-3/comad_xport_nodes/)
+- [Update the Software](/grandma3/2-3/update/)
+- [Network Update](/grandma3/2-3/update_network/)

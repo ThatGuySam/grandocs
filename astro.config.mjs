@@ -69,6 +69,7 @@ export default defineConfig({
 						label: 'grandMA3',
 						link: '/grandma3/2-4/',
 						icon: 'rocket',
+						id: 'grandma3',
 						items: productSidebar({ key: 'grandma3-2.4', product: 'grandma3', verDir: '2-4' }),
 					},
 					{
@@ -105,7 +106,13 @@ export default defineConfig({
 						],
 					},
 					],
-					{ exclude: ['/'] }
+					{
+						exclude: ['/'],
+						// Older grandMA3 versions aren't their own topic; associate them with
+						// the grandMA3 topic so they keep the product sidebar. The page-header
+						// version switcher + old-version banner handle cross-version navigation.
+						topics: { grandma3: ['/grandma3/2-3/**'] },
+					}
 				),
 			],
 		}),

@@ -6,10 +6,12 @@
 	"description": "Unofficial, agent-native mirror of MA Lighting's grandMA3, grandMA2, and dot2 documentation.",
 	"scripts": {
 		"dev": "astro dev",
-		"build": "node scripts/build-search-index.mjs && astro build",
+		"prebuild": "node scripts/build-version-manifest.mjs && node scripts/build-search-index.mjs",
+		"build": "node scripts/build-version-manifest.mjs && node scripts/build-search-index.mjs && astro build",
 		"preview": "astro preview",
 		"crawl": "node scripts/crawl.ts",
-		"search-index": "node scripts/build-search-index.mjs"
+		"search-index": "node scripts/build-search-index.mjs",
+		"version-manifest": "node scripts/build-version-manifest.mjs"
 	},
 	"repository": {
 		"type": "git",

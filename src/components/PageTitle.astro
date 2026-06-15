@@ -3,6 +3,8 @@
 // Mirrors @astrojs/starlight/constants, which is not a public export.
 const PAGE_TITLE_ID = '_top'
 
+import versions from '../data/grandma3-versions.json'
+
 const route = Astro.locals.starlightRoute
 const { entry } = route
 const sourceUrl = entry.data.sourceUrl as string | undefined
@@ -16,10 +18,52 @@ const mdAbsolute = new URL(mdPath, siteOrigin).href
 const prompt = `Read ${mdAbsolute} and help me with this grandMA documentation page.`
 const chatgpt = `https://chatgpt.com/?q=${encodeURIComponent(prompt)}`
 const claude = `https://claude.ai/new?q=${encodeURIComponent(prompt)}`
+
+// --- grandMA3 version switcher -------------------------------------------------
+// Pages under grandma3/<verDir>/<topic> get a version <select> that jumps to the
+// same topic in another version (or that version's root if the topic is absent).
+const ma3 = id.match(/^grandma3\/([^/]+)\/(.*)$/)
+const currentVer = ma3?.[1]
+const topic = ma3?.[2] ?? ''
+const showVersions = Boolean(currentVer) && versions.versions.length > 1
+const isOldVersion = Boolean(currentVer) && currentVer !== versions.latest
+
+/** Where the switcher should navigate for a given target version dir. */
+function targetUrl(verDir: string): string {
+	const slugs = (versions.slugs as Record<string, string[]>)[verDir] ?? []
+	return slugs.includes(topic) ? `/grandma3/${verDir}/${topic}/` : `/grandma3/${verDir}/`
+}
+const latestLabel = versions.versions.find((v) => v.dir === versions.latest)?.label
 ---
 
 <div class="grandocs-pagehead">
-	<h1 id={PAGE_TITLE_ID}>{entry.data.title}</h1>
+	<div class="grandocs-titlerow">
+		<h1 id={PAGE_TITLE_ID}>{entry.data.title}</h1>
+		{
+			showVersions && (
+				<label class="ga-version" title="grandMA3 version">
+					<span class="ga-version-label">v</span>
+					<select data-version-switcher>
+						{versions.versions.map((v) => (
+							<option value={targetUrl(v.dir)} selected={v.dir === currentVer}>
+								{v.label}
+							</option>
+						))}
+					</select>
+				</label>
+			)
+		}
+	</div>
+
+	{
+		isOldVersion && (
+			<div class="ga-oldbanner">
+				You're viewing grandMA3 {currentVer?.replace('-', '.')} docs.
+				<a href={targetUrl(versions.latest)}>Switch to the latest ({latestLabel}).</a>
+			</div>
+		)
+	}
+
 	<div class="grandocs-actions" data-md-url={mdPath}>
 		<button type="button" class="ga-btn" data-copy-md>
 			<span class="ga-ico">⧉</span> Copy as Markdown
@@ -38,6 +82,7 @@ const claude = `https://claude.ai/new?q=${encodeURIComponent(prompt)}`
 </div>
 
 <script>
+	// Copy-as-markdown
 	document.querySelectorAll<HTMLButtonElement>('[data-copy-md]').forEach((btn) => {
 		btn.addEventListener('click', async () => {
 			const url = btn.closest<HTMLElement>('.grandocs-actions')?.dataset.mdUrl
@@ -53,6 +98,13 @@ const claude = `https://claude.ai/new?q=${encodeURIComponent(prompt)}`
 			setTimeout(() => (btn.innerHTML = original), 1800)
 		})
 	})
+
+	// Version switcher: navigate on change.
+	document.querySelectorAll<HTMLSelectElement>('[data-version-switcher]').forEach((sel) => {
+		sel.addEventListener('change', () => {
+			if (sel.value) window.location.href = sel.value
+		})
+	})
 </script>
 
 <style>
@@ -64,6 +116,41 @@ const claude = `https://claude.ai/new?q=${encodeURIComponent(prompt)}`
 			font-weight: 600;
 			color: var(--sl-color-white);
 		}
+	}
+	.grandocs-titlerow {
+		display: flex;
+		align-items: flex-end;
+		gap: 0.75rem;
+		flex-wrap: wrap;
+	}
+	.ga-version {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.3rem;
+		margin-bottom: 0.4rem;
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-2);
+	}
+	.ga-version select {
+		background: var(--sl-color-gray-6);
+		color: var(--sl-color-white);
+		border: 1px solid var(--sl-color-gray-5);
+		border-radius: 0.4rem;
+		padding: 0.2rem 0.4rem;
+		font: inherit;
+	}
+	.ga-oldbanner {
+		margin-top: 0.6rem;
+		padding: 0.5rem 0.75rem;
+		border: 1px solid var(--sl-color-accent);
+		border-radius: 0.4rem;
+		background: var(--sl-color-accent-low);
+		color: var(--sl-color-white);
+		font-size: var(--sl-text-sm);
+	}
+	.ga-oldbanner a {
+		color: var(--sl-color-accent-high);
+		font-weight: 600;
 	}
 	.grandocs-actions {
 		display: flex;
