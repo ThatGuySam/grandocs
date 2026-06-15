@@ -9,10 +9,10 @@
 	"observability": {
 		"enabled": true
 	},
-	// Origin the static search index + .md twins are served from. Point at the
-	// custom domain (https://grandocs.samcarlton.com) once it is attached.
+	// Origin the static search index + .md twins are served from (now on the
+	// custom domain). The SITE service binding still routes reads to the worker.
 	"vars": {
-		"SITE_ORIGIN": "https://grandocs.samcarlton.workers.dev"
+		"SITE_ORIGIN": "https://grandocs.samcarlton.com"
 	},
 	// Service binding to the site worker. A Worker fetching another same-account
 	// worker over its workers.dev hostname hits Cloudflare's loopback guard (404),
@@ -20,11 +20,9 @@
 	// Once the site is on a custom domain you can drop this and rely on SITE_ORIGIN.
 	"services": [
 		{ "binding": "SITE", "service": "grandocs" }
+	],
+	// Stable endpoint: https://grandocs-mcp.samcarlton.com/mcp
+	"routes": [
+		{ "pattern": "grandocs-mcp.samcarlton.com", "custom_domain": true }
 	]
-
-	// Eventual stable endpoint — point clients at https://grandocs-mcp.samcarlton.com/mcp.
-	// Requires the DNS zone + a Workers Routes:Edit token; uncomment once the domain is ready:
-	// "routes": [
-	// 	{ "pattern": "grandocs-mcp.samcarlton.com", "custom_domain": true }
-	// ]
 }

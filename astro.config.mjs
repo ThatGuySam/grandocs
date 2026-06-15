@@ -16,7 +16,7 @@ const LLMS_DETAILS = `> grandocs is an UNOFFICIAL, fan-maintained mirror of MA L
 - Append \`.md\` to any page URL for its raw markdown (e.g.
   \`/grandma3/2-4/cue_store.md\`).
 - A Model Context Protocol server is available at
-  \`https://grandocs-mcp.samcarlton.workers.dev/mcp\` with tools \`search_docs\`,
+  \`https://grandocs-mcp.samcarlton.com/mcp\` with tools \`search_docs\`,
   \`get_page\`, \`command_lookup\`, and \`list_products_versions\`.
 - Default to grandMA3 v2.4, but the user's actual console software version always
   wins — switch the version segment in the URL accordingly.

@@ -22,7 +22,7 @@ code changes.
 
 | | |
 |---|---|
-| Streamable HTTP | `https://grandocs-mcp.samcarlton.workers.dev/mcp` |
+| Streamable HTTP | `https://grandocs-mcp.samcarlton.com/mcp` |
 | Eventual stable domain | `https://grandocs-mcp.samcarlton.com/mcp` |
 | Health / info | `GET /` |
 
@@ -44,7 +44,7 @@ unversioned in the URL.
 ### Claude Code
 
 ```bash
-claude mcp add --transport http grandocs https://grandocs-mcp.samcarlton.workers.dev/mcp
+claude mcp add --transport http grandocs https://grandocs-mcp.samcarlton.com/mcp
 ```
 
 ### Cursor
@@ -55,7 +55,7 @@ Add to `~/.cursor/mcp.json` (or a project `.cursor/mcp.json`):
 {
   "mcpServers": {
     "grandocs": {
-      "url": "https://grandocs-mcp.samcarlton.workers.dev/mcp"
+      "url": "https://grandocs-mcp.samcarlton.com/mcp"
     }
   }
 }
@@ -72,7 +72,7 @@ Claude Desktop speaks stdio, so bridge the remote server with
   "mcpServers": {
     "grandocs": {
       "command": "npx",
-      "args": ["-y", "mcp-remote", "https://grandocs-mcp.samcarlton.workers.dev/mcp"]
+      "args": ["-y", "mcp-remote", "https://grandocs-mcp.samcarlton.com/mcp"]
     }
   }
 }

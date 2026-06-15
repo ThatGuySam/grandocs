@@ -39,7 +39,7 @@ over grandocs' search index. Tools: `search_docs`, `get_page`,
 
 ```bash
 # Claude Code
-claude mcp add --transport http grandocs https://grandocs-mcp.samcarlton.workers.dev/mcp
+claude mcp add --transport http grandocs https://grandocs-mcp.samcarlton.com/mcp
 ```
 
 Cursor, Claude Desktop, and other clients: see the

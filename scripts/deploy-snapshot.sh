@@ -20,10 +20,16 @@ ACCOUNT="8d4ef8fe891f53e5658d3fdd5a4c7630"
 ZONE="2601bf36012e64482012f58664e5ebf3"
 CONFIG=".wrangler-snapshot.jsonc"
 
-# Worker deploy token: needs Workers Scripts:Edit (vumbnail-white has it, unrestricted).
-WORKER_TOKEN="${WORKER_TOKEN:-$(grep -E '^CLOUDFLARE_API_TOKEN=' ~/Code/vumbnail-white/.env.local 2>/dev/null | head -1 | cut -d= -f2- | tr -d '"'"'"'"' )}"
-# Custom-domain token: needs Workers Routes:Edit + DNS:Edit (wp has it, IP-restricted).
-DOMAIN_TOKEN="${DOMAIN_TOKEN:-$(grep -E '^CLOUDFLARE_API_TOKEN=' ~/Code/wp/.env 2>/dev/null | head -1 | cut -d= -f2- | tr -d '"'"'"'"' )}"
+# Cloudflare token. The project .env.local token (CLOUDFLARE_API_TOKEN) has
+# Workers Scripts:Edit + Workers Routes:Edit + zone access — enough to deploy the
+# worker AND attach the samcarlton.com custom domain — and is not IP-restricted.
+# Both stages use it by default; override WORKER_TOKEN / DOMAIN_TOKEN to split them.
+HERE="$(cd "$(dirname "$0")/.." && pwd)"
+PROJECT_TOKEN="$(grep -E '^CLOUDFLARE_API_TOKEN=' "$HERE/.env.local" 2>/dev/null | head -1 | cut -d= -f2- | tr -d '"'"'"'"' )"
+WORKER_TOKEN="${WORKER_TOKEN:-$PROJECT_TOKEN}"
+DOMAIN_TOKEN="${DOMAIN_TOKEN:-$PROJECT_TOKEN}"
+# Attach the custom domain by default now that a capable token is available.
+ATTACH_DOMAIN="${ATTACH_DOMAIN:-1}"
 
 cat > "$CONFIG" <<EOF
 {
@@ -44,8 +50,12 @@ if [ $STAGE1 -ne 0 ]; then
 fi
 echo "✓ live: https://${NAME}.samcarlton.workers.dev"
 
-if [ "${ATTACH_DOMAIN:-0}" != "1" ]; then
-	echo "▶ Stage 2: skipped (set ATTACH_DOMAIN=1 with a DNS+Routes-capable, non-IP-locked token to attach ${HOST})."
+if [ "$ATTACH_DOMAIN" != "1" ]; then
+	echo "▶ Stage 2: skipped (ATTACH_DOMAIN!=1). Worker is live at https://${NAME}.samcarlton.workers.dev"
+	exit 0
+fi
+if [ -z "$DOMAIN_TOKEN" ]; then
+	echo "▶ Stage 2: skipped — no token found in $HERE/.env.local (CLOUDFLARE_API_TOKEN)."
 	exit 0
 fi
 echo "▶ Stage 2: attach custom domain ${HOST} (best-effort)"

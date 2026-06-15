@@ -3,8 +3,8 @@
 **An unofficial, agent-native mirror of MA Lighting's documentation** — grandMA3,
 grandMA2, and dot2 — rebuilt as clean, searchable markdown for humans and AI agents.
 
-> Live (workers.dev): <https://grandocs.samcarlton.workers.dev> ·
-> MCP: <https://grandocs-mcp.samcarlton.workers.dev/mcp> ·
+> Live: <https://grandocs.samcarlton.com> ·
+> MCP: <https://grandocs-mcp.samcarlton.com/mcp> ·
 > Skills: `npx skills add ThatGuySam/grandocs`
 
 Documentation content belongs to [MA Lighting International GmbH](https://www.malighting.com/).
@@ -30,7 +30,7 @@ it. grandocs rebuilds the mirror from the current official help site with:
 | --- | --- |
 | llms.txt (index + instructions) | `/llms.txt`, `/llms-full.txt`, `/llms-small.txt` |
 | Raw markdown of any page | append `.md` to the URL (e.g. `/grandma3/2-4/keyword_store.md`) |
-| MCP server | `https://grandocs-mcp.samcarlton.workers.dev/mcp` |
+| MCP server | `https://grandocs-mcp.samcarlton.com/mcp` |
 | Skills | `npx skills add ThatGuySam/grandocs` |
 
 MCP tools: `search_docs`, `get_page`, `command_lookup`, `list_products_versions`.
@@ -39,7 +39,7 @@ Skills: `grandma3-docs`, `grandma2-dot2-docs`, `grandma-command-syntax`,
 
 ```bash
 # Claude Code
-claude mcp add --transport http grandocs https://grandocs-mcp.samcarlton.workers.dev/mcp
+claude mcp add --transport http grandocs https://grandocs-mcp.samcarlton.com/mcp
 ```
 
 ## How it works
@@ -75,12 +75,27 @@ when MA ships a new grandMA3 version.
 
 ### Deploy
 
-Static output deploys as Cloudflare Workers assets:
+Static output deploys as Cloudflare Workers assets (account: *Sam Carlton
+Creative*, zone `samcarlton.com`).
+
+**Cloudflare credentials:** `scripts/deploy-snapshot.sh` reads
+`CLOUDFLARE_API_TOKEN` from `.env.local` (git-ignored). That token needs
+**Workers Scripts:Edit + Workers Routes:Edit + Zone:Read** on `samcarlton.com`
+and must not be IP-restricted — enough to deploy the worker *and* attach the
+custom domain. The MCP worker (`mcp/`) uses the same token; export it before
+`wrangler deploy` there.
 
 ```bash
-scripts/deploy-snapshot.sh prod      # grandocs.samcarlton.workers.dev
-scripts/deploy-snapshot.sh 6         # a frozen per-phase snapshot
+scripts/deploy-snapshot.sh prod      # -> grandocs.samcarlton.com
+scripts/deploy-snapshot.sh 6         # -> grandocs-phase-6.samcarlton.com (frozen snapshot)
+ATTACH_DOMAIN=0 scripts/deploy-snapshot.sh prod   # workers.dev only, skip the custom domain
+
+# MCP worker
+cd mcp && export CLOUDFLARE_API_TOKEN=$(grep ^CLOUDFLARE_API_TOKEN= ../.env.local | cut -d= -f2- | tr -d '"') \
+  && npx wrangler deploy
 ```
+
+Each phase of the rebuild is frozen at `grandocs-phase-{1..6}.samcarlton.com`.
 
 ## Project layout
 

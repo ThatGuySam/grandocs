@@ -59,12 +59,12 @@ Typical flow without MCP: fetch `/llms.txt` → find the topic → take the page
 
 grandocs exposes a remote MCP server (Streamable HTTP) over a build-emitted search index. When connected, prefer it over manual fetching.
 
-Endpoint (Cloudflare Worker): `https://grandocs-mcp.samcarlton.workers.dev/mcp` — exact URL is published on the grandocs "Building with AI" page (`/building-with-ai/`).
+Endpoint (Cloudflare Worker): `https://grandocs-mcp.samcarlton.com/mcp` — exact URL is published on the grandocs "Building with AI" page (`/building-with-ai/`).
 
 Add to Claude Code:
 
 ```bash
-claude mcp add --transport http grandocs https://grandocs-mcp.samcarlton.workers.dev/mcp
+claude mcp add --transport http grandocs https://grandocs-mcp.samcarlton.com/mcp
 ```
 
 Tools:
