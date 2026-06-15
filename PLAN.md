@@ -18,16 +18,27 @@ Detail docs live in [docs/plan/](docs/plan/). Research with sources: [docs/resea
 - `starlight-rebuild` — this plan and all rebuild work.
 - `master` — fast-forwarded to origin (was 276 commits behind locally).
 
-## Phases
+## Phases — all shipped (2026-06-15)
 
-- [ ] **1. Starlight scaffold** — replace Next.js with Astro + Starlight; Pagefind search out of the box → [docs/plan/01-starlight-site.md](docs/plan/01-starlight-site.md)
-- [ ] **2. Content pipeline** — ToC-driven crawler of `help.malighting.com`, real HTML→markdown conversion, weekly resync GitHub Action with delta commits → [docs/plan/02-content-pipeline.md](docs/plan/02-content-pipeline.md)
-- [ ] **3. Agentic discovery** — llms.txt / llms-full.txt / llms-small.txt, `.md` twin for every page, robots.txt + sitemap, copy-as-markdown / open-in-LLM buttons → [docs/plan/03-agentic-discovery.md](docs/plan/03-agentic-discovery.md)
-- [ ] **4. MCP server** — near-static: thin stateless Cloudflare Worker over a build-emitted search index; local stdio variant for air-gapped lighting networks → [docs/plan/04-mcp-server.md](docs/plan/04-mcp-server.md)
-- [ ] **5. Skills** — `skills/` directory, 6 core grandMA skills, published via `npx skills add ThatGuySam/grandocs` (auto-listed on skills.sh) → [docs/plan/05-skills.md](docs/plan/05-skills.md)
-- [ ] **6. Polish** — version switcher, redirects from old URLs, landing page, feedback widget, OG images.
+- [x] **1. Starlight scaffold** — Astro 6 + Starlight, Pagefind search, amber dark theme → [docs/plan/01-starlight-site.md](docs/plan/01-starlight-site.md)
+- [x] **2. Content pipeline** — ToC crawler of `help.malighting.com`, rehype→remark conversion, 4,242 pages (grandMA3 2.4 + 2.3, grandMA2, dot2, utility, network), weekly sync Action + version probe → [docs/plan/02-content-pipeline.md](docs/plan/02-content-pipeline.md)
+- [x] **3. Agentic discovery** — llms.txt/full/small, `.md` twin per page, robots.txt + sitemap, copy/open-in-LLM buttons → [docs/plan/03-agentic-discovery.md](docs/plan/03-agentic-discovery.md)
+- [x] **4. MCP server** — stateless Cloudflare Worker over a MiniSearch index (service-binding to the site), live → [docs/plan/04-mcp-server.md](docs/plan/04-mcp-server.md)
+- [x] **5. Skills** — `skills/` with 6 grandMA skills; installable via `npx skills add ThatGuySam/grandocs` **once merged to master** → [docs/plan/05-skills.md](docs/plan/05-skills.md)
+- [x] **6. Polish** — grandMA3 version switcher + old-version banner, legacy redirects, README, production deploy.
 
-Order matters only for 1 → 2 (site before content fills it). 3–5 are parallelizable once 2 produces clean markdown.
+### Live URLs (workers.dev; custom domains pending token perms — see below)
+
+- Production site: <https://grandocs.samcarlton.workers.dev>
+- MCP: <https://grandocs-mcp.samcarlton.workers.dev/mcp>
+- Per-phase snapshots: `grandocs-phase-{1..6}.samcarlton.workers.dev` (+ `grandocs-phase-4-mcp`)
+
+### Known follow-ups
+
+- **Custom domains** (`grandocs.samcarlton.com`, `grandocs-phase-N…`): blocked — the only DNS+Routes-capable Cloudflare token is IP-allowlisted and this machine's egress IP isn't on it. Set `ATTACH_DOMAIN=1` with a capable, non-IP-locked token to attach. Worker deploys themselves work via the vumbnail-white token.
+- **Skills install** needs the rebuild on `master` (the CLI clones the default branch). Clean fast-forward; archive branch preserves the old state.
+- **More grandMA3 versions** (2.0–2.2) via `node scripts/crawl.ts grandma3:2.2` etc. Watch the ~20k-file Workers asset cap (currently ~16.3k with two versions).
+- Lua command-fence warnings (`language "|"`), sidebar DOM weight on huge pages — cosmetic/perf, deferred.
 
 ## Feature list
 
