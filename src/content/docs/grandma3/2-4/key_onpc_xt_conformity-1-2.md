@@ -74,4 +74,4 @@ Waldbüttelbrunn, 24 mars 2020
 
 Dipl.-Ing. Michael Adenau (PDG)
 
-![](/img/grandma3/2-4/img_signature_m-adenau_2_1-7ffa4e.png)  ![](/img/grandma3/2-4/ma_logo_120_2_1-c0bf4f.png)
+![](/img/grandma3/2-4/img_signature_m-adenau_2_1-7ffa4e.png) 

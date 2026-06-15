@@ -7,7 +7,6 @@ sourceUrl: "https://help.malighting.com/grandMA3/2.3/HTML/help.html"
 scrapedAt: "2026-06-15T18:24:46.912Z"
 pagefind: false
 ---
-![](/img/grandma3/2-3/logo_3_grey-e2649d.png)
 
 ## Subtopics
 

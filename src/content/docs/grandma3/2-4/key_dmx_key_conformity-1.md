@@ -32,8 +32,6 @@ _erklärt, dass das Produkt_
 
 _den folgenden Richtlinien sowie harmonisierten Normen entspricht_****
 
-
-
 ---
 
 **EMV (Elektromagnetische Verträglichkeit):**
@@ -62,4 +60,4 @@ Waldbüttelbrunn, 2. Februar 2026
 
 Dipl.-Ing. Alexander Schneider (Geschäftsführer)
 
- ![](/img/grandma3/2-4/unterschrift-20alexander-20schneider-b43ed4.png) ![](/img/grandma3/2-4/ma_logo_120_3_3-701619.png)
+ ![](/img/grandma3/2-4/unterschrift-20alexander-20schneider-b43ed4.png) 

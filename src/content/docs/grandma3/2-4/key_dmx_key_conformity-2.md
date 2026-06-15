@@ -62,4 +62,4 @@ Waldbüttelbrunn, 02 février 2026
 
 Dipl.-Ing. Alexander Schneider (CEO)
 
- ![](/img/grandma3/2-4/unterschrift-20alexander-20schneider-b43ed4.png) ![](/img/grandma3/2-4/ma_logo_120_3_3-701619.png)
+ ![](/img/grandma3/2-4/unterschrift-20alexander-20schneider-b43ed4.png) 

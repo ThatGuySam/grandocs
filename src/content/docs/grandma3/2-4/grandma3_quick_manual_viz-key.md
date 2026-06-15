@@ -6,7 +6,6 @@ lang: en
 sourceUrl: "https://help.malighting.com/grandMA3/2.4/HTML/grandma3_quick_manual_viz-key.html"
 scrapedAt: "2026-06-12T21:25:39.174Z"
 ---
-![](/img/grandma3/2-4/logo_3_grey-26cc28.png)
 
 ## Subtopics
 

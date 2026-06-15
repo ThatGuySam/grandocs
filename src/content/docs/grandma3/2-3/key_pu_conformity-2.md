@@ -82,4 +82,4 @@ Waldbüttelbrunn, 01 novembre 2019
 
 Dipl.-Ing. Michael Adenau (PDG)
 
-![](/img/grandma3/2-3/img_signature_m-adenau_32-322c6b.png)  ![](/img/grandma3/2-3/ma_logo_120_12-fa4e33.png)
+![](/img/grandma3/2-3/img_signature_m-adenau_32-322c6b.png) 

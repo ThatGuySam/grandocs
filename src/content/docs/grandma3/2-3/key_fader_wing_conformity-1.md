@@ -76,4 +76,4 @@ Waldbüttelbrunn, 28. Juli 2020
 
 Dipl.-Ing. Michael Adenau (Geschäftsführer)
 
-![](/img/grandma3/2-3/img_signature_m-adenau_5_15-7a805d.png)  ![](/img/grandma3/2-3/ma_logo_120_3_15-f79aab.png)
+![](/img/grandma3/2-3/img_signature_m-adenau_5_15-7a805d.png)  

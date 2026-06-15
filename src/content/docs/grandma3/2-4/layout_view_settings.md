@@ -20,7 +20,7 @@ Layout View window
 
 ## Open Layout View Settings
 
-- To open the Layout View Settings, tap ![ma\_logo](/img/grandma3/2-4/ma_logo_1-443a44.png) in the upper left corner of the layout window.
+- To open the Layout View Settings, tap  in the upper left corner of the layout window.
 
 The Layout View Settings pop-up opens. 
 

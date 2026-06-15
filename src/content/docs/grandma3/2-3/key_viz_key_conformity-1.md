@@ -78,4 +78,4 @@ Dipl.-Ing. Michael Adenau (Geschäftsführer)
 
  
 
-![](/img/grandma3/2-3/img_signature_m-adenau_5_-1-_24-5ec907.png)    ![](/img/grandma3/2-3/ma_logo_120_3_34-39150f.png)
+![](/img/grandma3/2-3/img_signature_m-adenau_5_-1-_24-5ec907.png)    

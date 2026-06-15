@@ -85,4 +85,4 @@ Waldbüttelbrunn, November 01, 2019
 
 Dipl.-Ing. Michael Adenau (CEO)
 
-![](/img/grandma3/2-3/img_signature_m-adenau_1-7a9bfc.png)  ![](/img/grandma3/2-3/ma_logo_schriftzug_r_4farbig-7901cc.png)
+![](/img/grandma3/2-3/img_signature_m-adenau_1-7a9bfc.png) 

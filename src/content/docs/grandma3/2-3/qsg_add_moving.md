@@ -50,7 +50,7 @@ Select New Fixture at the bottom of the list - make sure to select the one outsi
 
 Click Insert New Fixture.
 
-We need to import new fixtures from a library, so click Library. The upper right corner of the pop-up has some buttons that can be used to select different library sections. The default is that the MA library (![](/img/grandma3/2-3/icon_ma-logo_15_v1-9-6365d9.png)) and the user created files (![](/img/grandma3/2-3/icon_user_15_v1-9-255697.png)) are active, but we can also activate the library section from the world server by turning On the globe icon ![](/img/grandma3/2-3/icon_world-server_15_v1-9-6d3a13.png).
+We need to import new fixtures from a library, so click Library. The upper right corner of the pop-up has some buttons that can be used to select different library sections. The default is that the MA library () and the user created files (![](/img/grandma3/2-3/icon_user_15_v1-9-255697.png)) are active, but we can also activate the library section from the world server by turning On the globe icon ![](/img/grandma3/2-3/icon_world-server_15_v1-9-6d3a13.png).
 
 ![](/img/grandma3/2-3/qsg_11_library-selection_v1-9-ac0ca7.png)
 

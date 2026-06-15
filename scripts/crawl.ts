@@ -14,6 +14,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 
 import { cleanMarkdown } from './lib/clean-md.mjs'
+import { isBrandAsset } from './lib/branding.mjs'
 import { select, selectAll } from 'hast-util-select'
 import { toString as hastToString } from 'hast-util-to-string'
 import pLimit from 'p-limit'
@@ -230,6 +231,10 @@ function convertPage(opts: {
 		}
 		return /CHHeadingLink/.test(cls)
 	})
+
+	// grandocs is an unofficial mirror: drop MA Lighting brand imagery (company
+	// logo + wordmark) so it is neither referenced nor downloaded.
+	removeNodes(content, (n) => n.tagName === 'img' && isBrandAsset(n.properties?.src))
 
 	const images = new Map<string, string>()
 	const verDir = src.version ? src.version.replace(/\./g, '-') : ''

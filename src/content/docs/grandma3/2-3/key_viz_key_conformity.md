@@ -71,4 +71,4 @@ Dipl.-Ing. Michael Adenau (CEO)
 
  
 
-![](/img/grandma3/2-3/img_signature_m-adenau_5_-1-_2-002442.png)    ![](/img/grandma3/2-3/ma_logo_120_3_3-8b4f91.png)
+![](/img/grandma3/2-3/img_signature_m-adenau_5_-1-_2-002442.png)    
