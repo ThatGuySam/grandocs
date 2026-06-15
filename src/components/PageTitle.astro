@@ -1,0 +1,97 @@
+---
+// Starlight marks the page <h1> with this id (its "skip to content" target).
+// Mirrors @astrojs/starlight/constants, which is not a public export.
+const PAGE_TITLE_ID = '_top'
+
+const route = Astro.locals.starlightRoute
+const { entry } = route
+const sourceUrl = entry.data.sourceUrl as string | undefined
+
+// Markdown twin: the page path with a `.md` suffix (served by src/pages/[...slug].md.ts).
+const id = entry.id.replace(/\/?index$/, '')
+const mdPath = `/${id}.md`.replace('//', '/')
+const siteOrigin = Astro.site?.origin ?? 'https://grandocs.samcarlton.com'
+const mdAbsolute = new URL(mdPath, siteOrigin).href
+
+const prompt = `Read ${mdAbsolute} and help me with this grandMA documentation page.`
+const chatgpt = `https://chatgpt.com/?q=${encodeURIComponent(prompt)}`
+const claude = `https://claude.ai/new?q=${encodeURIComponent(prompt)}`
+---
+
+<div class="grandocs-pagehead">
+	<h1 id={PAGE_TITLE_ID}>{entry.data.title}</h1>
+	<div class="grandocs-actions" data-md-url={mdPath}>
+		<button type="button" class="ga-btn" data-copy-md>
+			<span class="ga-ico">⧉</span> Copy as Markdown
+		</button>
+		<a class="ga-btn" href={mdPath} target="_blank" rel="noopener">View .md</a>
+		<a class="ga-btn" href={chatgpt} target="_blank" rel="noopener">Open in ChatGPT</a>
+		<a class="ga-btn" href={claude} target="_blank" rel="noopener">Open in Claude</a>
+		{
+			sourceUrl && (
+				<a class="ga-btn ga-btn-source" href={sourceUrl} target="_blank" rel="noopener">
+					Official source ↗
+				</a>
+			)
+		}
+	</div>
+</div>
+
+<script>
+	document.querySelectorAll<HTMLButtonElement>('[data-copy-md]').forEach((btn) => {
+		btn.addEventListener('click', async () => {
+			const url = btn.closest<HTMLElement>('.grandocs-actions')?.dataset.mdUrl
+			if (!url) return
+			const original = btn.innerHTML
+			try {
+				const res = await fetch(url)
+				await navigator.clipboard.writeText(await res.text())
+				btn.innerHTML = '<span class="ga-ico">✓</span> Copied'
+			} catch {
+				btn.innerHTML = '<span class="ga-ico">!</span> Copy failed'
+			}
+			setTimeout(() => (btn.innerHTML = original), 1800)
+		})
+	})
+</script>
+
+<style>
+	@layer starlight.core {
+		.grandocs-pagehead h1 {
+			margin-top: 1rem;
+			font-size: var(--sl-text-h1);
+			line-height: var(--sl-line-height-headings);
+			font-weight: 600;
+			color: var(--sl-color-white);
+		}
+	}
+	.grandocs-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.4rem;
+		margin-top: 0.75rem;
+	}
+	.ga-btn {
+		font-size: var(--sl-text-xs);
+		line-height: 1;
+		padding: 0.4rem 0.6rem;
+		border: 1px solid var(--sl-color-gray-5);
+		border-radius: 0.4rem;
+		background: var(--sl-color-gray-6);
+		color: var(--sl-color-gray-1);
+		cursor: pointer;
+		text-decoration: none;
+		white-space: nowrap;
+		transition: border-color 0.15s, color 0.15s;
+	}
+	.ga-btn:hover {
+		border-color: var(--sl-color-accent);
+		color: var(--sl-color-white);
+	}
+	.ga-btn-source {
+		margin-inline-start: auto;
+	}
+	.ga-ico {
+		font-size: 0.85em;
+	}
+</style>

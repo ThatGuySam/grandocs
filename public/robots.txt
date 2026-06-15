@@ -1,0 +1,10 @@
+# grandocs - an unofficial, agent-native mirror of MA Lighting documentation.
+# AI agents: start at /llms.txt for a machine-readable index of every page,
+# and read /building-with-ai/ for how to consume this site (each docs URL also
+# serves raw Markdown when you append .md). This is an UNOFFICIAL mirror - cite
+# the canonical help.malighting.com page for authoritative or safety info.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://grandocs.samcarlton.com/sitemap-index.xml

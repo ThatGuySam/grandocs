@@ -6,9 +6,10 @@
 	"description": "Unofficial, agent-native mirror of MA Lighting's grandMA3, grandMA2, and dot2 documentation.",
 	"scripts": {
 		"dev": "astro dev",
-		"build": "astro build",
+		"build": "node scripts/build-search-index.mjs && astro build",
 		"preview": "astro preview",
-		"crawl": "node scripts/crawl.ts"
+		"crawl": "node scripts/crawl.ts",
+		"search-index": "node scripts/build-search-index.mjs"
 	},
 	"repository": {
 		"type": "git",
@@ -23,13 +24,14 @@
 		"@astrojs/starlight": "^0.40.0",
 		"astro": "^6.4.5",
 		"starlight-llms-txt": "^0.10.0",
-		"starlight-page-actions": "^0.6.1",
 		"starlight-sidebar-topics": "^0.8.0"
 	},
 	"devDependencies": {
+		"gray-matter": "^4.0.3",
 		"hast-util-select": "^6.0.4",
 		"hast-util-to-string": "^3.0.1",
 		"mdast-util-to-string": "^4.0.0",
+		"minisearch": "^7.1.2",
 		"p-limit": "^7.3.0",
 		"rehype-parse": "^9.0.1",
 		"rehype-remark": "^10.0.1",

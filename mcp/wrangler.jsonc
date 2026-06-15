@@ -1,0 +1,18 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "grandocs-mcp",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-06-01",
+	"compatibility_flags": ["nodejs_compat"],
+	// Publishes to https://grandocs-mcp.<account>.workers.dev/mcp out of the box.
+	"workers_dev": true,
+	"observability": {
+		"enabled": true
+	}
+
+	// Eventual stable endpoint — point clients at https://grandocs-mcp.samcarlton.com/mcp.
+	// Requires the DNS zone + a Workers Routes:Edit token; uncomment once the domain is ready:
+	// "routes": [
+	// 	{ "pattern": "grandocs-mcp.samcarlton.com", "custom_domain": true }
+	// ]
+}

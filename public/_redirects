@@ -1,0 +1,25 @@
+# grandocs legacy redirects
+#
+# Old MA help / old-grandocs URL shapes -> new routes. Cloudflare caps *dynamic*
+# (wildcard) rules at 100, so these are broad product-root catch-alls rather than
+# per-topic rules; the goal is to keep old inbound links alive, not to preserve
+# the exact topic. (A 223-rule verified per-topic mapping lives in git history at
+# the phase-3 commit; re-add as static exact rules if a precise mapping is wanted.)
+
+# --- old MA help2 "/Page/<Product>/<Topic>/<lang>/<ver>" shape ---
+/Page/grandMA3/*   /grandma3/2-4/   301
+/Page/grandMA2/*   /grandma2/       301
+/Page/MA_dot2/*    /dot2/           301
+/Page/dot2/*       /dot2/           301
+/Page/*            /                301
+
+# --- old grandocs Next.js "/<Product>/<Topic>/<lang>/<ver>" shape (mixed case) ---
+/grandMA3/*        /grandma3/2-4/   301
+/grandMA2/*        /grandma2/       301
+/MA_dot2/*         /dot2/           301
+/Utilities/*       /utility/        301
+/Network/*         /network/        301
+
+# --- media / topic PDF exports no longer mirrored ---
+/Media/*           /                301
+/Topic/*           /                301
